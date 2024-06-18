@@ -32,7 +32,8 @@
     z-index: 1;
     top: 0px;
     left: 0px;
-    height: 100vh;
+    min-height: 100vh;
+    max-width: 100vw;
     width: 100vw;
 }
 

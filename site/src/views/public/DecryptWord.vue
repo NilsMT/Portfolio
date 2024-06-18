@@ -8,7 +8,8 @@
         Démarrer le processus
     </button>
     <div v-if="result!=''">
-        Résultat : {{ result }}
+        Résultat : {{ result }}<br>
+        <i>Il faut le DM à l'organisateur de l'event</i>
     </div>
   </div>
 </template>
