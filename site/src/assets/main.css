@@ -1,0 +1,75 @@
+:root {
+    --bg-color: #000000;
+    --txt-color: #ffffff;
+    --panel-color: #0000007a;
+
+    --gap: 20px;
+    --padding: 10px;
+}
+
+* {
+    transition: all 0.2s ease;
+    
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    color: var(--txt-color);
+}
+
+/* --------------------- */
+
+body {
+    background-color: var(--bg-color);
+
+    margin: 0px;
+}
+
+#app_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap);
+}
+
+#app_cont > * {
+    background-color: var(--panel-color);
+    padding: var(--padding);
+
+    backdrop-filter: blur(2px);
+}
+
+/* --- */
+
+a, button {
+    background-color: var(--txt-color) !important;
+    padding: var(--padding);
+
+    text-decoration: none;
+
+    border: none;
+}
+
+a, button, a *, button * {
+    color: var(--bg-color) !important;
+}
+
+a:hover, button:hover {
+    filter: brightness(0.8);
+}
+
+/* --- */
+
+input {
+    color: var(--txt-color);
+    padding: var(--padding);
+
+    border: none;
+}
+
+/* --- */
+
+a,button,input {
+    border: 2px solid var(--txt-color);
+}

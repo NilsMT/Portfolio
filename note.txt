@@ -1,0 +1,11 @@
+page de fin ==> donne un code (basé sur heure + pseudo saisie) à me DM
+> input: pseudo
+
+page de déchiffrage du code qu'on m'a DM 🔒
+> input: le code
+
+page de décryptage du mot (truc à décrypter)
+> input: clé publique, privé et mot
+
+page d'encryption du mot
+> input: clé publique, privé et mot 🔒
