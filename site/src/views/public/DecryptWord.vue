@@ -7,6 +7,9 @@
     <button @click="handleDecryptionWord" v-if="word!='' && private_key !='' && public_key !=''">
         Démarrer le processus
     </button>
+    <div v-if="result!=''">
+        Résultat : {{ result }}
+    </div>
   </div>
 </template>
 
@@ -15,17 +18,16 @@
 </style>
 
 <script setup>
+    import * as encryption from '@/assets/js/encryption_engine.mjs'
+
     import { ref } from 'vue'
 
     const word = ref('')
     const private_key = ref('')
     const public_key = ref('')
+    const result = ref('')
     
     function handleDecryptionWord() {
-        console.log('Démarrer le processus')
-
-        console.log(word.value)
-        console.log(private_key.value)
-        console.log(public_key.value)
+        result.value = encryption.default.decryptWord(public_key.value,private_key.value,word.value)
     }
 </script>

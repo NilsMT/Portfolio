@@ -1,10 +1,33 @@
 <template>
     <div id="app_cont">
-        <h1>Encrypt word</h1>
+      <h1>Encryption du mot</h1>
+      <input type="text" v-model="word" placeholder="Le mot">
+      <input type="text" v-model="private_key" placeholder="La cle privée">
+      <input type="text" v-model="public_key"  placeholder="La cle public">
+      <button @click="handleEncryptionWord" v-if="word!='' && private_key !='' && public_key !=''">
+          Démarrer le processus
+      </button>
+      <div v-if="result!=''">
+          Résultat : {{ result }}
+      </div>
     </div>
-</template>
-
-<style>
-
-</style>
-
+  </template>
+  
+  <style>
+  
+  </style>
+  
+  <script setup>
+      import * as encryption from '@/assets/js/encryption_engine.mjs'
+  
+      import { ref } from 'vue'
+  
+      const word = ref('')
+      const private_key = ref('')
+      const public_key = ref('')
+      const result = ref('')
+      
+      function handleEncryptionWord() {
+          result.value = encryption.default.encryptWord(public_key.value,private_key.value,word.value)
+      }
+  </script>

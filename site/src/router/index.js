@@ -83,7 +83,7 @@ router.beforeEach((to, from, next) => {
         if (psw === '') { //NAV: PSW PUBLIC
             next()
         } else {
-            next({ name: 'La Honte' })
+            next({ name: 'La honte' })
         }
     } else { //autre
         next()

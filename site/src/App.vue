@@ -6,7 +6,8 @@
 </template>
   
 <script>
-    import * as mtr from '@/assets/js/matrix.js'
+    import * as mtr from '@/assets/js/matrix.mjs'
+
     import { RouterView } from 'vue-router'
 
     export default {
