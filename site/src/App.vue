@@ -1,44 +1,43 @@
 <template>
-    <div id="pp">
+    <div id="app_cont">
+        <BackgroundComp></BackgroundComp>
         <RouterView></RouterView>
-        <canvas></canvas>
     </div>
+    
 </template>
-  
-<script>
-    import * as mtr from '@/assets/js/matrix.mjs'
-
-    import { RouterView } from 'vue-router'
-
-    export default {
-        name: 'App',
-        components: {
-            RouterView
-        },
-        mounted() {
-            mtr.init()
-        }
-    }
-</script>
 
 <style>
- 
-#pp {
-    position: absolute;
-}
+    #app_cont {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+    }
 
-#pp > * {
-    position: absolute;
-    z-index: 1;
-    top: 0px;
-    left: 0px;
-    min-height: 100vh;
-    max-width: 100vw;
-    width: 100vw;
-}
+    #app_cont > * {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
 
-#pp > canvas {
-    z-index: 0;
-}
+        overflow: hidden;
+    }
 
+    #app_cont > *:not(:first-child) {
+        z-index: 1;
+        overflow: auto;
+    }
 </style>
+
+<script>
+import BackgroundComp from './components/BackgroundComp.vue'
+import { RouterView } from 'vue-router'
+
+export default {
+    name: 'App',
+    components: {
+        RouterView,
+        BackgroundComp
+    },
+}
+</script>
