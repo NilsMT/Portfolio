@@ -1,7 +1,13 @@
 <template>
     <div id="app_cont">
         <BackgroundComp></BackgroundComp>
-        <RouterView></RouterView>
+        <div id="page">
+            <HeaderComp v-if="!isHomeRoute"></HeaderComp>
+            <div id="page_cont">
+                <RouterView></RouterView>
+            </div>
+            
+        </div>
     </div>
     
 </template>
@@ -23,21 +29,46 @@
         overflow: hidden;
     }
 
-    #app_cont > *:not(:first-child) {
+    #page {
         z-index: 1;
         overflow: auto;
+    }
+
+    #page > *:nth-child(2) {
+        position: absolute;
+        top: 0px;
     }
 </style>
 
 <script>
+import { RouterView, useRoute } from 'vue-router'
+import { computed } from 'vue'
+
+import { themeStore } from './assets/js/themeStore.js';
 import BackgroundComp from './components/BackgroundComp.vue'
-import { RouterView } from 'vue-router'
+import HeaderComp from './components/HeaderComp.vue'
 
 export default {
     name: 'App',
     components: {
         RouterView,
-        BackgroundComp
+        BackgroundComp,
+        HeaderComp, // Assurez-vous que HeaderComp est importé ici.
+    },
+    setup() {
+        const route = useRoute();
+        const isHomeRoute = computed(() => route.path === '/');
+
+        // Mode debug
+        const debug = false;
+        if (debug) {
+            document.documentElement.classList.add('debug');
+        }
+
+        return {
+            themeStore,
+            isHomeRoute, // Ajout du computed dans le return pour l'utiliser dans le template.
+        };
     },
 }
 </script>

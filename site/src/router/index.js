@@ -1,15 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import AccueilVue from '../views/AccueilVue.vue'
+import Erreur404Vue from '../views/Erreur404Vue.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
-    // doesnt display the component apparently but path is correct
-    {
-        path: '/',
-        name: 'Accueil',
-        component: AccueilVue,
-    }
+    history: createWebHistory(import.meta.env.BASE_URL),
+    routes: [
+        {
+            path: '/:Erreur404',
+            name: 'Erreur 404',
+            component: Erreur404Vue,
+        },
+        {
+            path: '/',
+            name: 'Accueil',
+            component: AccueilVue,
+        }
     ]
 })
 
