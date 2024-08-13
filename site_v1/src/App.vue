@@ -53,7 +53,7 @@ export default {
     components: {
         RouterView,
         BackgroundComp,
-        HeaderComp, // Assurez-vous que HeaderComp est importé ici.
+        HeaderComp,
     },
     setup() {
         const route = useRoute();

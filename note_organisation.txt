@@ -1,0 +1,74 @@
+Présentation
+	nom
+	prenom
+	age
+	habite au nord de Nantes (Loire-Atlantique)
+	CV
+
+
+Parcours scolaire
+	IUT de Joffre | 44 Nantes
+		BUT Info (en 3ème année) + Parcours Conception, Développement et Validation d'Applications
+	St fe | 44 Nantes
+		Classe Anglophone 2nde
+		BAC Techno STI2D + Option Système d'Information et Numérique
+	College Helder
+		Option Section Européenne 3ème
+
+
+Compétences
+	Languages informatiques
+	Langues
+	Logiciels
+
+
+Implication sociale
+	Bénévole bibli since 2019 + détail
+	Animateur sur serveur discord
+	Aide au dev sur Roblox
+	Comédie musicale Starmania (lycée)
+
+
+Passions
+	JV
+		j'aime fps, sandox, openworld
+		Genshin
+		Roblox, Minecraft
+	Le dessin
+	
+	Culture japonaise
+		mangas
+		anime ==> mettre image de Tenki No Ko cette dinguerie
+		conventions
+	Lego
+	
+	Cosplay
+
+
+Réalisations
+	Flick it
+	Z.R.C
+	A.R.C.H
+	A.I.P.R
+	Chasse au trésor 2024
+	EclExt (stage)
+	NewsRadar + vidéo PPP_2
+	Antoine Factory
+	NilsDoesStuff & RGB Stuff
+	Pastek
+	Atlas
+	vidéo PPP_1
+	Vidéos youtubes + lien chaîne
+
+
+Avenir
+	quels métiers
+	quels entreprises
+	projet de vie (à changer mdr)
+
+
+Contact & liens
+	mail
+	tel
+	GitHub
+	LinkedIn

@@ -26,6 +26,10 @@ header {
     padding: var(--padding);
     width: calc(100vw - var(padding) * 2);
 }
+
+header > * {
+    cursor: pointer;
+}
 </style>
 
 <script>

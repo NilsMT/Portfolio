@@ -1,0 +1,62 @@
+<template>
+    <BienvenueComp></BienvenueComp>
+
+    <HeaderComp></HeaderComp>
+
+    <PresentationComp></PresentationComp>
+
+    <ParcoursComp></ParcoursComp>
+
+    <CompetencesComp></CompetencesComp>
+
+    <ImplicationComp></ImplicationComp>
+
+    <PassionsComp></PassionsComp>
+
+    <RealisationsComp></RealisationsComp>
+
+    <AvenirComp></AvenirComp>
+
+    <ContactComp></ContactComp>
+
+    <FooterComp></FooterComp>
+
+</template>
+
+<script>
+import { themeStore } from '../assets/js/themeStore.js';
+
+import HeaderComp from '../components/HeaderComp.vue';
+import FooterComp from '../components/FooterComp.vue';
+//pages
+import BienvenueComp from '../components/BienvenueComp.vue';
+import PresentationComp from '../components/pages/PresentationComp.vue';
+import ParcoursComp from '../components/pages/ParcoursComp.vue';
+import CompetencesComp from '../components/pages/CompetencesComp.vue';
+import ImplicationComp from '../components/pages/ImplicationComp.vue';
+import PassionsComp from '../components/pages/PassionsComp.vue';
+import RealisationsComp from '../components/pages/RealisationsComp.vue';
+import AvenirComp from '../components/pages/AvenirComp.vue';
+import ContactComp from '../components/pages/ContactComp.vue';
+
+export default {
+    components: {
+        HeaderComp,
+        FooterComp,
+        BienvenueComp,
+        PresentationComp,
+        ParcoursComp,
+        CompetencesComp,
+        ImplicationComp,
+        PassionsComp,
+        RealisationsComp,
+        AvenirComp,
+        ContactComp
+    },
+    setup() {   
+        return {
+            themeStore
+        }
+    },
+}
+</script>

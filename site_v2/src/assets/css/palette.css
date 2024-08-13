@@ -1,0 +1,99 @@
+:root {
+    --padding: 1rem;
+    --radius: 0px;
+    --gap: 1rem;
+    --text-size: 1em;
+}
+
+/* Colors */
+
+:root.dark {
+    --bg: #303030;
+    --bg-dark: #202020;
+    --bg-light: #404040;
+
+    --text: #ffffff;
+    --opptext: #000000;
+
+    --primary: #b339d1;
+    --secondary: #ffa600;
+    --accent: #0b750e;
+}
+
+:root.light {
+    --bg: #dbdbdb;
+    --bg-dark: #a9a9a9;
+    --bg-light: #e6e6e6;
+
+    --text: #000000;
+    --opptext: #ffffff;
+
+    --primary: #b14dd2;
+    --secondary: #ffa600;
+    --accent: #12a717;
+}
+
+/* General */
+
+body {
+    margin: 0px;
+
+    background-color: var(--bg);
+}
+
+* {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+    font-size: var(--text-size);
+    color: var(--text);
+
+    transition: all 0.3s ease;
+}
+
+/* Links */
+
+a {
+    color: var(--text);
+    text-decoration: none;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* Icons */
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+
+.material-icons,.material-icons-outlined,.material-symbols-outlined {
+    vertical-align: top;
+}
+
+/* Headings */
+
+h1 {
+    font-size: calc(var(--text-size) * 2);
+}
+
+h2 {
+    font-size: calc(var(--text-size) * 1.5);
+}
+
+h3 {
+    font-size: calc(var(--text-size) * 1.17);
+}
