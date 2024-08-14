@@ -47,6 +47,7 @@ Passions
 
 Réalisations
 	Flick it
+		lien github
 	Z.R.C
 	A.R.C.H
 	A.I.P.R
@@ -54,11 +55,13 @@ Réalisations
 	EclExt (stage)
 	NewsRadar + vidéo PPP_2
 	Antoine Factory
-	NilsDoesStuff & RGB Stuff
+	NilsDoesStuffs & RGB Stuffs
 	Pastek
 	Atlas
 	vidéo PPP_1
 	Vidéos youtubes + lien chaîne
+	Liste anime softr
+	Liste anime google sheet
 
 
 Avenir
