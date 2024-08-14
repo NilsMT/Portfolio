@@ -1,5 +1,9 @@
 <template>
     <div id="grille">
+        <div id="img">
+            <img src="../assets/img/Bienvenue/nils.png" alt="Photo de Nils Moreau--Thomas">
+        </div>
+
         <div id="txt">
             <span id="mynameis">
                 Je m'appelle
@@ -12,10 +16,6 @@
             <span id="dev">
                 Et je suis un développeur web <span class="text-primary">full-stack</span>
             </span>
-        </div>
-
-        <div id="img">
-            <img src="../assets/img/Bienvenue/nils.png" alt="Photo de Nils Moreau--Thomas">
         </div>
     </div>
 </template>
@@ -45,7 +45,7 @@
 }
 
 #txt > span {
-    text-align: right;
+    text-align: left;
 }
 
 #name {
@@ -66,7 +66,7 @@
 
 #img {
     display: flex;
-    justify-content: left;
+    justify-content: right;
     align-items: center;
 
     filter: grayscale(1) drop-shadow(0px 0px 10px #000f);
