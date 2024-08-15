@@ -1,5 +1,7 @@
 <template>
-    
+    <div id="passions">
+        
+    </div>
 </template>
 
 <script>

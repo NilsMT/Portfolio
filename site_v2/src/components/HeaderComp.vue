@@ -5,14 +5,14 @@
                 {{ themeStore.isDarkMode ? 'dark_mode' : 'light_mode' }}
             </div>
 
-            <a href="#presentation" class="btn btn-normal">Présentation</a>
-            <a href="#parcours-scolaire" class="btn btn-normal">Parcours scolaire</a>
-            <a href="#competences" class="btn btn-normal">Compétences</a>
+            <a href="#presentation" target="_self" class="btn btn-normal">Présentation</a>
+            <a href="#parcours-scolaire" target="_self" class="btn btn-normal">Parcours scolaire</a>
+            <a href="#competences" target="_self" class="btn btn-normal">Compétences</a>
             <a href="#implication-sociale" class="btn btn-normal">Implication sociale</a>
-            <a href="#passions" class="btn btn-normal">Passions</a>
-            <a href="#realisations" class="btn btn-normal">Réalisations</a>
-            <a href="#avenir" class="btn btn-normal">Avenir</a>
-            <a href="#contact-et-liens" class="btn btn-normal">Contact & liens</a>
+            <a href="#passions" target="_self" class="btn btn-normal">Passions</a>
+            <a href="#realisations" target="_self" class="btn btn-normal">Réalisations</a>
+            <a href="#avenir" target="_self" class="btn btn-normal">Avenir</a>
+            <a href="#contact-et-liens" target="_self" class="btn btn-normal">Contact & liens</a>
         </div>
         
     </header>
@@ -27,7 +27,6 @@ header {
     z-index: 1;
 
     padding: var(--padding);
-    width: calc(100vw - var(padding) * 2);
 
     background-color: var(--bg);
     box-shadow: 0px 0px 1rem 1rem #0005;

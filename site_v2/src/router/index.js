@@ -20,7 +20,19 @@ const router = createRouter({
             name: 'Erreur 404',
             component: Erreur404Vue,
         }
-    ]
+    ],
+    /* scroll to anchor */
+    scrollBehavior(to, from, savedPosition) {
+        if (to.hash) {
+            return {
+                el: to.hash,
+            }
+        }
+        return { 
+            x: 0, 
+            y: 0
+        }
+    },
 })
 
 router.beforeEach((to, from, next) => {

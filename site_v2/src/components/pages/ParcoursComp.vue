@@ -1,5 +1,7 @@
 <template>
-    
+    <div id="parcours-scolaire">
+        
+    </div>
 </template>
 
 <script>

@@ -1,5 +1,7 @@
 <template>
-    
+    <div id="competences">
+        
+    </div>
 </template>
 
 <script>

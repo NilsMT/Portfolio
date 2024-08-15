@@ -20,7 +20,6 @@
     <ContactComp></ContactComp>
 
     <FooterComp></FooterComp>
-
 </template>
 
 <script>

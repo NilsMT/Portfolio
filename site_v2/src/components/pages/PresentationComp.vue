@@ -1,5 +1,7 @@
 <template>
-    
+    <div id="parcours">
+        
+    </div>
 </template>
 
 <script>

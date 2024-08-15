@@ -1,5 +1,7 @@
 <template>
-    
+    <div id="implication-sociale">
+        
+    </div>
 </template>
 
 <script>
