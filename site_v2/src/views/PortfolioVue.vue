@@ -3,21 +3,21 @@
 
     <HeaderComp></HeaderComp>
 
-    <PresentationComp></PresentationComp>
+    <PresentationComp class="section"></PresentationComp>
 
-    <ParcoursComp></ParcoursComp>
+    <ParcoursComp class="section"></ParcoursComp>
 
-    <CompetencesComp></CompetencesComp>
+    <CompetencesComp class="section"></CompetencesComp>
 
-    <ImplicationComp></ImplicationComp>
+    <ImplicationComp class="section"></ImplicationComp>
 
-    <PassionsComp></PassionsComp>
+    <PassionsComp class="section"></PassionsComp>
 
-    <RealisationsComp></RealisationsComp>
+    <RealisationsComp class="section"></RealisationsComp>
 
-    <AvenirComp></AvenirComp>
+    <AvenirComp class="section"></AvenirComp>
 
-    <ContactComp></ContactComp>
+    <ContactComp class="section"></ContactComp>
 
     <FooterComp></FooterComp>
 </template>

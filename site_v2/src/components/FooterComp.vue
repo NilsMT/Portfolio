@@ -7,14 +7,14 @@
             </span>
             par Nils Moreau--Thomas
         </div>
-        <div>|</div>
+        <div @click="debugStore.toggleDebug">|</div>
         <div>
             © {{ year }} NilsMT, Tous droits réservés
         </div>
     </footer>
 </template>
 
-<style>
+<style scoped>
 footer {
     z-index: 1;
     padding: var(--padding);
@@ -27,11 +27,18 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     gap: var(--gap);
+
+    margin-top: 2rem;
+}
+
+footer > *:nth-child(2) {
+    cursor: help;
 }
 </style>
 
 <script>
 import { ref } from 'vue'
+import { debugStore } from '../assets/js/debugStore.js';
 
 const year = ref(0)
 year.value = new Date().getFullYear()
@@ -40,7 +47,8 @@ export default {
     name: 'FooterComp',
     setup() {   
         return {
-            year
+            year,
+            debugStore
         }
     },
 }

@@ -1,8 +1,15 @@
 :root {
     --padding: 1rem;
-    --radius: 0px;
+    --radius: 5px;
     --gap: 1rem;
-    --text-size: 1em;
+    --text-size: 1.02em;
+}
+
+/* Debug */
+
+:root.debug * {
+    outline: #00ffff7e dotted 2px;
+    outline-offset: -2px;
 }
 
 /* Colors */
@@ -16,7 +23,7 @@
     --opptext: #000000;
 
     --primary: #b339d1;
-    --secondary: #ffa600;
+    --secondary: #d98d00;
     --accent: #0b750e;
 }
 
@@ -29,7 +36,7 @@
     --opptext: #ffffff;
 
     --primary: #b14dd2;
-    --secondary: #ffa600;
+    --secondary: #d98d00;
     --accent: #12a717;
 }
 
@@ -44,13 +51,13 @@ body {
 * {
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 300;
     font-style: normal;
 
     font-size: var(--text-size);
     color: var(--text);
 
-    transition: all 0.3s ease;
+    transition: all 0.3s ease, font-size 0s ease;
 }
 
 /* Links */
@@ -58,6 +65,8 @@ body {
 a {
     color: var(--text);
     text-decoration: none;
+
+    width: fit-content;
 
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
@@ -68,6 +77,10 @@ a:hover {
     cursor: pointer;
 }
 
+/* Paragraphs */
+p {
+    line-height: 1.5;
+}
 /* Icons */
 
 
@@ -84,7 +97,7 @@ a:hover {
     vertical-align: top;
 }
 
-/* Headings */
+/* Headings and others text things */
 
 h1 {
     font-size: calc(var(--text-size) * 2);
@@ -96,4 +109,8 @@ h2 {
 
 h3 {
     font-size: calc(var(--text-size) * 1.17);
+}
+
+sup, sub {
+    font-size: calc(var(--text-size) / 1.5);
 }

@@ -12,7 +12,7 @@
     
 </template>
 
-<style>
+<style scoped>
     #app_cont {
         position: relative;
         width: 100vw;

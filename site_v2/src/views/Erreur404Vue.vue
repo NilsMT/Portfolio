@@ -20,7 +20,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 #cont {
     display: flex;
     flex-direction: column;

@@ -3,7 +3,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     #bg {
         position: fixed;
         top: 0;

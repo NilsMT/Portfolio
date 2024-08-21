@@ -12,13 +12,13 @@
             <a href="#passions" target="_self" class="btn btn-normal">Passions</a>
             <a href="#realisations" target="_self" class="btn btn-normal">Réalisations</a>
             <a href="#avenir" target="_self" class="btn btn-normal">Avenir</a>
-            <a href="#contact-et-liens" target="_self" class="btn btn-normal">Contact & liens</a>
+            <a href="#contacts-et-liens" target="_self" class="btn btn-normal">Contacts & liens</a>
         </div>
         
     </header>
 </template>
 
-<style>
+<style scoped>
 header {
     position: sticky;
     top: 0;
@@ -31,12 +31,12 @@ header {
     background-color: var(--bg);
     box-shadow: 0px 0px 1rem 1rem #0005;
 
-    
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    margin-bottom: 2rem;
 }
 
 #flex-container {
