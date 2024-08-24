@@ -20,15 +20,13 @@ footer {
     padding: var(--padding);
 
     background-color: var(--bg);
-    box-shadow: 0px 0px 1rem 1rem #0005;
+    box-shadow: 0px 0px 20px #0005;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     gap: var(--gap);
-
-    margin-top: 2rem;
 }
 
 footer > *:nth-child(2) {

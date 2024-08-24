@@ -1,26 +1,37 @@
 <template>
-    <BienvenueComp></BienvenueComp>
+    <div id="portfolio">
+        <BienvenueComp></BienvenueComp>
 
-    <HeaderComp></HeaderComp>
+        <HeaderComp></HeaderComp>
 
-    <PresentationComp class="section"></PresentationComp>
+        <PresentationComp class="section"></PresentationComp>
 
-    <ParcoursComp class="section"></ParcoursComp>
+        <ParcoursComp class="section"></ParcoursComp>
 
-    <CompetencesComp class="section"></CompetencesComp>
+        <CompetencesComp class="section"></CompetencesComp>
 
-    <ImplicationComp class="section"></ImplicationComp>
+        <ImplicationComp class="section"></ImplicationComp>
 
-    <PassionsComp class="section"></PassionsComp>
+        <PassionsComp class="section"></PassionsComp>
 
-    <RealisationsComp class="section"></RealisationsComp>
+        <RealisationsComp class="section"></RealisationsComp>
 
-    <AvenirComp class="section"></AvenirComp>
+        <AvenirComp class="section"></AvenirComp>
 
-    <ContactComp class="section"></ContactComp>
+        <ContactComp class="section"></ContactComp>
 
-    <FooterComp></FooterComp>
+        <FooterComp></FooterComp>
+    </div>
+    
 </template>
+
+<style scoped>
+#portfolio {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+</style>
 
 <script>
 import { themeStore } from '../assets/js/themeStore.js';

@@ -1,7 +1,7 @@
 <template>
     <div id="grid_chrono">
         <h2 id="annee">{{ annee }}</h2>
-        <div id="trait"></div>
+        <div id="trait" :last="last"></div>
         <h2 id="titre">{{ titre }}</h2>
         <div id="cont">
             <div>{{ sous_titre }}</div>
@@ -57,6 +57,13 @@
     margin-left: calc(var(--text-size) * 2);
 }
 
+#trait[last="true"] {
+    background: var(--text);
+    background: -moz-linear-gradient(180deg, var(--text) 0%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(180deg, var(--text) 0%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(180deg, var(--text) 0%, rgba(255,255,255,0) 100%);
+}
+
 #cont {
     grid-area: c;
 }
@@ -86,6 +93,11 @@ export default {
         sous_titre: {
             type: String,
             required: true,
+        },
+
+        last: {
+            type: Boolean,
+            default: false,
         }
     }
 }

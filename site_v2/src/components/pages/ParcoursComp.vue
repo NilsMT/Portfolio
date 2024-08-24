@@ -29,6 +29,7 @@
                 annee="2019" 
                 titre="Collège" 
                 sous_titre="Option LCE (Langues et Cultures Étrangères)"
+                :last="true"
             >
                 <p>
                     Au collège, j'ai découvert l'anglais et l'espagnol, développant un intérêt particulier pour l'anglais, renforcé par l'option LCE en 4<sup>ème</sup> et 3<sup>ème</sup>.

@@ -29,14 +29,12 @@ header {
     padding: var(--padding);
 
     background-color: var(--bg);
-    box-shadow: 0px 0px 1rem 1rem #0005;
+    box-shadow: 0px 0px 20px #0005;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    margin-bottom: 2rem;
 }
 
 #flex-container {

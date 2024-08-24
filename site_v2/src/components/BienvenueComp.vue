@@ -69,7 +69,11 @@
     justify-content: right;
     align-items: center;
 
-    filter: grayscale(1) drop-shadow(0px 0px 10px #000f);
+    filter: grayscale(1) 
+        drop-shadow(2px 0px 0px #fff)
+        drop-shadow(-2px 0px 0px #fff)
+        drop-shadow(0px 2px 0px #fff)
+        drop-shadow(0px -2px 0px #fff);
 
     height: 60vh;
 }
