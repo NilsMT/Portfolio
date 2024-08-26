@@ -31,7 +31,6 @@
 
 <style scoped>
 p {
-    line-height: 1.5;
     background-color: var(--bg-light);
     padding: var(--padding);
     border-radius: var(--radius);
