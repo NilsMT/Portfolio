@@ -50,13 +50,13 @@ header {
 </style>
 
 <script>
-import { themeStore } from '../assets/js/themeStore.js';
+import { themeStore } from '../assets/js/themeStore.js'
 
 export default {
     name: 'HeaderComp',
     setup() {
         return {
-        themeStore,
+            themeStore,
         }
     },
 }

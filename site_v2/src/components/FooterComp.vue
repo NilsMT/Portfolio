@@ -7,7 +7,15 @@
             </span>
             par Nils Moreau--Thomas
         </div>
-        <div @click="debugStore.toggleDebug">|</div>
+        <div @click="debugStore.toggleDebug" id="debug">
+            <span v-if="debugStore.isDebugMode" class="material-symbols-outlined">
+                bug_report
+            </span>
+
+            <span v-else>
+                |
+            </span>
+        </div>
         <div>
             © {{ year }} NilsMT, Tous droits réservés
         </div>
@@ -29,14 +37,18 @@ footer {
     gap: var(--gap);
 }
 
-footer > *:nth-child(2) {
+#debug {
     cursor: help;
+    
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 </style>
 
 <script>
 import { ref } from 'vue'
-import { debugStore } from '../assets/js/debugStore.js';
+import { debugStore } from '../assets/js/debugStore.js'
 
 const year = ref(0)
 year.value = new Date().getFullYear()

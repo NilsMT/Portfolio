@@ -18,6 +18,8 @@
             {{ themeStore.isDarkMode ? 'dark_mode' : 'light_mode' }}
         </div>
     </div>
+
+    <FooterComp/>
 </template>
 
 <style scoped>
@@ -27,7 +29,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
     gap: var(--gap);
     color: var(--text);
 }
@@ -54,12 +55,16 @@
 </style>
 
 <script>
-import { themeStore } from '../assets/js/themeStore.js';
+import FooterComp from '../components/FooterComp.vue'
+import { themeStore } from '../assets/js/themeStore.js'
 
 export default {
+    components: {
+        FooterComp
+    },
     setup() {
         return {
-        themeStore,
+            themeStore,
         }
     },
 }

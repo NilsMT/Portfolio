@@ -17,8 +17,8 @@ import { ref } from 'vue'
 
 const age = ref(0)
 
-const birthDate = new Date('2004-10-12');
-const today = new Date();
+const birthDate = new Date('2004-10-12')
+const today = new Date()
 
 age.value = today.getFullYear() - birthDate.getFullYear()
 const monthDifference = today.getMonth() - birthDate.getMonth()

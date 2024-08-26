@@ -1,24 +1,37 @@
-import { reactive } from 'vue';
+import { reactive, ref } from 'vue'
 
+const defaultTheme = 'dark'
+const root = document.documentElement
 
-const defaultTheme = true
-
-//init
-
-if (defaultTheme) {
-    document.documentElement.classList.add('dark')
-} else {
-    document.documentElement.classList.add('light')
+// Initialize theme if not stored yet
+if (localStorage.getItem('theme') == null) {
+    localStorage.setItem('theme', defaultTheme)
 }
 
-//toggler
+// Set starting theme
+if (localStorage.getItem('theme') === 'dark') {
+    root.classList.add('dark')
+    root.classList.remove('light')
+} else {
+    root.classList.add('light')
+    root.classList.remove('dark')
+}
 
+// Reactive store
 export const themeStore = reactive({
-  isDarkMode: defaultTheme,
+    isDarkMode: ref(localStorage.getItem('theme') === 'dark'),
+    
     toggleTheme() {
-        this.isDarkMode = !this.isDarkMode;
-        const root = document.documentElement;
-        root.classList.toggle('dark', this.isDarkMode)
-        root.classList.toggle('light', !this.isDarkMode)
+        this.isDarkMode = !this.isDarkMode
+
+        if (this.isDarkMode) {
+            localStorage.setItem('theme', 'dark')
+            root.classList.add('dark')
+            root.classList.remove('light')
+        } else {
+            localStorage.setItem('theme', 'light')
+            root.classList.add('light')
+            root.classList.remove('dark')
+        }
     }
 })

@@ -1,24 +1,34 @@
-import { reactive } from 'vue'
+import { reactive, ref } from 'vue'
 
-const debug = false
+const defaultDebug = false
+const root = document.documentElement
 
-// Initialize
-if (debug) {
-    document.documentElement.classList.add('debug')
+// Initialize debug mode from localStorage or default value
+const storedDebug = localStorage.getItem('pageDebug')
+const debugMode = storedDebug !== null ? JSON.parse(storedDebug) : defaultDebug
+
+// Apply the initial debug mode
+if (debugMode) {
+    root.classList.add('debug')
 } else {
-    document.documentElement.classList.remove('debug')
+    root.classList.remove('debug')
 }
 
-// Toggler
+// Reactive store
 export const debugStore = reactive({
-    isDebugMode: debug,
+    isDebugMode: ref(debugMode),
+
     toggleDebug() {
         this.isDebugMode = !this.isDebugMode
-        const root = document.documentElement
+        
+        // Update the DOM class based on the current state
         if (this.isDebugMode) {
             root.classList.add('debug')
         } else {
             root.classList.remove('debug')
         }
+        
+        // Store the current state in localStorage
+        localStorage.setItem('pageDebug', JSON.stringify(this.isDebugMode))
     }
-});
+})

@@ -34,20 +34,18 @@
 </style>
 
 <script>
-import { themeStore } from '../assets/js/themeStore.js';
-
-import HeaderComp from '../components/HeaderComp.vue';
-import FooterComp from '../components/FooterComp.vue';
+import HeaderComp from '../components/HeaderComp.vue'
+import FooterComp from '../components/FooterComp.vue'
 //pages
-import BienvenueComp from '../components/BienvenueComp.vue';
-import PresentationComp from '../components/pages/PresentationComp.vue';
-import ParcoursComp from '../components/pages/ParcoursComp.vue';
-import CompetencesComp from '../components/pages/CompetencesComp.vue';
-import ImplicationComp from '../components/pages/ImplicationComp.vue';
-import PassionsComp from '../components/pages/PassionsComp.vue';
-import RealisationsComp from '../components/pages/RealisationsComp.vue';
-import AvenirComp from '../components/pages/AvenirComp.vue';
-import ContactComp from '../components/pages/ContactComp.vue';
+import BienvenueComp from '../components/BienvenueComp.vue'
+import PresentationComp from '../components/pages/PresentationComp.vue'
+import ParcoursComp from '../components/pages/ParcoursComp.vue'
+import CompetencesComp from '../components/pages/CompetencesComp.vue'
+import ImplicationComp from '../components/pages/ImplicationComp.vue'
+import PassionsComp from '../components/pages/PassionsComp.vue'
+import RealisationsComp from '../components/pages/RealisationsComp.vue'
+import AvenirComp from '../components/pages/AvenirComp.vue'
+import ContactComp from '../components/pages/ContactComp.vue'
 
 export default {
     components: {
@@ -62,11 +60,6 @@ export default {
         RealisationsComp,
         AvenirComp,
         ContactComp
-    },
-    setup() {   
-        return {
-            themeStore
-        }
     },
 }
 </script>
