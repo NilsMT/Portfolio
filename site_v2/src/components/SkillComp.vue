@@ -9,7 +9,6 @@
 
 <style scoped>
 #skill {
-    position: relative;
     width: 100px;
     aspect-ratio: 1/1;
 
@@ -37,7 +36,7 @@
 
 <script>
 export default {
-    name: 'ChronologieComp',
+    name: 'SkillComp',
     props: {
         imgName: {
             type: String,

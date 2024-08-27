@@ -7,9 +7,58 @@
             Originaire du Nord de Nantes (Loire-Atlantique), je m'intéresse particulièrement au développement web.<br>
             Je suis toujours prêt à relever de nouveaux défis et à travailler sur des projets innovants.
         </p>
-        <a class="btn btn-secondary" href="./CV_Nils_Moreau--Thomas.pdf">Voir Mon CV</a>
+        <a class="btn btn-secondary" href="./CV_Nils_Moreau--Thomas.pdf">
+            Voir Mon CV
+            <span class="material-symbols-outlined">
+                description
+            </span>
+        </a>
+
+        <div id="grid">
+
+            <div>
+                <h2>Mes forces</h2>
+                <ul>
+                    <li>Organisé</li>
+                    <li>Créatif</li>
+                    <li>Déterminé</li>
+                    <li>Curieux</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>&</h2>
+            </div>
+
+            <div>
+                <h2>mes faiblesses</h2>
+                <ul>
+                    <li>Impatient</li>
+                    <li>Acharné</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </template>
+
+<style scoped>
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, fit-content(100%));
+    gap: var(--gap);
+}
+
+#grid > * > ul {
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: var(--bg-light);
+    padding: var(--padding);
+    padding-left: calc(var(--padding) * 2);
+}
+</style>
 
 <script>
 import TitreSectionComp from '../TitreSectionComp.vue'

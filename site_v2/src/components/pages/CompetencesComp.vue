@@ -46,9 +46,9 @@
             <SkillComp imgName="app_mastered/shotcut.png" titre="Shotcut"/>
             <SkillComp imgName="app_mastered/krita.png" titre="Krita"/>
             <SkillComp imgName="app_mastered/medibang.png" titre="Medibang Paint"/>
+            <SkillComp imgName="app_mastered/sketch.webp" titre="Sony Sketch"/>
             <SkillComp imgName="app_mastered/google.png" titre="Suite Google"/>
             <SkillComp imgName="app_mastered/office.png" titre="Suite Office"/>
-            <SkillComp imgName="app_mastered/sketch.webp" titre="Sony Sketch"/>
         </div>
 
         <h2>Applications en cours d'apprentissage</h2>
@@ -59,6 +59,7 @@
             <SkillComp imgName="app_learn/unity.png" titre="Unity"/>
             <SkillComp imgName="app_learn/vs.png" titre="Visual Studio"/>
             <SkillComp imgName="app_learn/jetbrain.png" titre="Suite Jetbrains"/>
+            <SkillComp imgName="app_learn/hipaint.png" titre="HiPaint"/>
         </div>
     </div>
 </template>

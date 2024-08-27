@@ -24,6 +24,9 @@
             J'ai joué dans une comédie musicale au lycée, nommée Starmania.<br>
             <a target="_blank" class="btn btn-secondary" href="https://stfelixlasalle.fr/actualite/20-jeunes-talents-revisitent-la-comedie-musicale-starmania-2022-les-etoiles-noires">
                 Plus d'informations
+                <span class="material-symbols-outlined">
+                    open_in_new
+                </span>
             </a>
         </p>
     </div>
