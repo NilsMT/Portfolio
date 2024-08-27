@@ -57,6 +57,7 @@
     background-color: var(--bg-light);
     padding: var(--padding);
     padding-left: calc(var(--padding) * 2);
+    border-radius: var(--radius);
 }
 </style>
 

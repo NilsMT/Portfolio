@@ -33,11 +33,6 @@
 </template>
 
 <style scoped>
-p {
-    background-color: var(--bg-light);
-    padding: var(--padding);
-    border-radius: var(--radius);
-}
 
 a:not(.btn) {
     color: var(--secondary);

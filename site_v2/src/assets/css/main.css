@@ -41,7 +41,7 @@
 .btn {
     border-radius: var(--radius);
 
-    padding: var(--padding);
+    padding: calc(var(--padding) / 2);
 
     display: flex;
     flex-direction: row;

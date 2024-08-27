@@ -44,22 +44,38 @@ Passions
 	Lego
 
 Réalisations
-	Flick it
+	Flick it ✅case
 		lien github
-	Z.R.C
-	A.R.C.H
-	A.I.P.R
-	Chasse au trésor 2024
-	EclExt (stage)
-	NewsRadar + vidéo PPP_2
-	Antoine Factory
-	NilsDoesStuffs & RGB Stuffs
-	Pastek
-	Atlas
-	vidéo PPP_1
-	Vidéos youtubes + lien chaîne
-	Liste anime softr
-	Liste anime google sheet
+	Z.R.C ✅case
+        lien jeu
+	A.R.C.H ✅case
+        lien jeu
+	A.I.P.R ✅case
+        lien jeu
+	Chasse au trésor 2024 ✅case
+        lien site
+	EclExt (stage) ✅case
+        vidéo démo
+        lien site
+	NewsRadar ✅case
+        vidéo PPP_2
+        lien git
+	Antoine Factory ✅case
+        lien git
+	RGB Stuffs ✅case
+        lien site
+	Pastek ✅case
+        lien scratch
+	Atlas ✅case
+        lien site
+	Vidéos youtubes ✅case
+        lien chaîne
+	Liste anime softr ✅case
+        lien site
+    Portfolio ✅case
+        blabla v1 ==> premier site web en solo
+        blabla v2 ==> expérimentation des cookies
+        blabla v3 ==> framework vue.js (assez d'xp après sae s4 + stage)
 
 
 Avenir

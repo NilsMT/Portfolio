@@ -65,12 +65,6 @@ img {
     border-radius: var(--radius);
 }
 
-p {
-    background-color: var(--bg-light);
-    padding: var(--padding);
-    border-radius: var(--radius);
-}
-
 #genshin {
     border: 10px solid var(--secondary);
     width: calc(100% - (10px * 2) );
