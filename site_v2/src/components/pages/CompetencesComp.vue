@@ -44,7 +44,6 @@
             <SkillComp imgName="app_mastered/vscode.png" titre="VS Code"/>
             <SkillComp imgName="app_mastered/drawio.png" titre="draw.io"/>
             <SkillComp imgName="app_mastered/shotcut.png" titre="Shotcut"/>
-            <SkillComp imgName="app_mastered/krita.png" titre="Krita"/>
             <SkillComp imgName="app_mastered/medibang.png" titre="Medibang Paint"/>
             <SkillComp imgName="app_mastered/sketch.webp" titre="Sony Sketch"/>
             <SkillComp imgName="app_mastered/google.png" titre="Suite Google"/>
