@@ -34,17 +34,6 @@
                 :destination="real.destination"
             />
         </div>
-
-        <div id="final_real_cont" class="real_cont">
-            <RealComp v-for="(real, key) in dico_real_final" :key="key" 
-                :imgName="real.imgName" 
-                :titre="key" 
-                :desc="real.desc" 
-                :destination="real.destination"
-            />
-        </div>
-
-
     </div>
 </template>
 
@@ -94,7 +83,7 @@ dico_real_jv.value = {
     },
     "Z.R.C": {
         "imgName": "zrc.png",
-        "desc": "1<sup>er</sup> jeu vidéo réalisé sur Roblox en collaboration avec 2 personnes.<br>Développement en pause pour favoriser celui d'A.R.C.H.",
+        "desc": "1<sup>er</sup> jeu vidéo réalisé sur Roblox en collaboration avec 2 personnes.<br>Développement en pause.",
         "destination": "/ZRC"
     }
 }
@@ -143,24 +132,11 @@ dico_real_other.value = {
         "desc": "Jeu Scratch réalisé au collège puis republié en mars 2023.",
         "destination": "/Pastek"
     },
-    "Vidéos YouTube": {
-        "imgName": "youtube.png",
-        "desc": "Je fais des vidéos youtubes de temps à autres.",
-        "destination": "/Youtube"
-    },
     "Anime List": {
         "imgName": "animelist.png",
         "desc": "Liste d'anime réalisée en no-code en utilisant le site softr.",
         "destination": "/AnimeList"
     }
-}
-
-dico_real_final.value = {
-    "En développement": {
-        "imgName": "soon.gif",
-        "desc": "D'autres projets sont à venir",
-        "destination": ""
-    },
 }
 
 export default {

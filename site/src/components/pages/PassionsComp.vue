@@ -2,10 +2,10 @@
     <div id="passions">
         <TitreSectionComp titre="Passions" />
 
-        <h2>Les jeux-vidéos</h2>
+        <h2>Les jeux vidéos</h2>
 
         <p>
-            J'adore les jeux vidéos, en particulier les open-world (exploration de monde ouvert), les sandbox (bac à sable) 
+            J'adore les jeux vidéos, en particulier les Open-world (exploration de monde ouvert), les Sandbox (bac à sable) 
             et les FPS (jeux de tir à la 1ère personne).<br>
             J'y joue souvent et cela me permet d'entrainer ma réactivité, ma créativité et ma compréhension de différents univers.
         </p>

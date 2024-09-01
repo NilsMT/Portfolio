@@ -16,7 +16,7 @@
             </ul>
         </div>
 
-        <h2>Quels entreprises ?</h2>
+        <h2>Quelles entreprises ?</h2>
 
         <p>
             De la startup au grand groupe, en France ou à l'étranger, je n'ai aucune préférence.

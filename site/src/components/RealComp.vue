@@ -4,13 +4,15 @@
 
         <div id="content">
             <div id="titre">{{ titre }}</div>
-            <div id="desc" v-html="desc"></div>
-            <RouterLink id="link" class="btn btn-accent" v-if="destination" :to="destination">
-                Détails
-                <span class="material-symbols-outlined">
-                    open_in_new
-                </span>
-            </RouterLink>
+            <div id="hidden_content">
+                <div id="desc" v-html="desc"></div>
+                <RouterLink id="link" class="btn btn-accent" v-if="destination" :to="destination">
+                    Détails
+                    <span class="material-symbols-outlined">
+                        open_in_new
+                    </span>
+                </RouterLink>
+            </div>
         </div>
     </div>
 </template>
@@ -41,12 +43,13 @@
 
 /* Content box */
 #content {
-    width: calc(100% - var(--padding) * 2);
-    height: calc(100% - var(--padding) * 2);
+    width: calc(100% - (var(--padding) / 2) * 2);
+    height: calc(100% - (var(--padding) / 2) * 2);
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: start;
     gap: var(--gap);
 
     text-align: center;
@@ -54,7 +57,7 @@
     backdrop-filter: blur(5px);
     
 
-    padding: var(--padding);
+    padding: calc(var(--padding) / 2);
 }
 
 /* Theme */
@@ -67,9 +70,23 @@
 }
 
 /* Content items*/
+
+#hidden_content {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap);
+}
+
 #titre {
     font-size: 1.5rem;
     font-weight: bold;
+
+    padding: calc(var(--padding) / 2);
+    background-color: var(--accent);
+    border-radius: var(--radius);
 }
 
 #desc {
@@ -79,21 +96,13 @@
 
 /* interaction */
 
-#real:not(:hover) #desc, #real:not(:hover) #link {
+#real:not(:hover) #hidden_content {
     opacity: 0;
 }
 
 #real:not(:hover) #content {
     backdrop-filter: blur(0.5px);
     background-color: transparent;
-}
-
-#real:not(:hover) #titre {
-    text-shadow: 
-    2px 0px 5px var(--opptext), 
-    -2px 0px 5px var(--opptext),
-    0px 2px  5px var(--opptext),
-    0px -2px 5px var(--opptext);
 }
 
 

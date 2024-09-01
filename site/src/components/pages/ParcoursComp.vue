@@ -20,7 +20,7 @@
                 sous_titre="Option SIN (Système d'Information et Numérique)"
             >
                 <p>
-                    Le Bac STI2D m'a initié aux bases de l'informatique, de l'électronique et de la programmation, confirmant mon intérêt pour le développement, initialement orienté vers la robotique.<br>
+                    Le Bac STI2D m'a initié aux bases de l'informatique, de l'électronique et de la programmation, confirmant mon intérêt pour le développement.<br>
                     J'ai approfondi mon anglais en prenant l'option classe anglophone en 2<sup>nde</sup> et j'ai obtenu mon Bac avec mention assez bien.
                 </p>
             </ChronologieComp>
@@ -32,7 +32,7 @@
                 :last="true"
             >
                 <p>
-                    Au collège, j'ai découvert l'anglais et l'espagnol, développant un intérêt particulier pour l'anglais, renforcé par l'option LCE en 4<sup>ème</sup> et 3<sup>ème</sup>.
+                    Au collège, j'ai découvert l'anglais et l'espagnol. J'ai développé un intérêt particulier pour l'anglais, renforcé par l'option LCE en 4<sup>ème</sup> et 3<sup>ème</sup>.
                 </p>
             </ChronologieComp>
         </div>
