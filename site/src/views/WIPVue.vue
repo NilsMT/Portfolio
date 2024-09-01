@@ -46,10 +46,6 @@
     width: 9rem;
     aspect-ratio: 1 / 1;
 }
-
-:root.light #code > img {
-    filter: invert(1);
-}
 </style>
 
 <script>
