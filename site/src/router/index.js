@@ -30,7 +30,7 @@ const router = createRouter({
 
         // Erreur 404 (en dernier)
         {
-            path: '/:Erreur404',
+            path: '/:pathMatch(.*)*',
             name: 'Erreur 404',
             component: Erreur404Vue,
         }
