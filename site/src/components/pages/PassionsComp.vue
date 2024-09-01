@@ -12,6 +12,8 @@
 
         <p>
             J'aime énormément l'univers et les graphismes de l'Open-world Genshin Impact.<br>
+            L'histoire autour du monde de Genshin Impact est très prenante et bien développée.<br>
+            Les environnements sont magnifiques et pleins d'histoires.<br>
             <img id="genshin" src="../../assets/img/Passions/genshin.png"/>
         </p>
 
@@ -33,7 +35,7 @@
         <h2>La culture japonaise</h2>
 
         <p>
-            Je suis un très grand fan de culture japonaise car son style graphique est unique.<br>
+            Je suis un très grand fan de culture japonaise et j'aime ses styles graphiques uniques.<br>
             Je possède plus d'une centaine de mangas et je regarde beaucoup d'animes (séries et dessins animés japonais).
         </p>
 

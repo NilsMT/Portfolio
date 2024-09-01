@@ -23,6 +23,7 @@
             <SkillComp imgName="lang_mastered/py.png" titre="Python"/>
             <SkillComp imgName="lang_mastered/kt.png" titre="Kotlin"/>
             <SkillComp imgName="lang_mastered/lua.png" titre="Lua"/>
+            <SkillComp imgName="lang_mastered/latex.png" titre="LaTeX"/>
         </div>
 
         <h2>Langages informatiques en cours d'apprentissage</h2>
@@ -35,7 +36,7 @@
             <SkillComp imgName="lang_learn/c++.png" titre="C++"/>
         </div>
 
-        <h2>Applications maitrisés</h2>
+        <h2>Applications maitrisées</h2>
 
         <div class="skill_cont">
             <SkillComp imgName="app_mastered/git.png" titre="Git"/>
@@ -48,6 +49,7 @@
             <SkillComp imgName="app_mastered/sketch.webp" titre="Sony Sketch"/>
             <SkillComp imgName="app_mastered/google.png" titre="Suite Google"/>
             <SkillComp imgName="app_mastered/office.png" titre="Suite Office"/>
+            <SkillComp imgName="app_mastered/overleaf.png" titre="Overleaf"/>
         </div>
 
         <h2>Applications en cours d'apprentissage</h2>
@@ -59,6 +61,7 @@
             <SkillComp imgName="app_learn/vs.png" titre="Visual Studio"/>
             <SkillComp imgName="app_learn/jetbrain.png" titre="Suite Jetbrains"/>
             <SkillComp imgName="app_learn/hipaint.png" titre="HiPaint"/>
+            <SkillComp imgName="app_learn/vercel.png" titre="Vercel"/>
         </div>
     </div>
 </template>

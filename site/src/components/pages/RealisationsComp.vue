@@ -83,7 +83,7 @@ dico_real_jv.value = {
     },
     "Z.R.C": {
         "imgName": "zrc.png",
-        "desc": "1<sup>er</sup> jeu vidéo réalisé sur Roblox en collaboration avec 2 personnes.<br>Développement en pause.",
+        "desc": "1<sup>er</sup> jeu vidéo réalisé sur Roblox avec 2 personnes.<br>Développement en pause.",
         "destination": "/ZRC"
     }
 }
@@ -101,7 +101,7 @@ dico_real_web.value = {
     },
     "NewsRadar": {
         "imgName": "newsradar.png",
-        "desc": "Site de recherche d'articles de presse géalocalisé.<br> Projet de fin de 2<sup>ème</sup> année de BUT.",
+        "desc": "Site de recherche géalocalisée d'articles de presse .<br> Projet de fin de 2<sup>ème</sup> année de BUT.",
         "destination": "/NewsRadar"
     },
     "Antoine Factory": {
@@ -121,7 +121,7 @@ dico_real_web.value = {
     },
     "Portfolio": {
         "imgName": "portoflio.png",
-        "desc": "Eh oui ! Ce portfolio est réalisé des mes propres main pour qu'il me correspondent à 100%.",
+        "desc": "Eh oui ! Ce portfolio est réalisé des mes propres main pour qu'il me corresponde à 100%.",
         "destination": ""
     }
 }
