@@ -56,15 +56,6 @@
     gap: var(--gap);
 }
 
-#realisations > h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding-bottom: var(--padding);
-    border-bottom: solid 1px var(--text);
-}
-
 #final_real_cont {
     padding-top: var(--padding);
     margin-top: calc(var(--padding) * 2);
@@ -165,7 +156,7 @@ dico_real_other.value = {
 }
 
 dico_real_final.value = {
-    "En développements": {
+    "En développement": {
         "imgName": "soon.gif",
         "desc": "D'autres projets sont à venir",
         "destination": ""

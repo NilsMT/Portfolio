@@ -90,6 +90,15 @@
     padding: 0px 20% var(--padding) 20%;
 }
 
+.section > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: var(--padding);
+    border-bottom: solid 1px var(--text);
+}
+
 @media (max-width: 500px) {
     .section {
         padding: 0px 1% var(--padding) 1%;
