@@ -6,7 +6,7 @@ import WIPVue from '@/views/WIPVue.vue'
 const WIPPath = [
     '/FlickIt','/AIPR','/ARCH','/ZRC',
     '/ChasseAuTresor','/NewsRadar','/AntoineFactory','/RGBStuffs','/Atlas',
-    '/Pastek','/Youtube','/ooo'
+    '/Pastek','/Youtube','/AnimeList'
 ]
 
 const router = createRouter({
