@@ -14,7 +14,7 @@
             </a>
         </div>
 
-        <h2 id="void"></h2>
+        <p id="void"></p>
 
         <div id="contact_cont">
             <a class="btn btn-primary" href="https://github.com/NilsMT">
@@ -49,6 +49,8 @@
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
+    margin: 0px;
 }
 </style>
 

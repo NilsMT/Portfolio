@@ -84,8 +84,6 @@ p {
     background-color: var(--bg-light);
     padding: var(--padding);
     border-radius: var(--radius);
-    
-    width: fit-content;
 }
 /* Icons */
 
