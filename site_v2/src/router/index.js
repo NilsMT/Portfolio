@@ -1,6 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Erreur404Vue from '@/views/Erreur404Vue.vue'
 import PortfolioVue from '@/views/PortfolioVue.vue'
+import WIPVue from '@/views/WIPVue.vue'
+
+const WIPPath = [
+    '/FlickIt','/AIPR','/ARCH','/ZRC',
+    '/ChasseAuTresor','/NewsRadar','/AntoineFactory','/RGBStuffs','/Atlas',
+    '/Pastek','/Youtube','/AnimeList'
+]
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,6 +19,13 @@ const router = createRouter({
             path: '/',
             name: 'Accueil',
             component: PortfolioVue,
+        },
+
+        // WIP
+        {
+            path: '/WIP',
+            name: 'Page en construction',
+            component: WIPVue,
         },
 
         // Erreur 404 (en dernier)
@@ -40,7 +54,13 @@ router.beforeEach((to, from, next) => {
 
     document.title = `NMT | ${to.name}`
 
-    next()
+    console.log(to.path in WIPPath)
+
+    if (WIPPath.includes(to.path)) {
+        next({ path: '/WIP' })
+    } else {
+        next()
+    }
 })
 
 export default router

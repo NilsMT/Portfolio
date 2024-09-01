@@ -2,40 +2,14 @@
     <div id="realisations">
         <TitreSectionComp titre="Réalisations" />
 
-        <h2>Jeux-vidéos</h2>
-
         <div id="real_cont">
-            <RealComp v-for="(real, key) in dico_real_jv" :key="key" 
+            <RealComp v-for="(real, key) in dico_real" :key="key" 
                 :imgName="real.imgName" 
                 :titre="key" 
                 :desc="real.desc" 
                 :destination="real.destination"
             />
         </div>
-
-        <h2>Applications web</h2>
-
-        <div id="real_cont">
-            <RealComp v-for="(real, key) in dico_real_web" :key="key" 
-                :imgName="real.imgName" 
-                :titre="key" 
-                :desc="real.desc" 
-                :destination="real.destination"
-            />
-        </div>
-
-        <h2>Autres Réalisations</h2>
-
-        <div id="real_cont">
-            <RealComp v-for="(real, key) in dico_real_other" :key="key" 
-                :imgName="real.imgName" 
-                :titre="key" 
-                :desc="real.desc" 
-                :destination="real.destination"
-            />
-        </div>
-
-
     </div>
 </template>
 
@@ -53,13 +27,9 @@ import TitreSectionComp from '../TitreSectionComp.vue'
 import RealComp from '../RealComp.vue'
 import { ref } from 'vue'
 
-const dico_real_web = ref({})
+const dico_real = ref({})
 
-const dico_real_jv = ref({})
-
-const dico_real_other = ref({})
-
-dico_real_jv.value = {
+dico_real.value = {
     "Just Flick It !": {
         "imgName": "flickit.png",
         "desc": "4<sup>ème</sup> jeu vidéo réalisé seul sur Unity.<br> en développement.",
@@ -80,14 +50,6 @@ dico_real_jv.value = {
         "desc": "1<sup>er</sup> jeu vidéo réalisé sur Roblox en collaboration avec 2 personnes.<br>Développement en pause pour favoriser celui d'A.R.C.H.",
         "destination": "/ARCH"
     },
-    "En construction": {
-        "imgName": "soon.gif",
-        "desc": "D'autres projets sont à venir",
-        "destination": ""
-    },
-}
-
-dico_real_web.value = {
     "La Chasse Au Trésor": {
         "imgName": "chasseautresor.png",
         "desc": "Site réalisé pour une animation de chasse au trésor.",
@@ -113,28 +75,15 @@ dico_real_web.value = {
         "desc": "Site qui regroupe des outils concernants les couleurs.",
         "destination": "/RGBStuffs"
     },
-    "ATLAS": {
-        "imgName": "atlas.png",
-        "desc": "Site ayant pour thème l'espace.<br> Projet d'une matière en de 1<sup>ère</sup> année de BUT.",
-        "destination": "/Atlas"
-    },
-    "Portfolio": {
-        "imgName": "portoflio.png",
-        "desc": "Eh oui ! Ce portfolio est réalisé des mes propres main pour qu'il me correspondent à 100%.",
-        "destination": ""
-    },
-    "En construction": {
-        "imgName": "soon.gif",
-        "desc": "D'autres projets sont à venir",
-        "destination": ""
-    },
-}
-
-dico_real_other.value = {
     "Pastek": {
         "imgName": "pastek.png",
         "desc": "Jeu Scratch réalisé au collège puis republié en mars 2023.",
         "destination": "/Pastek"
+    },
+    "ATLAS": {
+        "imgName": "atlas.png",
+        "desc": "Site ayant pour thème l'espace.<br> Projet d'une matière en de 1<sup>ère</sup> année de BUT.",
+        "destination": "/Atlas"
     },
     "Vidéos YouTube": {
         "imgName": "youtube.png",
@@ -145,6 +94,11 @@ dico_real_other.value = {
         "imgName": "animelist.png",
         "desc": "Liste d'anime réalisée en no-code en utilisant le site softr.",
         "destination": "/AnimeList"
+    },
+    "Portfolio": {
+        "imgName": "portoflio.png",
+        "desc": "Eh oui ! Ce portfolio est réalisé des mes propres main pour qu'il me correspondent à 100%.",
+        "destination": ""
     },
     "En construction": {
         "imgName": "soon.gif",
@@ -161,9 +115,7 @@ export default {
     },
     setup() {
         return { 
-            dico_real_jv,
-            dico_real_web,
-            dico_real_other
+            dico_real 
         }
     }
 }

@@ -2,23 +2,73 @@
     <div id="realisations">
         <TitreSectionComp titre="Réalisations" />
 
-        <div id="real_cont">
-            <RealComp v-for="(real, key) in dico_real" :key="key" 
+        <h2>Jeux-vidéos</h2>
+
+        <div class="real_cont">
+            <RealComp v-for="(real, key) in dico_real_jv" :key="key" 
                 :imgName="real.imgName" 
                 :titre="key" 
                 :desc="real.desc" 
                 :destination="real.destination"
             />
         </div>
+
+        <h2>Applications web</h2>
+
+        <div class="real_cont">
+            <RealComp v-for="(real, key) in dico_real_web" :key="key" 
+                :imgName="real.imgName" 
+                :titre="key" 
+                :desc="real.desc" 
+                :destination="real.destination"
+            />
+        </div>
+
+        <h2>Autres Réalisations</h2>
+
+        <div class="real_cont">
+            <RealComp v-for="(real, key) in dico_real_other" :key="key" 
+                :imgName="real.imgName" 
+                :titre="key" 
+                :desc="real.desc" 
+                :destination="real.destination"
+            />
+        </div>
+
+        <div id="final_real_cont" class="real_cont">
+            <RealComp v-for="(real, key) in dico_real_final" :key="key" 
+                :imgName="real.imgName" 
+                :titre="key" 
+                :desc="real.desc" 
+                :destination="real.destination"
+            />
+        </div>
+
+
     </div>
 </template>
 
 <style scoped>
-#real_cont {
+.real_cont {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: var(--gap);
+}
+
+#realisations > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: var(--padding);
+    border-bottom: solid 1px var(--text);
+}
+
+#final_real_cont {
+    padding-top: var(--padding);
+    margin-top: calc(var(--padding) * 2);
+    border-top: solid 1px var(--text);
 }
 </style>
 
@@ -27,9 +77,15 @@ import TitreSectionComp from '../TitreSectionComp.vue'
 import RealComp from '../RealComp.vue'
 import { ref } from 'vue'
 
-const dico_real = ref({})
+const dico_real_web = ref({})
 
-dico_real.value = {
+const dico_real_jv = ref({})
+
+const dico_real_other = ref({})
+
+const dico_real_final = ref({})
+
+dico_real_jv.value = {
     "Just Flick It !": {
         "imgName": "flickit.png",
         "desc": "4<sup>ème</sup> jeu vidéo réalisé seul sur Unity.<br> en développement.",
@@ -48,8 +104,11 @@ dico_real.value = {
     "Z.R.C": {
         "imgName": "zrc.png",
         "desc": "1<sup>er</sup> jeu vidéo réalisé sur Roblox en collaboration avec 2 personnes.<br>Développement en pause pour favoriser celui d'A.R.C.H.",
-        "destination": "/ARCH"
-    },
+        "destination": "/ZRC"
+    }
+}
+
+dico_real_web.value = {
     "La Chasse Au Trésor": {
         "imgName": "chasseautresor.png",
         "desc": "Site réalisé pour une animation de chasse au trésor.",
@@ -75,15 +134,23 @@ dico_real.value = {
         "desc": "Site qui regroupe des outils concernants les couleurs.",
         "destination": "/RGBStuffs"
     },
-    "Pastek": {
-        "imgName": "pastek.png",
-        "desc": "Jeu Scratch réalisé au collège puis republié en mars 2023.",
-        "destination": "/Pastek"
-    },
     "ATLAS": {
         "imgName": "atlas.png",
         "desc": "Site ayant pour thème l'espace.<br> Projet d'une matière en de 1<sup>ère</sup> année de BUT.",
         "destination": "/Atlas"
+    },
+    "Portfolio": {
+        "imgName": "portoflio.png",
+        "desc": "Eh oui ! Ce portfolio est réalisé des mes propres main pour qu'il me correspondent à 100%.",
+        "destination": ""
+    }
+}
+
+dico_real_other.value = {
+    "Pastek": {
+        "imgName": "pastek.png",
+        "desc": "Jeu Scratch réalisé au collège puis republié en mars 2023.",
+        "destination": "/Pastek"
     },
     "Vidéos YouTube": {
         "imgName": "youtube.png",
@@ -94,12 +161,10 @@ dico_real.value = {
         "imgName": "animelist.png",
         "desc": "Liste d'anime réalisée en no-code en utilisant le site softr.",
         "destination": "/AnimeList"
-    },
-    "Portfolio": {
-        "imgName": "portoflio.png",
-        "desc": "Eh oui ! Ce portfolio est réalisé des mes propres main pour qu'il me correspondent à 100%.",
-        "destination": ""
-    },
+    }
+}
+
+dico_real_final.value = {
     "En construction": {
         "imgName": "soon.gif",
         "desc": "D'autres projets sont à venir",
@@ -115,7 +180,10 @@ export default {
     },
     setup() {
         return { 
-            dico_real 
+            dico_real_jv,
+            dico_real_web,
+            dico_real_other,
+            dico_real_final
         }
     }
 }
