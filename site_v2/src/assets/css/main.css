@@ -89,3 +89,9 @@
     box-shadow: 0px 0px 20px #0005;
     padding: 0px 20% var(--padding) 20%;
 }
+
+@media (max-width: 1250px) {
+    .section {
+        padding: 0px 1% var(--padding) 1%;
+    }
+}
