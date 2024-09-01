@@ -165,7 +165,7 @@ dico_real_other.value = {
 }
 
 dico_real_final.value = {
-    "En construction": {
+    "En développements": {
         "imgName": "soon.gif",
         "desc": "D'autres projets sont à venir",
         "destination": ""
