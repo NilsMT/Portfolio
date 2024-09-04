@@ -69,7 +69,7 @@ dico_real_jv.value = {
     "Just Flick It !": {
         "imgName": "flickit.png",
         "desc": "4<sup>ème</sup> jeu vidéo réalisé seul sur Unity.<br> en développement.",
-        "destination": "/FlickIt"
+        "destination": "/JustFlickIt"
     },
     "A.I.P.R": {
         "imgName": "aipr.png",

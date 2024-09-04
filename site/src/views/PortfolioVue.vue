@@ -2,7 +2,16 @@
     <div id="portfolio">
         <BienvenueComp></BienvenueComp>
 
-        <HeaderComp></HeaderComp>
+        <HeaderComp>
+            <a href="#presentation" target="_self" class="btn btn-normal">Présentation</a>
+            <a href="#parcours-scolaire" target="_self" class="btn btn-normal">Parcours scolaire</a>
+            <a href="#competences" target="_self" class="btn btn-normal">Compétences</a>
+            <a href="#implication-sociale" class="btn btn-normal">Implication sociale</a>
+            <a href="#passions" target="_self" class="btn btn-normal">Passions</a>
+            <a href="#realisations" target="_self" class="btn btn-normal">Réalisations</a>
+            <a href="#avenir" target="_self" class="btn btn-normal">Avenir</a>
+            <a href="#contacts-et-liens" target="_self" class="btn btn-normal">Contacts & liens</a>
+        </HeaderComp>
 
         <PresentationComp class="section"></PresentationComp>
 

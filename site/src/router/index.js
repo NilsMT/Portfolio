@@ -3,8 +3,14 @@ import Erreur404Vue from '@/views/Erreur404Vue.vue'
 import PortfolioVue from '@/views/PortfolioVue.vue'
 import WIPVue from '@/views/WIPVue.vue'
 
+/* realisation */
+
+import ZRCVue from '@/views/realisations/ZRCVue.vue'
+import ARCHVue from '@/views/realisations/ARCHVue.vue'
+import AIPRVue from '@/views/realisations/AIPRVue.vue'
+import JustFlickItVue from '@/views/realisations/JustFlickItVue.vue'
+
 const WIPPath = [
-    '/FlickIt','/AIPR','/ARCH','/ZRC',
     '/ChasseAuTresor','/NewsRadar','/AntoineFactory','/RGBStuffs','/Atlas',
     '/Pastek','/Youtube','/AnimeList'
 ]
@@ -14,11 +20,36 @@ const router = createRouter({
     routes: [
         
 
-        //Pages
+        // Portfolio
         {
             path: '/',
             name: 'Accueil',
             component: PortfolioVue,
+        },
+
+        //////////// Réalisations
+        {
+            path: '/ZRC',
+            name: 'Z.R.C',
+            component: ZRCVue,
+        },
+
+        {
+            path: '/ARCH',
+            name: 'A.R.C.H',
+            component: ARCHVue,
+        },
+
+        {
+            path: '/AIPR',
+            name: 'A.I.P.R',
+            component: AIPRVue,
+        },
+
+        {
+            path: '/JustFlickIt',
+            name: 'Just Flick It !',
+            component: JustFlickItVue,
         },
 
         // WIP
