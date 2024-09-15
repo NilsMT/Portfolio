@@ -1,7 +1,7 @@
 <template>
     <div id="realisation">
         <HeaderComp>
-            <router-link class="btn btn-normal" to="/" title="Accueil">
+            <router-link class="btn btn-normal" to="/#realisations" title="Accueil">
                 <span class="material-symbols-outlined">
                     home
                 </span>
@@ -57,11 +57,26 @@
             </div>
         </div>
 
+        <div class="section" id="accueil">
+            <router-link class="btn btn-primary" to="/#realisations" title="Accueil">
+                Retour à l'accueil
+                <span class="material-symbols-outlined">
+                    home
+                </span>
+            </router-link>
+        </div>
+
         <FooterComp></FooterComp>
     </div>
 </template>
 
 <style>
+#accueil {
+    display: flex;
+    justify-content: center;
+    padding-top: var(--padding);
+}
+
 #realisation {
     gap: 2rem;
     display: flex;

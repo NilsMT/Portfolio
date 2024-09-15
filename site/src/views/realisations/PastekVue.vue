@@ -17,12 +17,10 @@
             <h2>Qu'est-ce que c'est ?</h2>
 
             <p>
-                Arch Research Central Hub est mon 2<sup>ème</sup> jeu sur la plateforme Roblox, créé en 2022 et développé seul.<br>
-                C'est un jeu de type "Core Game" (Jeux de réacteur) où les joueurs doivent explorer un complexe scientifique,
-                jouer des rôles comme s'ils étaient employés là-bas et maintenir le réacteur à une température stable.<br>
-                Sinon, celui-ci explose et c'est la panique à bord !<br>
-
-                <a target="_blank" class="btn btn-secondary" href="https://www.roblox.com/games/8871746612/Arch-Research-Central-Hub">
+                Pastek est un jeu simple que j'ai réalisé au collège en 2016 et je l'ai republié en mars 2023 après l'avoir retrouvé sur une clé USB.<br>
+                Le jeu consiste à attraper des pastèques qui tombent du ciel avant qu'elles ne touchent le sol.<br>
+                Mais attention, attraper une pastèque violette fera perdre la partie.<br>
+                <a target="_blank" class="btn btn-secondary" href="https://scratch.mit.edu/projects/825278397/">
                     Lien vers le jeu
                     <span data-v-3a6ff9f5="" class="material-symbols-outlined">open_in_new</span>
                 </a>
@@ -30,18 +28,15 @@
 
             <h2>Pourquoi l'ai-je fait ?</h2>
 
-            <p>
-                J'ai commencé ce projet suite à une frustration liée au manque d'optimisation de mon premier jeu (<router-link to="/ZRC">Z.R.C</router-link>).<br>
-                J'ai donc décidé de créer un jeu plus structuré, plus organisé et plus optimisé, avec un système de contrôle du réacteur plus simple et complet.<br>
-            </p>
+            <div id="res">
+                Quand j'étais au collège, je passais beaucoup de temps sur Scratch à créer des jeux.<br>
+                Et un jour, après avoir vu un jeu de ce type, j'ai décidé d'en réaliser un.
+            </div>
 
             <h2>Comment l'ai-je réalisé ?</h2>
 
             <p>
-                J'ai utilisé le moteur de jeu Roblox Studio, qui fonctionne sous le langage de programmation Lua, pour le créer.<br>
-                J'ai passé beaucoup de temps à réfléchir à la conception du jeu, à son gameplay, à son univers et à communiquer les avancées.<br>
-                J'ai utilisé Trello pour gérer les tâches et les idées.<br>
-                Cependant, avec mes études le temps venait parfois à manquer et le développement s'est retrouvé ralenti plusieurs fois.<br>
+                J'ai utilisé le site Scratch, qui fonctionne avec des blocs de codes, pour le créer.<br>
             </p>
         </div>
 
@@ -50,19 +45,9 @@
             <TitreSectionComp titre="Quelques images" />
 
             <div id="cont">
-                <ImgComp imgName="ARCH/labcheckpoint.png" desc="Point de contrôle du secteur des laboratoires" />
+                <ImgComp imgName="Pastek/editor.png" desc="Vue du jeu dans l'éditeur" />
 
-                <ImgComp imgName="ARCH/lab.png" desc="Caverne du secteur des laboratoires" />
-
-                <ImgComp imgName="ARCH/waterstation.png" desc="Station d'épuration" />
-
-                <ImgComp imgName="ARCH/annex.png" desc="Annexe de ventilation" />
-
-                <ImgComp imgName="ARCH/reactor.png" desc='Le réacteur "Lumen Based Reactor"' />
-
-                <ImgComp imgName="ARCH/icecave.png" desc="Caverne de glace" />
-
-                <ImgComp imgName="ARCH/trello.png" desc="Le Trello  du projet" />
+                <ImgComp imgName="Pastek/ingame.png" desc="Vue du jeu" />
             </div>
         </div>
 
@@ -110,6 +95,16 @@ a:not(.btn) {
 
 a:not(.btn):hover {
     text-decoration: underline;
+}
+
+
+
+#res {
+    line-height: 1.5;
+
+    background-color: var(--bg-light);
+    padding: var(--padding);
+    border-radius: var(--radius);
 }
 </style>
 

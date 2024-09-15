@@ -1,7 +1,7 @@
 <template>
     <div id="realisation">
         <HeaderComp>
-            <router-link class="btn btn-normal" to="/" title="Accueil">
+            <router-link class="btn btn-normal" to="/#realisations" title="Accueil">
                 <span class="material-symbols-outlined">
                     home
                 </span>
@@ -29,12 +29,12 @@
             <h2>Pourquoi l'ai-je fait ?</h2>
 
             <div id="res">
-                J'ai commencé ce projet en demandant à une communauté de développeur, quelles seraient les pires idées pour un "Core Game".<br>
+                J'ai commencé ce projet en demandant à une communauté de développeurs, quelles seraient les pires idées pour un "Core Game".<br>
                 Le résultat de cette question : 
                 <ul>
                     <li>Patates comme source d'énergie</li>
                     <li>Un processus long et compliqué pour produire de l'électricité</li>
-                    <li>Une erreur d'inattention réduit les efforts à néants</li>
+                    <li>Une erreur d'inattention réduit les efforts à néant</li>
                 </ul>
 
                 Et j'ai décidé de le réaliser.<br>
@@ -55,12 +55,21 @@
             <div id="cont">
                 <ImgComp imgName="AIPR/entrance.png" desc="L'entrée de l'installation" />
 
-                <ImgComp imgName="AIPR/crusher.png" desc="Broyeuse de patate" />
+                <ImgComp imgName="AIPR/crusher.png" desc="Broyeuse de patates" />
 
                 <ImgComp imgName="AIPR/tank.png" desc="La cuve (réacteur) avec son interface" />
 
-                <ImgComp imgName="AIPR/plant.png" desc="Plantation de patate" />
+                <ImgComp imgName="AIPR/plant.png" desc="Plantation de patates" />
             </div>
+        </div>
+
+        <div class="section" id="accueil">
+            <router-link class="btn btn-primary" to="/#realisations" title="Accueil">
+                Retour à l'accueil
+                <span class="material-symbols-outlined">
+                    home
+                </span>
+            </router-link>
         </div>
 
         <FooterComp></FooterComp>
@@ -68,6 +77,12 @@
 </template>
 
 <style>
+#accueil {
+    display: flex;
+    justify-content: center;
+    padding-top: var(--padding);
+}
+
 #realisation {
     gap: 2rem;
     display: flex;

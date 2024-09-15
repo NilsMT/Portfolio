@@ -1,7 +1,7 @@
 <template>
     <div id="realisation">
         <HeaderComp>
-            <router-link class="btn btn-normal" to="/" title="Accueil">
+            <router-link class="btn btn-normal" to="/#realisations" title="Accueil">
                 <span class="material-symbols-outlined">
                     home
                 </span>
@@ -44,7 +44,7 @@
                 J'ai utilisé le moteur de jeu Roblox Studio, qui fonctionne sous le langage de programmation Lua, pour le créer.<br>
                 J'ai passé beaucoup de temps à réfléchir à la conception du jeu, à son gameplay, à son univers et à communiquer les avancées.<br>
                 Nous avons utilisé Trello pour gérer les tâches et les idées.<br>
-                Cependant, nous n'étions pas nombreux pour le réaliser, donc j'ai dû faire beaucoup de choses seul.<br>
+                Cependant, nous n'étions pas nombreux pour le réaliser, donc j'ai dû réaliser beaucoup de tâches en autonomie.<br>
             </p>
         </div>
 
@@ -69,11 +69,26 @@
             </div>
         </div>
 
+        <div class="section" id="accueil">
+            <router-link class="btn btn-primary" to="/#realisations" title="Accueil">
+                Retour à l'accueil
+                <span class="material-symbols-outlined">
+                    home
+                </span>
+            </router-link>
+        </div>
+
         <FooterComp></FooterComp>
     </div>
 </template>
 
 <style>
+#accueil {
+    display: flex;
+    justify-content: center;
+    padding-top: var(--padding);
+}
+
 #realisation {
     gap: 2rem;
     display: flex;

@@ -14,7 +14,7 @@
             </span>
 
             <span id="dev">
-                Et je suis un développeur web <span class="text-primary">full-stack</span>
+                Et je suis un étudiant passionné par le <span class="text-primary">développement informatique</span>
             </span>
         </div>
     </div>

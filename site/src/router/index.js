@@ -9,10 +9,12 @@ import ZRCVue from '@/views/realisations/ZRCVue.vue'
 import ARCHVue from '@/views/realisations/ARCHVue.vue'
 import AIPRVue from '@/views/realisations/AIPRVue.vue'
 import JustFlickItVue from '@/views/realisations/JustFlickItVue.vue'
+import AnimeListVue from '@/views/realisations/AnimeListVue.vue'
+import PastekVue from '@/views/realisations/PastekVue.vue'
 
 const WIPPath = [
     '/ChasseAuTresor','/NewsRadar','/AntoineFactory','/RGBStuffs','/Atlas',
-    '/Pastek','/Youtube','/AnimeList'
+    '/Youtube'
 ]
 
 const router = createRouter({
@@ -50,6 +52,18 @@ const router = createRouter({
             path: '/JustFlickIt',
             name: 'Just Flick It !',
             component: JustFlickItVue,
+        },
+
+        {
+            path: '/Pastek',
+            name: 'Pastek',
+            component: PastekVue,
+        },
+
+        {
+            path: '/AnimeList',
+            name: 'Anime List',
+            component: AnimeListVue,
         },
 
         // WIP
