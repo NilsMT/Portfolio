@@ -83,7 +83,7 @@ dico_real_jv.value = {
     },
     "Z.R.C": {
         "imgName": "zrc.png",
-        "desc": "1<sup>er</sup> jeu vidéo réalisé sur Roblox avec 2 personnes.<br>Développement en pause.",
+        "desc": "1<sup>er</sup> jeu vidéo réalisé sur Roblox avec 2 personnes.<br>Développement terminé en 2024.",
         "destination": "/ZRC"
     }
 }

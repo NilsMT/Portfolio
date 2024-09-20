@@ -17,7 +17,7 @@
             <h2>Qu'est-ce que c'est ?</h2>
 
             <p>
-                Zenium Research Center est mon 1<sup>er</sup> jeu sur la plateforme Roblox, créé en 2019.<br>
+                Zenium Research Center est mon 1<sup>er</sup> jeu sur la plateforme Roblox, créé en 2019 et terminé en 2024.<br>
                 C'est un jeu de type "Core Game" (Jeux de réacteur) où les joueurs doivent explorer un complexe scientifique,
                 jouer des rôles comme s'ils étaient employés là-bas et maintenir le réacteur à une température stable.<br>
                 Sinon, celui-ci explose et c'est la panique à bord !<br>
