@@ -57,6 +57,10 @@
                 <ImgComp imgName="EclExt/etape4.png" desc="L'étape 4 de l'outil : La synthèse de la standardisation" />
 
                 <ImgComp imgName="EclExt/etape5.png" desc="L'étape 5 de l'outil : La visualisation de la standardisation" />
+
+                <VideoComp desc="Vidéo de démonstration de l'outil">
+                    <iframe src="https://drive.google.com/file/d/14Uxh3-GSBx6Vkf0_9JIJmm725cYQb6Gz/preview" width="640" height="480" allow="autoplay"></iframe>
+                </VideoComp>
             </div>
         </div>
 
@@ -125,6 +129,7 @@ import FooterComp from '../../components/FooterComp.vue'
 import TitreSectionComp from '../../components/TitreSectionComp.vue'
 
 import ImgComp from '../../components/ImgComp.vue'
+import VideoComp from '../../components/VideoComp.vue'
 
 export default {
     components: {
@@ -132,7 +137,8 @@ export default {
         HeaderComp,
         FooterComp,
         TitreSectionComp,
-        ImgComp
+        ImgComp,
+        VideoComp
     }
 }
 </script>
