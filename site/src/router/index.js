@@ -9,12 +9,19 @@ import ZRCVue from '@/views/realisations/ZRCVue.vue'
 import ARCHVue from '@/views/realisations/ARCHVue.vue'
 import AIPRVue from '@/views/realisations/AIPRVue.vue'
 import JustFlickItVue from '@/views/realisations/JustFlickItVue.vue'
+
+import NewsRadarVue from '@/views/realisations/NewsRadarVue.vue'
+import RGBStuffsVue from '@/views/realisations/RGBStuffsVue.vue'
+import EclExtVue from '@/views/realisations/EclExtVue.vue'
+import ChasseAuTresorVue from '@/views/realisations/ChasseAuTresorVue.vue'
+import ATLASVue from '@/views/realisations/ATLASVue.vue'
+import AntoineFactoryVue from '@/views/realisations/AntoineFactoryVue.vue'
+
 import AnimeListVue from '@/views/realisations/AnimeListVue.vue'
 import PastekVue from '@/views/realisations/PastekVue.vue'
 
 const WIPPath = [
-    '/ChasseAuTresor','/NewsRadar','/AntoineFactory','/RGBStuffs','/Atlas','/EclExt',
-    '/Youtube'
+    '/ChasseAuTresor','/RGBStuffs','/NewsRadar','/AntoineFactory','/Atlas','/EclExt',
 ]
 
 const router = createRouter({
@@ -52,6 +59,43 @@ const router = createRouter({
             path: '/JustFlickIt',
             name: 'Just Flick It !',
             component: JustFlickItVue,
+        },
+
+        
+        {
+            path: '/NewsRadar',
+            name: 'NewsRadar',
+            component: NewsRadarVue,
+        },
+
+        {
+            path: '/RGBStuffs',
+            name: 'RGB Stuffs',
+            component: RGBStuffsVue,
+        },
+
+        {
+            path: '/EclExt',
+            name: 'EclExt',
+            component: EclExtVue,
+        },
+
+        {
+            path: '/ChasseAuTresor',
+            name: 'Chasse Au Trésor',
+            component: ChasseAuTresorVue,
+        },
+
+        {
+            path: '/ATLAS',
+            name: 'ATLAS',
+            component: ATLASVue,
+        },
+
+        {
+            path: '/AntoineFactory',
+            name: 'Antoine Factory',
+            component: AntoineFactoryVue,
         },
 
         {

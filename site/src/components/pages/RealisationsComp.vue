@@ -117,7 +117,7 @@ dico_real_web.value = {
     "ATLAS": {
         "imgName": "atlas.png",
         "desc": "Site ayant pour thème l'espace.<br> Projet d'une matière en de 1<sup>ère</sup> année de BUT.",
-        "destination": "/Atlas"
+        "destination": "/ATLAS"
     },
     "Portfolio": {
         "imgName": "portoflio.png",
