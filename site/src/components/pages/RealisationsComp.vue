@@ -2,7 +2,7 @@
     <div id="realisations">
         <TitreSectionComp titre="Réalisations" />
 
-        <h2 v-if="dico_real_jv.length">Jeux-vidéos</h2>
+        <h2 v-if="dico_real_jv.length>0">Jeux-vidéos</h2>
 
         <div class="real_cont">
             <RealComp v-for="(real, key) in dico_real_jv" :key="key" 
@@ -13,7 +13,7 @@
             />
         </div>
 
-        <h2 v-if="dico_real_web.length">Applications web</h2>
+        <h2 v-if="dico_real_web.length>0">Applications web</h2>
 
         <div class="real_cont">
             <RealComp v-for="(real, key) in dico_real_web" :key="key" 
@@ -24,7 +24,7 @@
             />
         </div>
 
-        <h2 v-if="dico_real_other.length">Autres Réalisations</h2>
+        <h2 v-if="dico_real_other.length>0">Autres Réalisations</h2>
 
         <div class="real_cont">
             <RealComp v-for="(real, key) in dico_real_other" :key="key" 
