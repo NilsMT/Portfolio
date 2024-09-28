@@ -2,7 +2,7 @@
     <div id="realisations">
         <TitreSectionComp titre="Réalisations" />
 
-        <h2>Jeux-vidéos</h2>
+        <h2 v-if="dico_real_jv.length">Jeux-vidéos</h2>
 
         <div class="real_cont">
             <RealComp v-for="(real, key) in dico_real_jv" :key="key" 
@@ -13,7 +13,7 @@
             />
         </div>
 
-        <h2>Applications web</h2>
+        <h2 v-if="dico_real_web.length">Applications web</h2>
 
         <div class="real_cont">
             <RealComp v-for="(real, key) in dico_real_web" :key="key" 
@@ -24,7 +24,7 @@
             />
         </div>
 
-        <h2>Autres Réalisations</h2>
+        <h2 v-if="dico_real_other.length">Autres Réalisations</h2>
 
         <div class="real_cont">
             <RealComp v-for="(real, key) in dico_real_other" :key="key" 
@@ -85,7 +85,12 @@ dico_real_jv.value = {
         "imgName": "zrc.png",
         "desc": "1<sup>er</sup> jeu vidéo réalisé sur Roblox avec 2 personnes.<br>Développement terminé en 2024.",
         "destination": "/ZRC"
-    }
+    },
+    "Pastek": {
+        "imgName": "pastek.png",
+        "desc": "Jeu Scratch réalisé au collège puis republié en mars 2023.",
+        "destination": "/Pastek"
+    },
 }
 
 dico_real_web.value = {
@@ -119,6 +124,11 @@ dico_real_web.value = {
         "desc": "Site ayant pour thème l'espace.<br> Projet d'une matière en de 1<sup>ère</sup> année de BUT.",
         "destination": "/ATLAS"
     },
+    "Anime List": {
+        "imgName": "animelist.png",
+        "desc": "Liste d'anime réalisée en no-code en utilisant le site softr.",
+        "destination": "/AnimeList"
+    },
     "Portfolio": {
         "imgName": "portoflio.png",
         "desc": "Eh oui ! Ce portfolio est réalisé des mes propres main pour qu'il me corresponde à 100%.",
@@ -127,16 +137,7 @@ dico_real_web.value = {
 }
 
 dico_real_other.value = {
-    "Pastek": {
-        "imgName": "pastek.png",
-        "desc": "Jeu Scratch réalisé au collège puis republié en mars 2023.",
-        "destination": "/Pastek"
-    },
-    "Anime List": {
-        "imgName": "animelist.png",
-        "desc": "Liste d'anime réalisée en no-code en utilisant le site softr.",
-        "destination": "/AnimeList"
-    }
+    
 }
 
 export default {
