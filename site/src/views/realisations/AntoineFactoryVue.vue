@@ -29,14 +29,14 @@
 
             <div id="res">
                 Cette SAE avait pour objectif de développer une application web d'e-commerce en utilisant le language PHP.<br>
-                Notre spécificité étais d'avoir un réel client, ce qui nous a permis de travailler en conditions réelles.
+                Notre spécificité était d'avoir un réel client, ce qui nous a permis de travailler en conditions réelles.
             </div>
 
             <h2>Comment l'avons nous réalisé ?</h2>
 
             <p>
-                Nous avons commencé par se répartir les potentielles tâches sur un tableau Trello.<br>
-                Puis avec une maquette du site web, faite sur le logiciel Figma, nous l'avons concrétisé avec le framework web Symfony et une base de données SQL.<br>
+                Nous avons commencé par nous répartir les potentielles tâches sur un tableau Trello.<br>
+                Puis avec une maquette du site web, faite sur le logiciel Figma, nous l'avons concrétisée avec le framework web Symfony et une base de données SQL.<br>
                 J'étais en charge de la partie front-end, de la communication avec le client et de la rédaction des rapports demandés.
             </p>
         </div>

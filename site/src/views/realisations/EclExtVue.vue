@@ -37,8 +37,8 @@
             <h2>Comment l'ai-je réalisé ?</h2>
 
             <p>
-                J'ai créer du Machine Learning pour suggérer une standardisation selon le noms des différents champs de données.<br>
-                J'ai aussi réalisé le site web à partir d'une maquette qui m'a été fournis.<br>
+                J'ai créé du Machine Learning pour suggérer une standardisation selon le nom des différents champs de données.<br>
+                J'ai aussi réalisé le site web à partir d'une maquette qui m'a été fournie.<br>
                 Lors de ce stage j'ai utilisé les technologies suivantes : Vue.js (Vue 2), Express.js, GitHub CI/CD, Node.js, Mapbox, Swagger.
             </p>
         </div>

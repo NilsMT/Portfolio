@@ -17,7 +17,7 @@
             <h2>Qu'est-ce que c'est ?</h2>
 
             <p>
-                La Chasse Au trésir est un site web que j'ai créer pour une animation que j'ai organisé pour 
+                La Chasse Au trésor est un site web que j'ai créé pour une animation organisée pour 
                 un serveur communautaire sur Discord.<br>
                 <a target="_blank" class="btn btn-secondary" href="https://chasse-au-tresor-2024.vercel.app/">
                     Lien vers le site web
@@ -36,7 +36,7 @@
 
             <p>
                 J'ai utilisé le framework Vue.js (Vue 3) et j'ai hébergé le site avec Vercel.<br>
-                Pour la cryptographie j'ai écrit un processus de chiffrement et de déchiffrement en JavaScript qui intègre la <a target="_blank" href="https://fr.wikipedia.org/wiki/Chiffre_de_Vigen%C3%A8re#La_table_de_Vigen%C3%A8re">table de vinegère</a>.<br>
+                Pour la cryptographie j'ai écrit un processus de chiffrement et de déchiffrement en JavaScript qui intègre la <a target="_blank" href="https://fr.wikipedia.org/wiki/Chiffre_de_Vigen%C3%A8re#La_table_de_Vigen%C3%A8re">table de Vinegère</a>.<br>
             </p>
         </div>
 
@@ -47,7 +47,7 @@
             <div id="cont">
                 <ImgComp imgName="ChasseAuTresor/site.png" desc="Page d'accueil du site" />
 
-                <ImgComp imgName="ChasseAuTresor/admindecryptcode.png" desc="Page permettant de décodé les codes que les participants m'ont envoyé, afin de savoir qui à réussi la chasse au trésor en premier" />
+                <ImgComp imgName="ChasseAuTresor/admindecryptcode.png" desc="Page permettant de décoder les codes que les participants m'ont envoyé, afin de savoir qui a terminé la chasse au trésor" />
             </div>
         </div>
 

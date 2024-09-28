@@ -37,7 +37,7 @@
             <h2>Comment l'ai-je réalisé ?</h2>
 
             <p>
-                J'ai utilisé le moteur de jeu Unity, qui fonctionne sous le langage de programmation C#, pour le créer.<br>
+                Pour le créer, j'ai utilisé le moteur de jeu Unity, qui fonctionne sous le langage de programmation C#.<br>
                 J'ai passé beaucoup de temps à réfléchir à la conception du jeu, à son gameplay et à son environnement.<br>
             </p>
         </div>

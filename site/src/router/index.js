@@ -21,7 +21,7 @@ import AnimeListVue from '@/views/realisations/AnimeListVue.vue'
 import PastekVue from '@/views/realisations/PastekVue.vue'
 
 const WIPPath = [
-    '/ChasseAuTresor','/RGBStuffs','/NewsRadar','/AntoineFactory','/ATLAS','/EclExt',
+    //'/ChasseAuTresor','/RGBStuffs','/NewsRadar','/AntoineFactory','/ATLAS','/EclExt',
 ]
 
 const router = createRouter({

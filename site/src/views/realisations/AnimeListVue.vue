@@ -35,7 +35,7 @@
             <h2>Comment l'ai-je réalisé ?</h2>
 
             <p>
-                J'ai utilisé le site Softr.io, qui permet de créer des applications web sans coder, pour le créer.<br>
+                Pour le créer, j'ai utilisé le site Softr.io, qui permet de créer des applications web sans coder.<br>
             </p>
         </div>
 

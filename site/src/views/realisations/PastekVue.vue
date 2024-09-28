@@ -36,7 +36,7 @@
             <h2>Comment l'ai-je réalisé ?</h2>
 
             <p>
-                J'ai utilisé le site Scratch, qui fonctionne avec des blocs de codes, pour le créer.<br>
+                Pour le créer, j'ai utilisé le site Scratch, qui fonctionne avec des blocs de codes.<br>
             </p>
         </div>
 

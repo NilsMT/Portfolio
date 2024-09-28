@@ -35,9 +35,9 @@
             <h2>Comment l'avons nous réalisé ?</h2>
 
             <p>
-                Nous avons commencé par se répartir les potentielles tâches sur un tableau Trello.<br>
-                Puis avec une maquette du site web, faite sur le logiciel Figma, nous l'avons concrétisé avec le framework web Vue.js (avec la version Vue 3).<br>
-                J'étais en charge de la gestion de l'équipe, la rédaction des rapports demandés et le développement du client web (avec son design également).
+                Nous avons commencé par nous répartir les potentielles tâches sur un tableau Trello.<br>
+                Puis avec une maquette du site web, faite sur le logiciel Figma, nous l'avons concrétisée avec le framework web Vue.js (avec la version Vue 3).<br>
+                J'étais en charge de la gestion de l'équipe, la rédaction des rapports demandés et le développement du site web (avec son design également).
             </p>
         </div>
 
@@ -46,7 +46,7 @@
             <TitreSectionComp titre="Quelques images" />
 
             <div id="cont">
-                <ImgComp imgName="NewsRadar/site.png" desc="Page de recherche d'article de l'application" />
+                <ImgComp imgName="NewsRadar/site.png" desc="Page de recherche d'articles dans l'application" />
 
                 <ImgComp imgName="NewsRadar/userapi.png" desc="Page de documentation d'une de nos API" />
 

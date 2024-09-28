@@ -18,7 +18,7 @@
 
             <p>
                 Atlas est un projet dans le cadre d'une matière à l'IUT nommée Communication Professionnelle.<br>
-                C'est un site web ayant pour thème de système solaire.<br>
+                C'est un site web ayant pour thème le système solaire.<br>
                 <a target="_blank" class="btn btn-secondary" href="https://bastianmary.github.io/ATLAS/">
                     Lien vers le site web
                     <span data-v-3a6ff9f5="" class="material-symbols-outlined">open_in_new</span>
@@ -34,7 +34,7 @@
             <h2>Comment l'avons nous réalisé ?</h2>
 
             <p>
-                Nous avons commencé par se répartir les potentielles tâches.<br>
+                Nous avons commencé par nous répartir les potentielles tâches.<br>
                 J'étais en charge des illustrations ainsi que de la programmation du Paralax 
                 (l'arrière plan qui bouge grâce à la souris).
             </p>
