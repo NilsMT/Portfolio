@@ -43,7 +43,7 @@
             <h2>Comment l'ai-je réalisé ?</h2>
 
             <p>
-                Pour le créer, J'ai utilisé le moteur de jeu Roblox Studio, qui fonctionne sous le langage de programmation Lua.<br>
+                Pour le créer, j'ai utilisé le moteur de jeu Roblox Studio, qui fonctionne sous le langage de programmation Lua.<br>
                 J'ai passé beaucoup de temps à réfléchir à la conception du jeu, à son gameplay.<br>
             </p>
         </div>
