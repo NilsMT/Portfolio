@@ -8,7 +8,7 @@
             </router-link>
 
             <a href="#à-propos" target="_self" class="btn btn-normal">À propos du projet</a>
-            <a href="#images" target="_self" class="btn btn-normal">Quelques images</a>
+            <a href="#visuels" target="_self" class="btn btn-normal">Quelques visuels</a>
         </HeaderComp>
 
         <div class="section" id="à-propos">
@@ -42,8 +42,8 @@
         </div>
 
 
-        <div class="section" id="images">
-            <TitreSectionComp titre="Quelques images" />
+        <div class="section" id="visuels">
+            <TitreSectionComp titre="Quelques visuels" />
 
             <div id="cont">
                 <ImgComp imgName="NewsRadar/site.png" desc="Page de recherche d'articles dans l'application" />
