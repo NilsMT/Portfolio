@@ -51,7 +51,7 @@
             <SkillComp imgName="app_mastered/office.png" titre="Suite Office"/>
             <SkillComp imgName="app_mastered/overleaf.png" titre="Overleaf"/>
             <SkillComp imgName="app_mastered/android.png" titre="Android Studio"/>
-            <SkillComp imgName="app_mastered/docker.png" titre="Docker"/>
+            <SkillComp imgName="app_mastered/docker.webp" titre="Docker"/>
             <SkillComp imgName="app_mastered/wireshark.png" titre="Wireshark"/>
         </div>
 
