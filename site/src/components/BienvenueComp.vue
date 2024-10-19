@@ -44,24 +44,25 @@
     font-size: 2rem;
 }
 
+/* Texts */
 #txt > span {
     text-align: left;
+    font-size: 2vw;
 }
 
 #name {
-
     font-family: "Merriweather Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    font-size: 3rem;
 
+    font-size: 4vw;
     position: relative;
-    top: -1rem;
+    top: -0.5rem;
 }
 
 #dev {
-    font-size: 1.25rem;
+    font-size: 1.5vw;
 }
 
 #img {
@@ -84,6 +85,33 @@
     object-fit: contain;
     
     border-radius: 1rem;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    #grille {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    #txt > span {
+        font-size: 4vw;
+    }
+
+    #name {
+        font-size: 6vw;
+    }
+
+    #dev {
+        font-size: 3vw;
+    }
+
+    #img {
+        justify-content: center;
+        height: auto;
+        width: 50%;
+        margin: 0 auto;
+    }
 }
 </style>
 
