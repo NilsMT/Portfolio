@@ -95,15 +95,7 @@
     }
 
     #txt > span {
-        font-size: 4vw;
-    }
-
-    #name {
-        font-size: 6vw;
-    }
-
-    #dev {
-        font-size: 3vw;
+        font-size: calc(var(--text-size) * 0.75);
     }
 
     #img {
