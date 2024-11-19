@@ -47,8 +47,10 @@
 
         <p>
             Et en découvrant l'univers des conventions, j'ai découvert le cosplay. C'est un loisir qui consiste à se déguiser en personnage de fiction.<br>
-            J'ai moi-même réalisé quelques cosplays, comme par exemple un soldat "MTF" de la Fondation SCP.<br>
-            <img src="../../assets/img/Passions/cosplay.jpg"/>
+            J'ai moi-même réalisé quelques cosplays, comme par exemple 
+            Danny de l'anime <a href="https://www.nautiljon.com/animes/satsuriku+no+tenshi.html">Angels of death</a> (à gauche) 
+            et un soldat "MTF" de <a href="https://fr.wikipedia.org/wiki/Fondation_SCP">la Fondation SCP</a> (à droite).<br>
+            <img src="../../assets/img/Passions/cosplay.png"/>
         </p>
 
         <h2>Les LEGO®</h2>
