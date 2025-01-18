@@ -36,7 +36,7 @@
             <SkillComp imgName="lang_learn/c++.png" titre="C++"/>
         </div>
 
-        <h2>Applications maitrisées</h2>
+        <h2>Outils maitrisées</h2>
 
         <div class="skill_cont">
             <SkillComp imgName="app_mastered/git.png" titre="Git"/>
@@ -53,18 +53,18 @@
             <SkillComp imgName="app_mastered/android.png" titre="Android Studio"/>
             <SkillComp imgName="app_mastered/docker.webp" titre="Docker"/>
             <SkillComp imgName="app_mastered/wireshark.png" titre="Wireshark"/>
+            <SkillComp imgName="app_learn/vercel.png" titre="Vercel"/>
+            <SkillComp imgName="app_learn/jetbrain.png" titre="Suite Jetbrains"/>
         </div>
 
-        <h2>Applications en cours d'apprentissage</h2>
+        <h2>Outils en cours d'apprentissage</h2>
 
         <div class="skill_cont">
             <SkillComp imgName="app_learn/unreal.png" titre="Unreal Engine"/>
             <SkillComp imgName="app_learn/blender.png" titre="Blender"/>
             <SkillComp imgName="app_learn/unity.png" titre="Unity"/>
             <SkillComp imgName="app_learn/vs.png" titre="Visual Studio"/>
-            <SkillComp imgName="app_learn/jetbrain.png" titre="Suite Jetbrains"/>
             <SkillComp imgName="app_learn/hipaint.png" titre="HiPaint"/>
-            <SkillComp imgName="app_learn/vercel.png" titre="Vercel"/>
         </div>
     </div>
 </template>
