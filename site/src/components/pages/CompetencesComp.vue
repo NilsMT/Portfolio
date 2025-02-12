@@ -36,7 +36,7 @@
             <SkillComp imgName="lang_learn/c++.png" titre="C++"/>
         </div>
 
-        <h2>Outils maitrisées</h2>
+        <h2>Outils maitrisés</h2>
 
         <div class="skill_cont">
             <SkillComp imgName="app_mastered/git.png" titre="Git"/>
