@@ -135,7 +135,7 @@ realisations.value = {
     },
     "Portfolio": {
         "imgName": "portoflio.png",
-        "desc": "Eh oui ! Ce portfolio est réalisé des mes propres main pour qu'il me corresponde à 100%.",
+        "desc": "Eh oui ! Ce portfolio est réalisé de mes propres mains pour qu'il me corresponde à 100%.",
         "destination": ""
     },
     "Periodic Encryption": {
