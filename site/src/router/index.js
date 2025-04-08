@@ -9,6 +9,7 @@ import ZRCVue from '@/views/realisations/ZRCVue.vue'
 import ARCHVue from '@/views/realisations/ARCHVue.vue'
 import AIPRVue from '@/views/realisations/AIPRVue.vue'
 import JustFlickItVue from '@/views/realisations/JustFlickItVue.vue'
+import PastekVue from '@/views/realisations/PastekVue.vue'
 
 import NewsRadarVue from '@/views/realisations/NewsRadarVue.vue'
 import RGBStuffsVue from '@/views/realisations/RGBStuffsVue.vue'
@@ -16,9 +17,9 @@ import EclExtVue from '@/views/realisations/EclExtVue.vue'
 import ChasseAuTresorVue from '@/views/realisations/ChasseAuTresorVue.vue'
 import ATLASVue from '@/views/realisations/ATLASVue.vue'
 import AntoineFactoryVue from '@/views/realisations/AntoineFactoryVue.vue'
-
 import AnimeListVue from '@/views/realisations/AnimeListVue.vue'
-import PastekVue from '@/views/realisations/PastekVue.vue'
+
+import PeriodicVue from '@/views/realisations/PeriodicVue.vue'
 
 const WIPPath = [
     //'/ChasseAuTresor','/RGBStuffs','/NewsRadar','/AntoineFactory','/ATLAS','/EclExt',
@@ -108,6 +109,12 @@ const router = createRouter({
             path: '/AnimeList',
             name: 'Anime List',
             component: AnimeListVue,
+        },
+        
+        {
+            path: '/PeriodicEncryption',
+            name: 'Periodic Encryption',
+            component: PeriodicVue,
         },
 
         // WIP

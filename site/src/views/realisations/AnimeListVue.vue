@@ -21,7 +21,7 @@
                 Les utilisateurs connectés peuvent ajouter des animes à ma liste, les modifier et les supprimer.<br>
                 <a target="_blank" class="btn btn-secondary" href="https://anime-list-arcan.softr.app/liste">
                     Lien vers l'application
-                    <span data-v-3a6ff9f5="" class="material-symbols-outlined">open_in_new</span>
+                    <span class="material-symbols-outlined">open_in_new</span>
                 </a>
             </p>
 

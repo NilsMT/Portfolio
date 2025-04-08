@@ -17,11 +17,11 @@
             <h2>Qu'est-ce que c'est ?</h2>
 
             <p>
-                La Chasse Au trésor est un site web que j'ai créé pour une animation organisée pour 
+                La Chasse Au Trésor est un site web que j'ai créé pour une animation organisée pour 
                 un serveur communautaire sur Discord.<br>
                 <a target="_blank" class="btn btn-secondary" href="https://chasse-au-tresor-2024.vercel.app/">
                     Lien vers le site web
-                    <span data-v-3a6ff9f5="" class="material-symbols-outlined">open_in_new</span>
+                    <span  class="material-symbols-outlined">open_in_new</span>
                 </a>
             </p>
 

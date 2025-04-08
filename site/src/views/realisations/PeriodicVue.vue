@@ -17,26 +17,26 @@
             <h2>Qu'est-ce que c'est ?</h2>
 
             <p>
-                Atlas est un projet dans le cadre d'une matière à l'IUT nommée Communication Professionnelle.<br>
-                C'est un site web ayant pour thème le système solaire.<br>
-                <a target="_blank" class="btn btn-secondary" href="https://bastianmary.github.io/ATLAS/">
-                    Lien vers le site web
+                Periodic-Encryption est une librairie qui permet d'encrypter et de decrypter du texte à l'aide des éléments du tableau périodique.<br>
+                <a target="_blank" class="btn btn-secondary" href="https://github.com/NilsMT/Periodic-Encryption">
+                    Lien vers le dépôt Git
                     <span  class="material-symbols-outlined">open_in_new</span>
                 </a>
             </p>
 
-            <h2>Pourquoi l'avons-nous fait ?</h2>
+            <h2>Pourquoi l'ai-je fait ?</h2>
 
             <div id="res">
-                Dans le cadre de la matière Communication Professionnelle, nous devions réaliser un site web pour une entreprise fictive de notre choix.<br>
+                Quand j'ai créé <router-link to="/ChasseAuTresor">La Chasse Au Trésor</router-link> je voulais avoir un système de cryptographie beaucoup plus complexe.
+                L'idée d'exploiter les éléments du tableau périodique m'est alors venue à l'esprit suite à une image que j'avais vu sur internet.<br>
             </div>
 
-            <h2>Comment l'avons nous réalisé ?</h2>
+            <h2>Comment l'ai-je réalisé ?</h2>
 
             <p>
-                Nous avons commencé par nous répartir les potentielles tâches.<br>
-                J'étais en charge des illustrations ainsi que de la programmation du Paralax 
-                (l'arrière plan qui bouge grâce à la souris).
+                J'ai utilisé Python et j'ai hébergé la librairie sur PyPI.<br>
+                Pour la cryptographie j'ai écrit un processus de chiffrement et de déchiffrement utilisant les informations d'un élément atomique et 
+                la <a target="_blank" href="https://fr.wikipedia.org/wiki/Chiffre_de_Vigen%C3%A8re#La_table_de_Vigen%C3%A8re">table de Vinegère</a>.<br>
             </p>
         </div>
 
@@ -45,9 +45,9 @@
             <TitreSectionComp titre="Quelques images" />
 
             <div id="cont">
-                <ImgComp imgName="Atlas/accueil.png" desc="Page d'accueil" />
+                <ImgComp imgName="Periodic/meme.png" desc="L'image qui m'a inspiré" />
 
-                <ImgComp imgName="Atlas/planete.png" desc="Page d'information sur une planète" />
+                <ImgComp imgName="Periodic/exemple.png" desc="Exemple de chiffrement-déchiffrement" />
             </div>
         </div>
 

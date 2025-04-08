@@ -21,8 +21,8 @@
                 C'est un jeu de logique où le joueur doit appuyer sur des interrupteurs selon les règles spécifiques<br>
 
                 <a target="_blank" class="btn btn-secondary" href="https://github.com/NilsMT/Just-Flick-It">
-                    Lien vers le git
-                    <span data-v-3a6ff9f5="" class="material-symbols-outlined">open_in_new</span>
+                    Lien vers le dépôt Git
+                    <span class="material-symbols-outlined">open_in_new</span>
                 </a>
             </p>
 

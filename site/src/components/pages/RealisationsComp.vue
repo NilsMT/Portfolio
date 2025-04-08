@@ -2,37 +2,19 @@
     <div id="realisations">
         <TitreSectionComp titre="Réalisations" />
 
-        <h2 v-if="Object.keys(dico_real_jv).length>0">Jeux-vidéos</h2>
+        <div v-for="(label, type) in realisationTypes" :key="type">
+            <h2>{{ label }}</h2>
 
-        <div class="real_cont">
-            <RealComp v-for="(real, key) in dico_real_jv" :key="key" 
-                :imgName="real.imgName" 
-                :titre="key" 
-                :desc="real.desc" 
-                :destination="real.destination"
-            />
-        </div>
-
-        <h2 v-if="Object.keys(dico_real_web).length>0">Applications web</h2>
-
-        <div class="real_cont">
-            <RealComp v-for="(real, key) in dico_real_web" :key="key" 
-                :imgName="real.imgName" 
-                :titre="key" 
-                :desc="real.desc" 
-                :destination="real.destination"
-            />
-        </div>
-
-        <h2 v-if="Object.keys(dico_real_other).length>0">Autres Réalisations</h2>
-
-        <div class="real_cont">
-            <RealComp v-for="(real, key) in dico_real_other" :key="key" 
-                :imgName="real.imgName" 
-                :titre="key" 
-                :desc="real.desc" 
-                :destination="real.destination"
-            />
+            <div class="real_cont">
+                <RealComp
+                v-for="title in realisationsByCategory[type]"
+                :key="title"
+                :imgName="realisations[title].imgName"
+                :titre="title"
+                :desc="realisations[title].desc"
+                :destination="realisations[title].destination"
+                />
+            </div>
         </div>
     </div>
 </template>
@@ -57,15 +39,40 @@ import TitreSectionComp from '../TitreSectionComp.vue'
 import RealComp from '../RealComp.vue'
 import { ref } from 'vue'
 
-const dico_real_web = ref({})
+const realisationTypes = {
+    game: "Jeux-vidéos",
+    web: "Applications web",
+    other: "Autres Réalisations"
+}
 
-const dico_real_jv = ref({})
+const realisations = ref({})
 
-const dico_real_other = ref({})
+const realisationsByCategory = ref({})
 
-const dico_real_final = ref({})
+realisationsByCategory.value = {
+    "game" : [
+        "Just Flick It !",
+        "A.I.P.R",
+        "A.R.C.H",
+        "Z.R.C",
+        "Pastek",
+    ],
+    "web" : [
+        "La Chasse Au Trésor",
+        "EclExt",
+        "NewsRadar",
+        "Antoine Factory",
+        "RGB Stuffs",
+        "ATLAS",
+        "Anime List",
+        "Portfolio"
+    ],
+    "other" : [
+        "Periodic Encryption"
+    ]
+}
 
-dico_real_jv.value = {
+realisations.value = {
     "Just Flick It !": {
         "imgName": "flickit.png",
         "desc": "4<sup>ème</sup> jeu vidéo réalisé seul sur Unity.<br> en développement.",
@@ -91,9 +98,6 @@ dico_real_jv.value = {
         "desc": "Jeu Scratch réalisé au collège puis republié en mars 2023.",
         "destination": "/Pastek"
     },
-}
-
-dico_real_web.value = {
     "La Chasse Au Trésor": {
         "imgName": "chasseautresor.png",
         "desc": "Site réalisé pour une animation de chasse au trésor.",
@@ -133,11 +137,12 @@ dico_real_web.value = {
         "imgName": "portoflio.png",
         "desc": "Eh oui ! Ce portfolio est réalisé des mes propres main pour qu'il me corresponde à 100%.",
         "destination": ""
-    }
-}
-
-dico_real_other.value = {
-    
+    },
+    "Periodic Encryption": {
+        "imgName": "periodic.png",
+        "desc": "Librairie de cryptographie utilisant les éléments du tableau périodique.",
+        "destination": "/PeriodicEncryption"
+    },
 }
 
 export default {
@@ -148,10 +153,9 @@ export default {
     },
     setup() {
         return { 
-            dico_real_jv,
-            dico_real_web,
-            dico_real_other,
-            dico_real_final
+            realisationTypes,
+            realisations,
+            realisationsByCategory
         }
     }
 }

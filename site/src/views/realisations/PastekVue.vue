@@ -22,7 +22,7 @@
                 Mais attention, attraper une pastèque violette fera perdre la partie.<br>
                 <a target="_blank" class="btn btn-secondary" href="https://scratch.mit.edu/projects/825278397/">
                     Lien vers le jeu
-                    <span data-v-3a6ff9f5="" class="material-symbols-outlined">open_in_new</span>
+                    <span  class="material-symbols-outlined">open_in_new</span>
                 </a>
             </p>
 

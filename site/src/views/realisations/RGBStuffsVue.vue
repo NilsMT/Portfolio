@@ -20,7 +20,7 @@
                 RGB Stuffs est un site qui regroupe des outils de calculs pour des couleurs, pour obtenir la couleur complémentaire d'une autre.<br>
                 <a target="_blank" class="btn btn-secondary" href="https://nilsmt.github.io/NilsDoesStuff/rgbstuff/">
                     Lien vers le site web
-                    <span data-v-3a6ff9f5="" class="material-symbols-outlined">open_in_new</span>
+                    <span  class="material-symbols-outlined">open_in_new</span>
                 </a>
             </p>
 

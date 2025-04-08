@@ -24,7 +24,7 @@
 
                 <a target="_blank" class="btn btn-secondary" href="https://www.roblox.com/games/7096759234/V2-Zenium-Research-Center">
                     Lien vers le jeu
-                    <span data-v-3a6ff9f5="" class="material-symbols-outlined">open_in_new</span>
+                    <span  class="material-symbols-outlined">open_in_new</span>
                 </a>
             </p>
 

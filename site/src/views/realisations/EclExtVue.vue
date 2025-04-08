@@ -21,7 +21,7 @@
                 Il permet la standardisation d'un fichier de données de points lumineux.<br>
                 <a target="_blank" class="btn btn-secondary" href="https://www.lobservatoiredelanuit.fr/EclExt/">
                     Lien vers l'outil
-                    <span data-v-3a6ff9f5="" class="material-symbols-outlined">open_in_new</span>
+                    <span  class="material-symbols-outlined">open_in_new</span>
                 </a>
             </p>
 

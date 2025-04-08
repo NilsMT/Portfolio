@@ -20,8 +20,8 @@
                 NewsRadar est un site réalisé pour une SAE (Projet de validation d'un semestre), en groupe de 5.<br>
                 Il permet de faire une recherche géolocalisée d'articles de presse.<br>
                 <a target="_blank" class="btn btn-secondary" href="https://github.com/NilsMT/NewsRadar">
-                    Lien vers le GitHub
-                    <span data-v-3a6ff9f5="" class="material-symbols-outlined">open_in_new</span>
+                    Lien vers le dépôt Git
+                    <span class="material-symbols-outlined">open_in_new</span>
                 </a>
             </p>
 
