@@ -30,6 +30,7 @@
             <SkillComp imgName="prog_lang/react.svg" titre="React"/>
             <SkillComp imgName="prog_lang/csharp.png" titre="C#"/>
             <SkillComp imgName="prog_lang/c++.png" titre="C++"/>
+            <SkillComp imgName="prog_lang/ocaml.png" titre="Ocaml"/>
         </div>
 
         <h2>Outils & Logiciels</h2>
