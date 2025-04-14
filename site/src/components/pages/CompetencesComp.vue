@@ -31,6 +31,7 @@
             <SkillComp imgName="prog_lang/csharp.png" titre="C#"/>
             <SkillComp imgName="prog_lang/c++.png" titre="C++"/>
             <SkillComp imgName="prog_lang/ocaml.png" titre="Ocaml"/>
+            <SkillComp imgName="prog_lang/angular.png" titre="Angular"/>
         </div>
 
         <h2>Outils & Logiciels</h2>
