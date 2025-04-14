@@ -23,7 +23,6 @@
             <SkillComp imgName="prog_lang/py.png" titre="Python"/>
             <SkillComp imgName="prog_lang/kt.png" titre="Kotlin"/>
             <SkillComp imgName="prog_lang/lua.png" titre="Lua"/>
-            <SkillComp imgName="prog_lang/latex.png" titre="LaTeX"/>
             <SkillComp imgName="prog_lang/bash.png" titre="Bash"/>
             <SkillComp imgName="prog_lang/mongodb.svg" titre="MongoDB"/>
             <SkillComp imgName="prog_lang/php.svg" titre="PHP"/>
