@@ -16,21 +16,21 @@
             <SkillComp imgName="prog_lang/html.png" titre="HTML"/>
             <SkillComp imgName="prog_lang/css.png" titre="CSS"/>
             <SkillComp imgName="prog_lang/js.png" titre="JavaScript"/>
+            <SkillComp imgName="prog_lang/ts.png" titre="TypeScript"/>
             <SkillComp imgName="prog_lang/node.png" titre="Node.js"/>
             <SkillComp imgName="prog_lang/vuejs.png" titre="Vue.js"/>
+            <SkillComp imgName="prog_lang/php.svg" titre="PHP"/>
+            <SkillComp imgName="prog_lang/react.svg" titre="React"/>
+            <SkillComp imgName="prog_lang/angular.png" titre="Angular"/>
             <SkillComp imgName="prog_lang/brainfuck.png" titre="Brainfuck"/>
             <SkillComp imgName="prog_lang/sqldev.png" titre="SQL"/>
+            <SkillComp imgName="prog_lang/mongodb.svg" titre="MongoDB"/>
             <SkillComp imgName="prog_lang/py.png" titre="Python"/>
             <SkillComp imgName="prog_lang/kt.png" titre="Kotlin"/>
             <SkillComp imgName="prog_lang/lua.png" titre="Lua"/>
-            <SkillComp imgName="prog_lang/bash.png" titre="Bash"/>
-            <SkillComp imgName="prog_lang/mongodb.svg" titre="MongoDB"/>
-            <SkillComp imgName="prog_lang/php.svg" titre="PHP"/>
-            <SkillComp imgName="prog_lang/react.svg" titre="React"/>
             <SkillComp imgName="prog_lang/csharp.png" titre="C#"/>
             <SkillComp imgName="prog_lang/c++.png" titre="C++"/>
             <SkillComp imgName="prog_lang/ocaml.png" titre="Ocaml"/>
-            <SkillComp imgName="prog_lang/angular.png" titre="Angular"/>
         </div>
 
         <h2>Outils & Logiciels</h2>
