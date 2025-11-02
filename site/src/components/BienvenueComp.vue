@@ -1,20 +1,17 @@
 <template>
     <div id="grille">
         <div id="img">
-            <img src="../assets/img/Bienvenue/nils.png" alt="Photo de Nils Moreau--Thomas">
+            <img src="../assets/img/Bienvenue/nils.png" />
         </div>
 
         <div id="txt">
-            <span id="mynameis">
-                Je m'appelle
-            </span>
+            <span id="mynameis"> Je m'appelle </span>
 
-            <span id="name">
-                Nils Moreau--Thomas
-            </span>
+            <span id="name"> Nils Moreau--Thomas </span>
 
             <span id="dev">
-                Et je suis un étudiant passionné par le <span class="text-primary">développement informatique</span>
+                Et je suis un étudiant passionné par le
+                <span class="text-primary">développement informatique</span>
             </span>
         </div>
     </div>
@@ -28,7 +25,7 @@
     gap: 0px 0px;
 
     max-width: 100vw;
-    
+
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
@@ -70,10 +67,8 @@
     justify-content: right;
     align-items: center;
 
-    filter: grayscale(1) 
-        drop-shadow(2px 0px 0px #fff)
-        drop-shadow(-2px 0px 0px #fff)
-        drop-shadow(0px 2px 0px #fff)
+    filter: grayscale(1) drop-shadow(2px 0px 0px #fff)
+        drop-shadow(-2px 0px 0px #fff) drop-shadow(0px 2px 0px #fff)
         drop-shadow(0px -2px 0px #fff);
 
     height: 60vh;
@@ -83,7 +78,7 @@
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-    
+
     border-radius: 1rem;
 }
 
@@ -109,6 +104,6 @@
 
 <script>
 export default {
-    name: 'BienvenuComp',
-}
+    name: "BienvenuComp",
+};
 </script>
