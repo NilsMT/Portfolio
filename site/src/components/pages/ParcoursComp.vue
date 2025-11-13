@@ -12,8 +12,9 @@
                     Le diplôme d'ingénieur IMAC m'a permis de continuer le
                     développement web tout en acquérant des compétences
                     créatives en audiovisuel, 3D, photographie, image,
-                    multimédia. Ce diplôme me permet d'exprimer ma créativité
-                    tout en préparant un diplôme d'ingénieur<br />
+                    multimédia. <br />
+                    Ce diplôme me permet d'exprimer ma créativité tout en
+                    préparant un diplôme d'ingénieur<br />
                     (avec également le TOEIC et la certification Voltaire).
                 </p>
             </ChronologieComp>
