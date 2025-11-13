@@ -13,8 +13,8 @@
                     développement web tout en acquérant des compétences
                     créatives en audiovisuel, 3D, photographie, image,
                     multimédia. Ce diplôme me permet d'exprimer ma créativité
-                    tout en préparant un diplôme d'ingénieur (avec également le
-                    TOEIC et la certification Voltaire).
+                    tout en préparant un diplôme d'ingénieur<br />
+                    (avec également le TOEIC et la certification Voltaire).
                 </p>
             </ChronologieComp>
 
@@ -29,10 +29,8 @@
                     développement d'applications web et mobiles, l'architecture
                     réseaux, et la sécurité informatique. <br />
                     Cette formation m'a également offert l'opportunité de
-                    découvrir le monde de l'entreprise grâce à un stage en 2<sup
-                        >ème</sup
-                    >
-                    année.
+                    découvrir le monde de l'entreprise grâce à un stage en 2
+                    <sup>ème</sup> année.
                 </p>
             </ChronologieComp>
 
