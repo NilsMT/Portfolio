@@ -1,17 +1,34 @@
 <template>
     <div id="real">
-        <img :src="'./assets/img/Realisations/'+imgName" id="img" :alt="'img_'+imgName" />
+        <img
+            :src="'./assets/img/Realisations/' + imgName"
+            id="img"
+            :alt="'img_' + imgName"
+        />
 
         <div id="content">
             <div id="titre">{{ titre }}</div>
             <div id="hidden_content">
                 <div id="desc" v-html="desc"></div>
-                <RouterLink id="link" class="btn btn-accent" v-if="destination" :to="destination">
+                <RouterLink
+                    id="link"
+                    class="btn btn-accent"
+                    v-if="destination && !isExternal"
+                    :to="destination"
+                >
                     Détails
-                    <span class="material-symbols-outlined">
-                        open_in_new
-                    </span>
+                    <span class="material-symbols-outlined"> open_in_new </span>
                 </RouterLink>
+
+                <a
+                    v-else-if="destination && isExternal"
+                    id="link"
+                    class="btn btn-accent"
+                    :href="destination"
+                >
+                    Détails
+                    <span class="material-symbols-outlined"> open_in_new </span>
+                </a>
             </div>
         </div>
     </div>
@@ -53,9 +70,8 @@
     gap: var(--gap);
 
     text-align: center;
-    
+
     backdrop-filter: blur(5px);
-    
 
     padding: calc(var(--padding) / 2);
 }
@@ -104,15 +120,14 @@
     backdrop-filter: blur(0.5px);
     background-color: transparent;
 }
-
-
 </style>
 
 <script>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from "vue-router";
+import { computed } from "vue";
 
 export default {
-    name: 'RealComp',
+    name: "RealComp",
     components: {
         RouterLink,
     },
@@ -132,7 +147,15 @@ export default {
         destination: {
             type: String,
             required: false,
-        }
-    }
-}
+        },
+    },
+
+    setup(props) {
+        const isExternal = computed(() =>
+            props.destination?.startsWith("http")
+        );
+
+        return { isExternal };
+    },
+};
 </script>
