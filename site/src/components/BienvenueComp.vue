@@ -1,7 +1,7 @@
 <template>
     <div id="grille">
         <div id="img">
-            <img src="../assets/img/Bienvenue/nils.png" />
+            <img src="../assets/img/Bienvenue/page_logo.png" />
         </div>
 
         <div id="txt">
@@ -67,10 +67,11 @@
     justify-content: right;
     align-items: center;
 
+    /*
     filter: grayscale(1) drop-shadow(2px 0px 0px #fff)
         drop-shadow(-2px 0px 0px #fff) drop-shadow(0px 2px 0px #fff)
         drop-shadow(0px -2px 0px #fff);
-
+    */
     height: 60vh;
 }
 
