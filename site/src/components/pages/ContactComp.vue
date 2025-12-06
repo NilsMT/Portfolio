@@ -34,7 +34,7 @@
             </a>
 
             <a class="btn btn-primary" href="./CV_Nils_Moreau--Thomas.pdf">
-                <i class="fa-brands fa-linkedin"></i>
+                <span class="material-symbols-outlined"> description </span>
                 Mon CV
             </a>
         </div>
