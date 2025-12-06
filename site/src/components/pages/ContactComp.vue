@@ -3,7 +3,10 @@
         <TitreSectionComp titre="Contacts & liens" />
 
         <div id="contact_cont">
-            <a class="btn btn-primary txt-selectable" href="mailto:nilsmoreauthomas@gmail.com">
+            <a
+                class="btn btn-primary txt-selectable"
+                href="mailto:nilsmoreauthomas@gmail.com"
+            >
                 <i class="fa-solid fa-envelope"></i>
                 nilsmoreauthomas@gmail.com
             </a>
@@ -22,9 +25,17 @@
                 Mon Github
             </a>
 
-            <a class="btn btn-primary" href="https://www.linkedin.com/in/nils-moreau-thomas-2b7a95259/">
+            <a
+                class="btn btn-primary"
+                href="https://www.linkedin.com/in/nils-moreau-thomas-2b7a95259/"
+            >
                 <i class="fa-brands fa-linkedin"></i>
                 Mon LinkedIn
+            </a>
+
+            <a class="btn btn-primary" href="./CV_Nils_Moreau--Thomas.pdf">
+                <i class="fa-brands fa-linkedin"></i>
+                Mon CV
             </a>
         </div>
     </div>
@@ -55,12 +66,12 @@
 </style>
 
 <script>
-import TitreSectionComp from '../TitreSectionComp.vue'
+import TitreSectionComp from "../TitreSectionComp.vue";
 
 export default {
-    name: 'ContactComp',
+    name: "ContactComp",
     components: {
-        TitreSectionComp
+        TitreSectionComp,
     },
-}
+};
 </script>

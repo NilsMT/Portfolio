@@ -2,8 +2,7 @@
     <div id="presentation">
         <TitreSectionComp titre="Présentation" />
         <p>
-            Bonjour, je m'appelle
-            <span class="text-secondary">Nils Moreau--Thomas</span> et j'ai
+            Bonjour, je m'appelle <strong>Nils Moreau--Thomas</strong> et j'ai
             {{ age }} ans.<br />
             Développeur web passionné, je suis actuellement en diplôme
             d'ingénieur IMAC à l'ESIEE Paris.<br />
