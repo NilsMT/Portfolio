@@ -8,7 +8,6 @@
 </template>
 
 <style>
-
 #video_cont {
     display: flex;
     flex-direction: column;
@@ -26,22 +25,23 @@
     border-radius: var(--radius);
 }
 
-#video > iframe {
+#video > * {
     aspect-ratio: 16 / 9;
     width: 100%;
     height: auto;
     border-radius: var(--radius);
+    background-color: black;
 }
 </style>
 
 <script>
 export default {
-    name: 'VideoComp',
+    name: "VideoComp",
     props: {
         desc: {
             type: String,
             required: true,
-        }
-    }
-}
+        },
+    },
+};
 </script>

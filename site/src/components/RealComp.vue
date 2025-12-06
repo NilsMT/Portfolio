@@ -1,5 +1,12 @@
 <template>
-    <div id="real">
+    <a
+        id="real"
+        :href="destination"
+        :title="
+            isExternal == true ? 'Voir dans un nouvel onglet' : 'Voir le projet'
+        "
+        :target="isExternal == true ? '_blank' : '_self'"
+    >
         <img
             :src="'./assets/img/Realisations/' + imgName"
             id="img"
@@ -10,38 +17,21 @@
             <div id="titre">{{ titre }}</div>
             <div id="hidden_content">
                 <div id="desc" v-html="desc"></div>
-                <RouterLink
-                    id="link"
-                    class="btn btn-accent"
-                    v-if="destination && !isExternal"
-                    :to="destination"
-                >
-                    Détails
-                    <span class="material-symbols-outlined"> open_in_new </span>
-                </RouterLink>
-
-                <a
-                    v-else-if="destination && isExternal"
-                    id="link"
-                    class="btn btn-accent"
-                    :href="destination"
-                >
-                    Détails
-                    <span class="material-symbols-outlined"> open_in_new </span>
-                </a>
             </div>
         </div>
-    </div>
+    </a>
 </template>
 
 <style scoped>
 #real {
     width: 275px;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1.15;
     position: relative;
 
     background-color: var(--bg-light);
     border-radius: var(--radius);
+
+    overflow: hidden;
 }
 
 #real > * {
@@ -71,29 +61,29 @@
 
     text-align: center;
 
-    backdrop-filter: blur(5px);
-
     padding: calc(var(--padding) / 2);
 }
 
 /* Theme */
-:root.light #content {
+:root.light #real:hover #content {
     background-color: #fff5;
 }
 
-:root.dark #content {
+:root.dark #real:hover #content {
     background-color: #0005;
 }
 
 /* Content items*/
 
 #hidden_content {
-    opacity: 1;
+    opacity: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: var(--gap);
+
+    height: 100%;
 }
 
 #titre {
@@ -108,17 +98,24 @@
 #desc {
     opacity: 0.75;
     text-align: left;
+    width: 100%;
+    overflow-y: auto;
 }
 
 /* interaction */
 
-#real:not(:hover) #hidden_content {
-    opacity: 0;
+#real:hover {
+    z-index: 1;
+    box-shadow: 0px 0px 20px var(--text);
 }
 
-#real:not(:hover) #content {
-    backdrop-filter: blur(0.5px);
-    background-color: transparent;
+#real:hover #img {
+    transform: scale(1.2);
+    filter: blur(4px);
+}
+
+#real:hover #hidden_content {
+    opacity: 1;
 }
 </style>
 

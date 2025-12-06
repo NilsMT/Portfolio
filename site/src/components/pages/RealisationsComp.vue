@@ -50,7 +50,16 @@ const realisations = ref({});
 const realisationsByCategory = ref({});
 
 realisationsByCategory.value = {
-    game: ["Just Flick It !", "A.I.P.R", "A.R.C.H", "Z.R.C", "Pastek"],
+    game: [
+        "Just Flick It !",
+        "A.I.P.R",
+        "A.R.C.H",
+        "Z.R.C",
+        "Pastek",
+        "Projet Particule",
+        "Puissance Quatre",
+        "Pickomino",
+    ],
     web: [
         "La Chasse Au Trésor",
         "EclExt",
@@ -60,8 +69,16 @@ realisationsByCategory.value = {
         "ATLAS",
         "Anime List",
         "Portfolio",
+        "Traducteur Kumarite",
     ],
-    other: ["Periodic Encryption", "Et plus encore !"],
+    other: [
+        "Periodic Encryption",
+        "Catificator",
+        "Medok",
+        "Automate",
+        "24H du Mapping 2025",
+        "Et plus encore !",
+    ],
 };
 
 realisations.value = {
@@ -102,7 +119,7 @@ realisations.value = {
     },
     NewsRadar: {
         imgName: "newsradar.png",
-        desc: "Site de recherche géalocalisée d'articles de presse .<br> Projet de fin de 2<sup>ème</sup> année de BUT.",
+        desc: "Site de recherche géalocalisée d'articles de presse.<br> Projet de fin de 2<sup>ème</sup> année de BUT.",
         destination: "/NewsRadar",
     },
     "Antoine Factory": {
@@ -135,6 +152,46 @@ realisations.value = {
         desc: "Librairie de cryptographie utilisant les éléments du tableau périodique.",
         destination: "/PeriodicEncryption",
     },
+    "Projet Particule": {
+        imgName: "projetparticule.png",
+        desc: "Système de particule en Go.<br> Projet de fin de 1<sup>ère</sup> année de BUT.",
+        destination: "/ProjetParticule",
+    },
+    "Puissance Quatre": {
+        imgName: "puissancequatre.png",
+        desc: "Jeu de Puissance Quatre en ligne.<br> Projet de 2<sup>ème</sup> année de BUT.",
+        destination: "/PuissanceQuatre",
+    },
+    Pickomino: {
+        imgName: "pickomino.png",
+        desc: "Transformation du jeu de société en un jeu vidéo.<br> Projet de fin de 2<sup>ème</sup> année de BUT.",
+        destination: "/Pickomino",
+    },
+    "Traducteur Kumarite": {
+        imgName: "traducteurkumarite.png",
+        desc: "Site qui traduit une langue inventée, et raconte une histoire.<br> Workshop de 1<sup>ère</sup> année d'IMAC.",
+        destination: "/TraducteurKumarite",
+    }, //TODO: Text (add two links: one to the site, one to text) + link to glyphr
+    Catificator: {
+        imgName: "catificator.jpg",
+        desc: "Une extension web qui remplace toutes les images par des chats.",
+        destination: "/Catificator",
+    }, //TODO: Text
+    Medok: {
+        imgName: "medok.png",
+        desc: "Application de suivi de traitement médical.<br> Projet de 3<sup>ème</sup> année de BUT.",
+        destination: "/Medok",
+    }, //TODO: Text
+    Automate: {
+        imgName: "automate.png",
+        desc: "Simulation d'automate écrit en Kotlin.<br> Projet de 2<sup>ème</sup> année de BUT.",
+        destination: "/Automate",
+    }, //TODO: Text
+    "24H du Mapping 2025": {
+        imgName: "24hmapping2025.png",
+        desc: "Projet de mapping réalisé en duo en 24 heures.",
+        destination: "/24HMapping2025",
+    }, //TODO: Img + Text
     "Et plus encore !": {
         imgName: "github.png",
         desc: "Mon profil GitHub regorge d’autres projets, jetez-y un œil !",

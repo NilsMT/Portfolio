@@ -28,7 +28,7 @@
 
             <h2>Pourquoi l'ai-je fait ?</h2>
 
-            <div id="res">
+            <p>
                 J'ai commencé ce projet en demandant à une communauté de développeurs, quelles seraient les pires idées pour un "Core Game".<br>
                 Le résultat de cette question : 
                 <ul>
@@ -38,7 +38,7 @@
                 </ul>
 
                 Et j'ai décidé de le réaliser.<br>
-            </div>
+            </p>
 
             <h2>Comment l'ai-je réalisé ?</h2>
 

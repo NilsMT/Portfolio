@@ -87,17 +87,13 @@ p {
 }
 /* Icons */
 
-
 .material-symbols-outlined {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 24;
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
-
-.material-icons,.material-icons-outlined,.material-symbols-outlined {
+.material-icons,
+.material-icons-outlined,
+.material-symbols-outlined {
     vertical-align: top;
 }
 
@@ -115,7 +111,8 @@ h3 {
     font-size: calc(var(--text-size) * 1.17);
 }
 
-sup, sub {
+sup,
+sub {
     font-size: calc(var(--text-size) / 1.5);
 }
 

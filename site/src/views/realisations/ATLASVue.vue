@@ -1,14 +1,20 @@
 <template>
     <div id="realisation">
         <HeaderComp>
-            <router-link class="btn btn-normal" to="/#realisations" title="Accueil">
-                <span class="material-symbols-outlined">
-                    home
-                </span>
+            <router-link
+                class="btn btn-normal"
+                to="/#realisations"
+                title="Accueil"
+            >
+                <span class="material-symbols-outlined"> home </span>
             </router-link>
 
-            <a href="#à-propos" target="_self" class="btn btn-normal">À propos du projet</a>
-            <a href="#images" target="_self" class="btn btn-normal">Quelques images</a>
+            <a href="#à-propos" target="_self" class="btn btn-normal"
+                >À propos du projet</a
+            >
+            <a href="#images" target="_self" class="btn btn-normal"
+                >Quelques images</a
+            >
         </HeaderComp>
 
         <div class="section" id="à-propos">
@@ -17,29 +23,37 @@
             <h2>Qu'est-ce que c'est ?</h2>
 
             <p>
-                Atlas est un projet dans le cadre d'une matière à l'IUT nommée Communication Professionnelle.<br>
-                C'est un site web ayant pour thème le système solaire.<br>
-                <a target="_blank" class="btn btn-secondary" href="https://bastianmary.github.io/ATLAS/">
+                Atlas est un projet dans le cadre d'une matière à l'IUT nommée
+                Communication Professionnelle.<br />
+                C'est un site web ayant pour thème le système solaire.<br />
+                <a
+                    target="_blank"
+                    class="btn btn-secondary"
+                    href="https://bastianmary.github.io/ATLAS/"
+                >
                     Lien vers le site web
-                    <span  class="material-symbols-outlined">open_in_new</span>
+                    <span class="material-symbols-outlined">open_in_new</span>
                 </a>
             </p>
 
             <h2>Pourquoi l'avons-nous fait ?</h2>
 
-            <div id="res">
-                Dans le cadre de la matière Communication Professionnelle, nous devions réaliser un site web pour une entreprise fictive de notre choix.<br>
-            </div>
+            <p>
+                Dans le cadre de la matière Communication Professionnelle, nous
+                devions réaliser un site web pour une entreprise fictive de
+                notre choix.<br />
+            </p>
 
             <h2>Comment l'avons nous réalisé ?</h2>
 
             <p>
-                Nous avons commencé par nous répartir les potentielles tâches.<br>
-                J'étais en charge des illustrations ainsi que de la programmation du Paralax 
-                (l'arrière plan qui bouge grâce à la souris).
+                Nous avons commencé par nous répartir les potentielles
+                tâches.<br />
+                J'étais en charge des illustrations ainsi que de la
+                programmation du Paralax (l'arrière plan qui bouge grâce à la
+                souris).
             </p>
         </div>
-
 
         <div class="section" id="images">
             <TitreSectionComp titre="Quelques images" />
@@ -47,16 +61,21 @@
             <div id="cont">
                 <ImgComp imgName="Atlas/accueil.png" desc="Page d'accueil" />
 
-                <ImgComp imgName="Atlas/planete.png" desc="Page d'information sur une planète" />
+                <ImgComp
+                    imgName="Atlas/planete.png"
+                    desc="Page d'information sur une planète"
+                />
             </div>
         </div>
 
         <div class="section" id="accueil">
-            <router-link class="btn btn-primary" to="/#realisations" title="Accueil">
+            <router-link
+                class="btn btn-primary"
+                to="/#realisations"
+                title="Accueil"
+            >
                 Retour à l'accueil
-                <span class="material-symbols-outlined">
-                    home
-                </span>
+                <span class="material-symbols-outlined"> home </span>
             </router-link>
         </div>
 
@@ -97,8 +116,6 @@ a:not(.btn):hover {
     text-decoration: underline;
 }
 
-
-
 #res {
     line-height: 1.5;
 
@@ -109,13 +126,13 @@ a:not(.btn):hover {
 </style>
 
 <script>
-import { RouterLink } from 'vue-router'
+import { RouterLink } from "vue-router";
 
-import HeaderComp from '../../components/HeaderComp.vue'
-import FooterComp from '../../components/FooterComp.vue'
-import TitreSectionComp from '../../components/TitreSectionComp.vue'
+import HeaderComp from "../../components/HeaderComp.vue";
+import FooterComp from "../../components/FooterComp.vue";
+import TitreSectionComp from "../../components/TitreSectionComp.vue";
 
-import ImgComp from '../../components/ImgComp.vue'
+import ImgComp from "../../components/ImgComp.vue";
 
 export default {
     components: {
@@ -123,7 +140,7 @@ export default {
         HeaderComp,
         FooterComp,
         TitreSectionComp,
-        ImgComp
-    }
-}
+        ImgComp,
+    },
+};
 </script>
