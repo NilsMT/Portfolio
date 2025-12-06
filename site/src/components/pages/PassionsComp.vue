@@ -106,6 +106,11 @@ img {
     width: calc(100% - (10px * 2));
 }
 
+#outerwild {
+    border: 10px solid var(--accent);
+    width: calc(100% - (10px * 2));
+}
+
 #creation {
     border: 10px solid var(--primary);
     width: calc(100% - (10px * 2));
