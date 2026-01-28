@@ -96,7 +96,9 @@
 }
 
 #desc {
-    opacity: 0.75;
+    text-shadow: 0 0 5px var(--opptext);
+    opacity: 1;
+    font-weight: bold;
     text-align: left;
     width: 100%;
     overflow-y: auto;
@@ -149,7 +151,7 @@ export default {
 
     setup(props) {
         const isExternal = computed(() =>
-            props.destination?.startsWith("http")
+            props.destination?.startsWith("http"),
         );
 
         return { isExternal };

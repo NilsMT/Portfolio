@@ -30,7 +30,7 @@
                 <a
                     target="_blank"
                     class="btn btn-secondary"
-                    href="https://traducteur-kumarite.vercel.app"
+                    href="https://imac-wk-exp-et-ecriture.vercel.app"
                 >
                     Lien vers le site web
                     <span class="material-symbols-outlined">open_in_new</span>
