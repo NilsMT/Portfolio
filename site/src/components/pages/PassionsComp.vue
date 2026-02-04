@@ -22,16 +22,6 @@
         </p>
 
         <p>
-            Mais mon jeu favori reste Outer Wild.<br />
-            Dans ce jeu, nous somme bloqué dans une boucle temporelle et nous
-            explorons l'espace dans le but de satisfaire notre curiosité.<br />
-            J'adore le fait d'être libre de choisir ce que je fais, et le fait
-            de, factuellement, pouvoir finir le jeu en une boucle, mais il nous
-            manque le savoir.<br />"30 heures pour finir le jeu en 22 minutes."
-            <img id="outerwild" src="../../assets/img/Passions/outerwild.png" />
-        </p>
-
-        <p>
             Je suis aussi friand des jeux sandbox, en particulier Roblox et
             Minecraft.<br />
             Parce qu'ils proposent une grande variété de modes de jeux et de
@@ -48,6 +38,17 @@
             récompensés, et c'est pour cela que j'écris, je dessine, je
             programme, je construis et je modélise.
             <img id="creation" src="../../assets/img/Passions/dessin.png" />
+        </p>
+
+        <h2>L'urbex</h2>
+
+        <p>
+            L'urbex, ou exploration urbaine, est une activité qui consiste à
+            visiter des lieux abandonnés ou insolites.<br />
+            J'aime beaucoup cette activité car elle me permet de découvrir des
+            endroits uniques et de capturer leur beauté à travers la
+            photographie.<br />
+            <img src="../../assets/img/Passions/urbex.jpg" />
         </p>
 
         <h2>La culture japonaise</h2>
@@ -103,11 +104,6 @@ img {
 
 #genshin {
     border: 10px solid var(--secondary);
-    width: calc(100% - (10px * 2));
-}
-
-#outerwild {
-    border: 10px solid var(--accent);
     width: calc(100% - (10px * 2));
 }
 
