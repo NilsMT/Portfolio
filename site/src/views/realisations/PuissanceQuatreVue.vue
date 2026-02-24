@@ -24,8 +24,8 @@
 
             <p>
                 Puissance Quatre est une adaptation du jeu de société éponyme en
-                une version numérique réalisé pour une SAE (Projet de validation
-                d'un semestre), en individuel.<br />
+                une version numérique en ligne réalisé pour une SAE (Projet de
+                validation d'un semestre), en individuel.<br />
                 <a
                     target="_blank"
                     class="btn btn-secondary"
@@ -40,8 +40,8 @@
 
             <p>
                 Cette SAE avait pour objectif de nous faire réaliser une
-                application client communiquant avec un serveur (fourni) et un
-                autre client.
+                application client (fourni) communiquant avec un serveur
+                (fourni) et un autre client.
             </p>
 
             <h2>Comment l'ai-je réalisé ?</h2>

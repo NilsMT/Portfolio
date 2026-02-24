@@ -55,7 +55,6 @@ realisationsByCategory.value = {
         "A.I.P.R",
         "A.R.C.H",
         "Z.R.C",
-        "Pastek",
         "Projet Particule",
         "Puissance Quatre",
         "Pickomino",
@@ -101,11 +100,6 @@ realisations.value = {
         imgName: "zrc.png",
         desc: "1<sup>er</sup> jeu vidéo réalisé sur Roblox avec 2 personnes.<br>Développement terminé en 2024.",
         destination: "/ZRC",
-    },
-    Pastek: {
-        imgName: "pastek.png",
-        desc: "Jeu Scratch réalisé au collège puis republié en mars 2023.",
-        destination: "/Pastek",
     },
     "La Chasse Au Trésor": {
         imgName: "chasseautresor.png",
@@ -159,7 +153,7 @@ realisations.value = {
     },
     "Puissance Quatre": {
         imgName: "puissancequatre.png",
-        desc: "Jeu de Puissance Quatre en ligne.<br> Projet de 2<sup>ème</sup> année de BUT.",
+        desc: "Jeu de Puissance Quatre a transformer pour être jouable en ligne.<br> Projet de 2<sup>ème</sup> année de BUT.",
         destination: "/PuissanceQuatre",
     },
     Pickomino: {
