@@ -6,7 +6,7 @@
             <a href="#presentation" target="_self" class="btn btn-normal"
                 >Présentation</a
             >
-            <a href="#Formation" target="_self" class="btn btn-normal"
+            <a href="#formation" target="_self" class="btn btn-normal"
                 >Formation</a
             >
             <a href="#competences" target="_self" class="btn btn-normal"
