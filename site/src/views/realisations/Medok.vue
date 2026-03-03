@@ -101,11 +101,7 @@
         </section>
 
         <section id="accueil">
-            <router-link
-                class="btn btn-primary"
-                to="/#realisations"
-                title="Accueil"
-            >
+            <router-link class="btn btn-primary" to="/#realisations">
                 Retour à l'accueil
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
