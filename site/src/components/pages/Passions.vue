@@ -1,6 +1,6 @@
 <template>
     <div id="passions">
-        <TitreSectionComp titre="Passions" />
+        <TitreSection titre="Passions" />
 
         <h2>Les jeux vidéos</h2>
 
@@ -114,12 +114,12 @@ img {
 </style>
 
 <script>
-import TitreSectionComp from "../TitreSectionComp.vue";
+import TitreSection from "../TitreSection.vue";
 
 export default {
-    name: "PassionsComp",
+    name: "Passions",
     components: {
-        TitreSectionComp,
+        TitreSection,
     },
 };
 </script>

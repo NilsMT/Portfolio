@@ -1,33 +1,33 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Erreur404Vue from "@/views/Erreur404Vue.vue";
-import PortfolioVue from "@/views/PortfolioVue.vue";
-import WIPVue from "@/views/WIPVue.vue";
+import Erreur404 from "@/views/Erreur404.vue";
+import Portfolio from "@/views/Portfolio.vue";
+import WIP from "@/views/WIP.vue";
 
 /* realisation */
 
-import ZRCVue from "@/views/realisations/ZRCVue.vue";
-import ARCHVue from "@/views/realisations/ARCHVue.vue";
-import AIPRVue from "@/views/realisations/AIPRVue.vue";
-import JustFlickItVue from "@/views/realisations/JustFlickItVue.vue";
-import ProjetParticuleVue from "@/views/realisations/ProjetParticuleVue.vue";
-import PuissanceQuatreVue from "@/views/realisations/PuissanceQuatreVue.vue";
-import PickominoVue from "@/views/realisations/PickominoVue.vue";
+import ZRC from "@/views/realisations/ZRC.vue";
+import ARCH from "@/views/realisations/ARCH.vue";
+import AIPR from "@/views/realisations/AIPR.vue";
+import JustFlickIt from "@/views/realisations/JustFlickIt.vue";
+import ProjetParticule from "@/views/realisations/ProjetParticule.vue";
+import PuissanceQuatre from "@/views/realisations/PuissanceQuatre.vue";
+import Pickomino from "@/views/realisations/Pickomino.vue";
 
-import NewsRadarVue from "@/views/realisations/NewsRadarVue.vue";
-import RGBStuffsVue from "@/views/realisations/RGBStuffsVue.vue";
-import EclExtVue from "@/views/realisations/EclExtVue.vue";
-import ChasseAuTresorVue from "@/views/realisations/ChasseAuTresorVue.vue";
-import ATLASVue from "@/views/realisations/ATLASVue.vue";
-import AntoineFactoryVue from "@/views/realisations/AntoineFactoryVue.vue";
-import AnimeListVue from "@/views/realisations/AnimeListVue.vue";
-import TraducteurKumariteVue from "@/views/realisations/TraducteurKumariteVue.vue";
+import NewsRadar from "@/views/realisations/NewsRadar.vue";
+import RGBStuffs from "@/views/realisations/RGBStuffs.vue";
+import EclExt from "@/views/realisations/EclExt.vue";
+import ChasseAuTresor from "@/views/realisations/ChasseAuTresor.vue";
+import ATLAS from "@/views/realisations/ATLAS.vue";
+import AntoineFactory from "@/views/realisations/AntoineFactory.vue";
+import AnimeList from "@/views/realisations/AnimeList.vue";
+import TraducteurKumarite from "@/views/realisations/TraducteurKumarite.vue";
 
-import PeriodicVue from "@/views/realisations/PeriodicVue.vue";
-import CatificatorVue from "@/views/realisations/CatificatorVue.vue";
-import AutomateVue from "@/views/realisations/AutomateVue.vue";
-import MedokVue from "@/views/realisations/MedokVue.vue";
-import _24HMapping2025Vue from "@/views/realisations/_24HMapping2025Vue.vue";
-import DerniereMiseVue from "@/views/realisations/DerniereMiseVue.vue";
+import Periodic from "@/views/realisations/Periodic.vue";
+import Catificator from "@/views/realisations/Catificator.vue";
+import Automate from "@/views/realisations/Automate.vue";
+import Medok from "@/views/realisations/Medok.vue";
+import _24HMapping2025 from "@/views/realisations/_24HMapping2025.vue";
+import DerniereMise from "@/views/realisations/DerniereMise.vue";
 
 const WIPPath = [
     /*"/24HMapping2025"*/
@@ -40,146 +40,146 @@ const router = createRouter({
         {
             path: "/",
             name: "Accueil",
-            component: PortfolioVue,
+            component: Portfolio,
         },
 
         //////////// Réalisations
         {
             path: "/ZRC",
             name: "Z.R.C",
-            component: ZRCVue,
+            component: ZRC,
         },
 
         {
             path: "/ARCH",
             name: "A.R.C.H",
-            component: ARCHVue,
+            component: ARCH,
         },
 
         {
             path: "/AIPR",
             name: "A.I.P.R",
-            component: AIPRVue,
+            component: AIPR,
         },
 
         {
             path: "/JustFlickIt",
             name: "Just Flick It !",
-            component: JustFlickItVue,
+            component: JustFlickIt,
         },
 
         {
             path: "/NewsRadar",
             name: "NewsRadar",
-            component: NewsRadarVue,
+            component: NewsRadar,
         },
 
         {
             path: "/RGBStuffs",
             name: "RGB Stuffs",
-            component: RGBStuffsVue,
+            component: RGBStuffs,
         },
 
         {
             path: "/EclExt",
             name: "EclExt",
-            component: EclExtVue,
+            component: EclExt,
         },
 
         {
             path: "/ChasseAuTresor",
             name: "Chasse Au Trésor",
-            component: ChasseAuTresorVue,
+            component: ChasseAuTresor,
         },
 
         {
             path: "/ATLAS",
             name: "ATLAS",
-            component: ATLASVue,
+            component: ATLAS,
         },
 
         {
             path: "/AntoineFactory",
             name: "Antoine Factory",
-            component: AntoineFactoryVue,
+            component: AntoineFactory,
         },
 
         {
             path: "/AnimeList",
             name: "Anime List",
-            component: AnimeListVue,
+            component: AnimeList,
         },
 
         {
             path: "/PeriodicEncryption",
             name: "Periodic Encryption",
-            component: PeriodicVue,
+            component: Periodic,
         },
 
         {
             path: "/ProjetParticule",
             name: "Projet Particule",
-            component: ProjetParticuleVue,
+            component: ProjetParticule,
         },
 
         {
             path: "/Pickomino",
             name: "Pickomino",
-            component: PickominoVue,
+            component: Pickomino,
         },
 
         {
             path: "/PuissanceQuatre",
             name: "Puissance Quatre",
-            component: PuissanceQuatreVue,
+            component: PuissanceQuatre,
         },
 
         {
             path: "/TraducteurKumarite",
             name: "Traducteur Kumarite",
-            component: TraducteurKumariteVue,
+            component: TraducteurKumarite,
         },
 
         {
             path: "/Catificator",
             name: "Catificator",
-            component: CatificatorVue,
+            component: Catificator,
         },
 
         {
             path: "/Automate",
             name: "Automate",
-            component: AutomateVue,
+            component: Automate,
         },
 
         {
             path: "/Medok",
             name: "Medok",
-            component: MedokVue,
+            component: Medok,
         },
         {
             path: "/24HMapping2025",
             name: "24H du Mapping 2025",
-            component: _24HMapping2025Vue,
+            component: _24HMapping2025,
         },
         {
             path: "/DerniereMise",
             name: "Dernière Mise",
-            component: DerniereMiseVue,
+            component: DerniereMise,
         },
 
         // WIP
         {
             path: "/WIP",
             name: "Page en construction",
-            component: WIPVue,
+            component: WIP,
         },
 
         // Erreur 404 (en dernier)
         {
             path: "/:pathMatch(.*)*",
             name: "Erreur 404",
-            component: Erreur404Vue,
+            component: Erreur404,
         },
     ],
     /* scroll to anchor */

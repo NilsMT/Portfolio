@@ -1,6 +1,6 @@
 <template>
     <div id="implication-sociale">
-        <TitreSectionComp titre="Implication sociale" />
+        <TitreSection titre="Implication sociale" />
 
         <p>
             Depuis 2019 je suis bénévole pour des animations de jeux vidéos à la
@@ -36,12 +36,12 @@ a:not(.btn):hover {
 </style>
 
 <script>
-import TitreSectionComp from "../TitreSectionComp.vue";
+import TitreSection from "../TitreSection.vue";
 
 export default {
-    name: "ImplicationComp",
+    name: "Implication",
     components: {
-        TitreSectionComp,
+        TitreSection,
     },
 };
 </script>

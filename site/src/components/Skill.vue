@@ -3,7 +3,7 @@
         <div id="titre">
             {{ titre }}
         </div>
-        <img :src="'./assets/img/Competences/'+imgName" id="img" :alt="'img_'+imgName">
+        <img :src="'./assets/img/Competences/' + imgName" id="img" alt="" />
     </div>
 </template>
 
@@ -36,7 +36,7 @@
 
 <script>
 export default {
-    name: 'SkillComp',
+    name: "Skill",
     props: {
         imgName: {
             type: String,
@@ -45,7 +45,7 @@ export default {
         titre: {
             type: String,
             required: true,
-        }
-    }
-}
+        },
+    },
+};
 </script>

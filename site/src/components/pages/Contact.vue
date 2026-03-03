@@ -1,6 +1,6 @@
 <template>
     <div id="contacts-et-liens">
-        <TitreSectionComp titre="Contacts & liens" />
+        <TitreSection titre="Contacts & liens" />
 
         <div id="contact_cont">
             <a
@@ -66,12 +66,12 @@
 </style>
 
 <script>
-import TitreSectionComp from "../TitreSectionComp.vue";
+import TitreSection from "../TitreSection.vue";
 
 export default {
-    name: "ContactComp",
+    name: "Contact",
     components: {
-        TitreSectionComp,
+        TitreSection,
     },
 };
 </script>

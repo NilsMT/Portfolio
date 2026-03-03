@@ -10,7 +10,7 @@
                 >Formation</a
             >
             <a href="#competences" target="_self" class="btn btn-normal"
-                >étences</a
+                >Compétences</a
             >
             <a href="#implication-sociale" class="btn btn-normal"
                 >Implication sociale</a
@@ -31,7 +31,7 @@
 
         <Formation class="section"></Formation>
 
-        <etences class="section"></etences>
+        <Competences class="section"></Competences>
 
         <Implication class="section"></Implication>
 
@@ -62,7 +62,7 @@ import Footer from "../components/Footer.vue";
 import Bienvenue from "../components/Bienvenue.vue";
 import Presentation from "../components/pages/Presentation.vue";
 import Formation from "../components/pages/Formation.vue";
-import etences from "../components/pages/etences.vue";
+import Competences from "../components/pages/Competences.vue";
 import Implication from "../components/pages/Implication.vue";
 import Passions from "../components/pages/Passions.vue";
 import Realisations from "../components/pages/Realisations.vue";
@@ -76,7 +76,7 @@ export default {
         Bienvenue,
         Presentation,
         Formation,
-        etences,
+        Competences,
         Implication,
         Passions,
         Realisations,

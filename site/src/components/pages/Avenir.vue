@@ -1,6 +1,6 @@
 <template>
     <div id="avenir">
-        <TitreSectionComp titre="Avenir" />
+        <TitreSection titre="Avenir" />
 
         <h2>Quels métiers ?</h2>
 
@@ -41,12 +41,12 @@
 <style scoped></style>
 
 <script>
-import TitreSectionComp from "../TitreSectionComp.vue";
+import TitreSection from "../TitreSection.vue";
 
 export default {
-    name: "AvenirComp",
+    name: "Avenir",
     components: {
-        TitreSectionComp,
+        TitreSection,
     },
 };
 </script>

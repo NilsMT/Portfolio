@@ -49,7 +49,7 @@ header {
 import { themeStore } from "../assets/js/themeStore.js";
 
 export default {
-    name: "HeaderComp",
+    name: "Header",
     setup() {
         return {
             themeStore,

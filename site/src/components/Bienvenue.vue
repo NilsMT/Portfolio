@@ -105,6 +105,6 @@
 
 <script>
 export default {
-    name: "BienvenuComp",
+    name: "Bienvenu",
 };
 </script>

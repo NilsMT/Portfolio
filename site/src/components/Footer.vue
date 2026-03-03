@@ -51,7 +51,7 @@ const year = ref(0);
 year.value = new Date().getFullYear();
 
 export default {
-    name: "FooterComp",
+    name: "Footer",
     setup() {
         return {
             year,

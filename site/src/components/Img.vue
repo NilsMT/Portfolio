@@ -1,12 +1,11 @@
 <template>
     <div id="img_cont">
-        <img :src="'./assets/img/RealisationsDetails/'+imgName" :alt="desc" />
+        <img :src="'./assets/img/RealisationsDetails/' + imgName" alt="" />
         <div>{{ desc }}</div>
     </div>
 </template>
 
 <style>
-
 #img_cont {
     display: flex;
     flex-direction: column;
@@ -28,7 +27,7 @@ img {
 
 <script>
 export default {
-    name: 'ImgComp',
+    name: "Img",
     props: {
         imgName: {
             type: String,
@@ -37,7 +36,7 @@ export default {
         desc: {
             type: String,
             required: true,
-        }
-    }
-}
+        },
+    },
+};
 </script>

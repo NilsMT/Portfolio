@@ -1,6 +1,6 @@
 <template>
     <div id="presentation">
-        <TitreSectionComp titre="Présentation" />
+        <TitreSection titre="Présentation" />
         <p>
             Bonjour, je m'appelle <strong>Nils Moreau--Thomas</strong> et j'ai
             {{ age }} ans.<br />
@@ -63,7 +63,7 @@
 </style>
 
 <script>
-import TitreSectionComp from "../TitreSectionComp.vue";
+import TitreSection from "../TitreSection.vue";
 import { ref } from "vue";
 
 const age = ref(0);
@@ -82,9 +82,9 @@ if (
 }
 
 export default {
-    name: "PresentationComp",
+    name: "Presentation",
     components: {
-        TitreSectionComp,
+        TitreSection,
     },
     setup() {
         return {

@@ -1,12 +1,12 @@
 <template>
     <div id="realisations">
-        <TitreSectionComp titre="Réalisations" />
+        <TitreSection titre="Réalisations" />
 
         <div v-for="(label, type) in realisationTypes" :key="type">
             <h2>{{ label }}</h2>
 
             <div class="real_cont">
-                <RealComp
+                <Real
                     v-for="title in realisationsByCategory[type]"
                     :key="title"
                     :imgName="realisations[title].imgName"
@@ -35,8 +35,8 @@
 </style>
 
 <script>
-import TitreSectionComp from "../TitreSectionComp.vue";
-import RealComp from "../RealComp.vue";
+import TitreSection from "../TitreSection.vue";
+import Real from "../Real.vue";
 import { ref } from "vue";
 
 const realisationTypes = {
@@ -200,10 +200,10 @@ realisations.value = {
 };
 
 export default {
-    name: "RealisationsComp",
+    name: "Realisations",
     components: {
-        TitreSectionComp,
-        RealComp,
+        TitreSection,
+        Real,
     },
     setup() {
         return {

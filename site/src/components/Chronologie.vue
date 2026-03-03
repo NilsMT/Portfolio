@@ -9,16 +9,15 @@
                 <slot></slot>
             </div>
         </div>
-        
     </div>
 </template>
 
 <style scoped>
 #grid_chrono {
     display: grid;
-    grid-template-areas: 
-    "a t" 
-    "l c";
+    grid-template-areas:
+        "a t"
+        "l c";
     grid-template-columns: min-content auto;
     gap: var(--gap);
 }
@@ -59,9 +58,21 @@
 
 #trait[last="true"] {
     background: var(--text);
-    background: -moz-linear-gradient(180deg, var(--text) 0%, rgba(255,255,255,0) 100%);
-    background: -webkit-linear-gradient(180deg, var(--text) 0%, rgba(255,255,255,0) 100%);
-    background: linear-gradient(180deg, var(--text) 0%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(
+        180deg,
+        var(--text) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background: -webkit-linear-gradient(
+        180deg,
+        var(--text) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background: linear-gradient(
+        180deg,
+        var(--text) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
 }
 
 #cont {
@@ -80,7 +91,7 @@
 
 <script>
 export default {
-    name: 'ChronologieComp',
+    name: "Chronologie",
     props: {
         annee: {
             type: String,
@@ -98,7 +109,7 @@ export default {
         last: {
             type: Boolean,
             default: false,
-        }
-    }
-}
+        },
+    },
+};
 </script>

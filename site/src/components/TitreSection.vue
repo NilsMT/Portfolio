@@ -1,8 +1,6 @@
 <template>
     <h1>
-        <div class="dot">
-
-        </div>
+        <div class="dot"></div>
         <div>
             {{ titre }}
         </div>
@@ -10,37 +8,37 @@
 </template>
 
 <style scoped>
-    h1 {
-        padding: var(--padding);
-        width: fit-content;
+h1 {
+    padding: var(--padding);
+    width: fit-content;
 
-        display: flex;
-        flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
-        justify-content: left;
-        align-items: center;
+    justify-content: left;
+    align-items: center;
 
-        gap: var(--gap);
-    }
+    gap: var(--gap);
+}
 
-    .dot {
-        width: 1.25rem;
-        aspect-ratio: 1/1;
-        border-radius: 100%;
+.dot {
+    width: 1.25rem;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
 
-        background-color: var(--primary);
-        box-shadow: 0px 0px 1rem var(--primary);
-    }
+    background-color: var(--primary);
+    box-shadow: 0px 0px 1rem var(--primary);
+}
 </style>
 
 <script>
 export default {
-    name: 'TitreSectionComp',
+    name: "TitreSection",
     props: {
         titre: {
             type: String,
             required: true,
         },
-    }
-}
+    },
+};
 </script>

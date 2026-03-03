@@ -7,11 +7,7 @@
         "
         :target="isExternal == true ? '_blank' : '_self'"
     >
-        <img
-            :src="'./assets/img/Realisations/' + imgName"
-            id="img"
-            :alt="'img_' + imgName"
-        />
+        <img :src="'./assets/img/Realisations/' + imgName" id="img" alt="" />
 
         <div id="content">
             <div id="titre">{{ titre }}</div>
@@ -126,7 +122,7 @@ import { RouterLink } from "vue-router";
 import { computed } from "vue";
 
 export default {
-    name: "RealComp",
+    name: "Real",
     components: {
         RouterLink,
     },

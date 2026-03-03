@@ -1,9 +1,9 @@
 <template>
     <div id="formation">
-        <TitreSectionComp titre="Formation" />
+        <TitreSection titre="Formation" />
 
         <div id="chrono_cont">
-            <ChronologieComp
+            <Chronologie
                 annee="2028"
                 titre="Ingénieur IMAC"
                 sous_titre="Image Multimédia Audiovisuel Communication"
@@ -14,9 +14,9 @@
                     créatives en audiovisuel, 3D, photographie, image,
                     multimédia.
                 </p>
-            </ChronologieComp>
+            </Chronologie>
 
-            <ChronologieComp
+            <Chronologie
                 annee="2025"
                 titre="BUT Informatique"
                 sous_titre="Parcours Conception, Développement et Validation d'Applications"
@@ -29,9 +29,9 @@
                     Cette formation m'a également offert l'opportunité de
                     découvrir le monde de l'entreprise grâce à 2 stages.
                 </p>
-            </ChronologieComp>
+            </Chronologie>
 
-            <ChronologieComp
+            <Chronologie
                 annee="2022"
                 titre="Bac Technologique STI2D"
                 sous_titre="Option SIN (Système d'Information et Numérique)"
@@ -44,9 +44,9 @@
                     anglophone en 2<sup>nde</sup> et j'ai obtenu mon Bac avec
                     mention assez bien.
                 </p>
-            </ChronologieComp>
+            </Chronologie>
 
-            <ChronologieComp
+            <Chronologie
                 annee="2019"
                 titre="Collège"
                 sous_titre="Option LCE (Langues et Cultures Étrangères)"
@@ -57,7 +57,7 @@
                     développé un intérêt particulier pour l'anglais, renforcé
                     par l'option LCE en 4<sup>ème</sup> et 3<sup>ème</sup>.
                 </p>
-            </ChronologieComp>
+            </Chronologie>
         </div>
     </div>
 </template>
@@ -71,14 +71,14 @@
 </style>
 
 <script>
-import TitreSectionComp from "../TitreSectionComp.vue";
-import ChronologieComp from "../ChronologieComp.vue";
+import TitreSection from "../TitreSection.vue";
+import Chronologie from "../Chronologie.vue";
 
 export default {
-    name: "FormationComp",
+    name: "Formation",
     components: {
-        TitreSectionComp,
-        ChronologieComp,
+        TitreSection,
+        Chronologie,
     },
 };
 </script>
