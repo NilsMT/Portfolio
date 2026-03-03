@@ -1,5 +1,5 @@
 <template>
-    <div id="portfolio">
+    <div id="main">
         <Bienvenue></Bienvenue>
 
         <Header>
@@ -90,7 +90,7 @@
 </template>
 
 <style scoped>
-#portfolio {
+#main {
     gap: 2rem;
     display: flex;
     flex-direction: column;
