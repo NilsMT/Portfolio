@@ -2,7 +2,7 @@
     <div id="cont">
         <div id="code">
             <span>4</span>
-            <img src="../assets/img/Erreur404/think.png" />
+            <img src="../assets/img/Erreur404/dish.png" />
             <span>4</span>
         </div>
 

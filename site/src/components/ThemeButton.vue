@@ -2,6 +2,7 @@
     <div
         class="material-symbols-outlined btn btn-normal"
         id="theme"
+        title="Changer le thème de couleur"
         @click="themeStore.toggleTheme"
     >
         {{ themeStore.currentIcon }}
