@@ -27,7 +27,7 @@
             </a>
         </Header>
 
-        <div class="section" id="à-propos">
+        <section id="à-propos">
             <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
@@ -85,9 +85,9 @@
                 Cependant, nous n'étions pas nombreux pour le réaliser, donc
                 j'ai dû réaliser beaucoup de tâches en autonomie.<br />
             </p>
-        </div>
+        </section>
 
-        <div class="section" id="images">
+        <section id="images">
             <TitreSection titre="Quelques images" />
 
             <div id="cont">
@@ -120,9 +120,9 @@
 
                 <Img imgName="ZRC/trello.png" desc="Le Trello  du projet" />
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="accueil">
+        <section id="accueil">
             <router-link
                 class="btn btn-primary"
                 to="/#realisations"
@@ -131,7 +131,7 @@
                 Retour à l'accueil
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
-        </div>
+        </section>
 
         <Footer></Footer>
     </div>

@@ -27,7 +27,7 @@
             </a>
         </Header>
 
-        <div class="section" id="à-propos">
+        <section id="à-propos">
             <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
@@ -64,9 +64,9 @@
                 programmation du Paralax (l'arrière plan qui bouge grâce à la
                 souris).
             </p>
-        </div>
+        </section>
 
-        <div class="section" id="images">
+        <section id="images">
             <TitreSection titre="Quelques images" />
 
             <div id="cont">
@@ -77,9 +77,9 @@
                     desc="Page d'information sur une planète"
                 />
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="accueil">
+        <section id="accueil">
             <router-link
                 class="btn btn-primary"
                 to="/#realisations"
@@ -88,7 +88,7 @@
                 Retour à l'accueil
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
-        </div>
+        </section>
 
         <Footer></Footer>
     </div>

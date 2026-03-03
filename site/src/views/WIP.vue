@@ -10,12 +10,7 @@
             <span class="material-symbols-outlined"> home </span>
         </router-link>
 
-        <div
-            class="material-symbols-outlined btn btn-normal"
-            @click="themeStore.toggleTheme"
-        >
-            {{ themeStore.isDarkMode ? "dark_mode" : "light_mode" }}
-        </div>
+        <ThemeButton id="theme" />
     </div>
 
     <Footer />
@@ -50,17 +45,13 @@
 </style>
 
 <script>
+import ThemeButton from "@/components/ThemeButton.vue";
 import Footer from "../components/Footer.vue";
-import { themeStore } from "../stores/themeStore.js";
 
 export default {
     components: {
         Footer,
-    },
-    setup() {
-        return {
-            themeStore,
-        };
+        ThemeButton,
     },
 };
 </script>

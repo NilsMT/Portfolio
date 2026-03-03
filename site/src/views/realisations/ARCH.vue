@@ -27,7 +27,7 @@
             </a>
         </Header>
 
-        <div class="section" id="à-propos">
+        <section id="à-propos">
             <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
@@ -76,9 +76,9 @@
                 Cependant, avec mes études le temps venait parfois à manquer et
                 le développement s'est retrouvé ralenti plusieurs fois.<br />
             </p>
-        </div>
+        </section>
 
-        <div class="section" id="images">
+        <section id="images">
             <TitreSection titre="Quelques images" />
 
             <div id="cont">
@@ -108,9 +108,9 @@
 
                 <Img imgName="ARCH/trello.png" desc="Le Trello  du projet" />
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="accueil">
+        <section id="accueil">
             <router-link
                 class="btn btn-primary"
                 to="/#realisations"
@@ -119,7 +119,7 @@
                 Retour à l'accueil
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
-        </div>
+        </section>
 
         <Footer></Footer>
     </div>

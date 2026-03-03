@@ -27,7 +27,7 @@
             </a>
         </Header>
 
-        <div class="section" id="à-propos">
+        <section id="à-propos">
             <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
@@ -74,9 +74,9 @@
                 J'ai passé beaucoup de temps à réfléchir à la conception du jeu,
                 à son gameplay et à son environnement.<br />
             </p>
-        </div>
+        </section>
 
-        <div class="section" id="images">
+        <section id="images">
             <TitreSection titre="Quelques images" />
 
             <div id="cont">
@@ -97,9 +97,9 @@
                     desc="Visuel promotionnel du jeu"
                 />
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="accueil">
+        <section id="accueil">
             <router-link
                 class="btn btn-primary"
                 to="/#realisations"
@@ -108,7 +108,7 @@
                 Retour à l'accueil
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
-        </div>
+        </section>
 
         <Footer></Footer>
     </div>

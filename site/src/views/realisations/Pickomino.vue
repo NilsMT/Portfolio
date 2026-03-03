@@ -27,7 +27,7 @@
             </a>
         </Header>
 
-        <div class="section" id="à-propos">
+        <section id="à-propos">
             <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
@@ -63,9 +63,9 @@
                 jeu. Puis nous avons commencé le développement en utilisant la
                 documentation de l'API et en faisant une maquette.<br />
             </p>
-        </div>
+        </section>
 
-        <div class="section" id="visuels">
+        <section id="visuels">
             <TitreSection titre="Quelques visuels" />
 
             <div id="cont">
@@ -87,9 +87,9 @@
                     desc="Maquette du plateau"
                 />
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="accueil">
+        <section id="accueil">
             <router-link
                 class="btn btn-primary"
                 to="/#realisations"
@@ -98,7 +98,7 @@
                 Retour à l'accueil
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
-        </div>
+        </section>
 
         <Footer></Footer>
     </div>

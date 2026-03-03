@@ -1,13 +1,7 @@
 <template>
     <header>
         <div id="flex-container">
-            <div
-                class="material-symbols-outlined btn btn-normal"
-                id="theme"
-                @click="themeStore.toggleTheme"
-            >
-                {{ themeStore.isDarkMode ? "dark_mode" : "light_mode" }}
-            </div>
+            <ThemeButton id="theme" />
 
             <slot></slot>
         </div>
@@ -46,14 +40,12 @@ header {
 </style>
 
 <script>
-import { themeStore } from "../stores/themeStore.js";
+import ThemeButton from "./ThemeButton.vue";
 
 export default {
     name: "Header",
-    setup() {
-        return {
-            themeStore,
-        };
+    components: {
+        ThemeButton,
     },
 };
 </script>

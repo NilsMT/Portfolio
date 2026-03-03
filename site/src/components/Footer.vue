@@ -5,7 +5,11 @@
             <span class="material-symbols-outlined"> favorite </span>
             par Nils Moreau--Thomas
         </div>
-        <div @click="debugStore.toggleDebug" id="debug">
+        <div
+            @click="debugStore.toggleDebug"
+            id="debug"
+            title="Afficher les délimitations de chaques éléments"
+        >
             <span
                 v-if="debugStore.isDebugMode"
                 class="material-symbols-outlined"

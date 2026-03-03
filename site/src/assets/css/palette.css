@@ -1,43 +1,12 @@
+@import url("./theme.css");
+@import url("./debug.css");
+@import url("./font.css");
+
 :root {
     --padding: 1rem;
     --radius: 10px;
     --gap: 1rem;
     --text-size: 1.02em;
-}
-
-/* Debug */
-
-:root.debug * {
-    outline: var(--accent) dotted 2px;
-    outline-offset: -2px;
-}
-
-/* Colors */
-
-:root.dark {
-    --bg: #303030;
-    --bg-dark: #202020;
-    --bg-light: #404040;
-
-    --text: #ffffff;
-    --opptext: #000000;
-
-    --primary: #b339d1;
-    --secondary: #d98d00;
-    --accent: #0b750e;
-}
-
-:root.light {
-    --bg: #dbdbdb;
-    --bg-dark: #a9a9a9;
-    --bg-light: #e6e6e6;
-
-    --text: #000000;
-    --opptext: #ffffff;
-
-    --primary: #b14dd2;
-    --secondary: #d98d00;
-    --accent: #12a717;
 }
 
 /* General */
@@ -50,14 +19,14 @@ body {
 
 * {
     font-family: "Comfortaa", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
-    font-style: normal;
 
     font-size: var(--text-size);
     color: var(--text);
 
-    transition: all 0.3s ease, font-size 0s ease;
+    transition:
+        all 0.3s ease,
+        font-size 0s ease;
 }
 
 /* Links */
@@ -86,17 +55,6 @@ p,
     padding: var(--padding);
     border-radius: var(--radius);
 }
-/* Icons */
-
-.material-symbols-outlined {
-    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-}
-
-.material-icons,
-.material-icons-outlined,
-.material-symbols-outlined {
-    vertical-align: top;
-}
 
 /* Headings and others text things */
 
@@ -116,6 +74,8 @@ sup,
 sub {
     font-size: calc(var(--text-size) / 1.5);
 }
+
+/* Responsivity */
 
 @media (max-width: 768px) {
     h1 {

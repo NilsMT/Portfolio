@@ -60,15 +60,6 @@
     padding: calc(var(--padding) / 2);
 }
 
-/* Theme */
-:root.light #real:hover #content {
-    background-color: #fff5;
-}
-
-:root.dark #real:hover #content {
-    background-color: #0005;
-}
-
 /* Content items*/
 
 #hidden_content {

@@ -1,0 +1,4 @@
+:root.debug * {
+    outline: var(--accent) dotted 2px;
+    outline-offset: -2px;
+}

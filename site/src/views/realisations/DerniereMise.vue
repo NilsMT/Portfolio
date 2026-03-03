@@ -27,7 +27,7 @@
             </a>
         </Header>
 
-        <div class="section" id="à-propos">
+        <section id="à-propos">
             <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
@@ -55,9 +55,9 @@
                 Pour le montage, nous avons utilisé Adobe Premiere Pro avec
                 Essential Sound pour le mixage audio.
             </p>
-        </div>
+        </section>
 
-        <div class="section" id="visuels">
+        <section id="visuels">
             <TitreSection titre="Quelques visuels" />
 
             <div id="cont">
@@ -79,9 +79,9 @@
                     desc="Aperçu du projet sur Premiere Pro"
                 />
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="accueil">
+        <section id="accueil">
             <router-link
                 class="btn btn-primary"
                 to="/#realisations"
@@ -90,7 +90,7 @@
                 Retour à l'accueil
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
-        </div>
+        </section>
 
         <Footer></Footer>
     </div>

@@ -1,0 +1,55 @@
+/* Dark */
+
+:root.theme_dark {
+    --bg: #303030;
+    --bg-dark: #202020;
+    --bg-light: #404040;
+
+    --text: #ffffff;
+    --opptext: #000000;
+
+    --primary: #b339d1;
+    --secondary: #d98d00;
+    --accent: #0b750e;
+}
+
+:root.theme_dark .btn-normal {
+    background-color: var(--bg-light);
+}
+
+:root.theme_dark .btn:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+:root.theme_dark #real:hover #content {
+    background-color: #0005;
+}
+
+/* Light */
+
+:root.theme_light {
+    --bg: #dbdbdb;
+    --bg-dark: #a9a9a9;
+    --bg-light: #e6e6e6;
+
+    --text: #000000;
+    --opptext: #ffffff;
+
+    --primary: #b14dd2;
+    --secondary: #d98d00;
+    --accent: #12a717;
+}
+
+:root.theme_light .btn-normal {
+    background-color: var(--bg-dark);
+}
+
+:root.theme_light .btn:hover {
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+:root.theme_light #real:hover #content {
+    background-color: #fff5;
+}

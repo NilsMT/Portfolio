@@ -27,7 +27,7 @@
             </a>
         </Header>
 
-        <div class="section" id="à-propos">
+        <section id="à-propos">
             <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
@@ -58,9 +58,9 @@
             <h2>Comment l'ai-je réalisé ?</h2>
 
             <p>J'ai utilisé de l'HTML, du CSS et du JavaScript.<br /></p>
-        </div>
+        </section>
 
-        <div class="section" id="images">
+        <section id="images">
             <TitreSection titre="Quelques images" />
 
             <div id="cont">
@@ -73,9 +73,9 @@
                     desc="Page de l'outil pour calculer la couleur complémentaire d'une autre"
                 />
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="accueil">
+        <section id="accueil">
             <router-link
                 class="btn btn-primary"
                 to="/#realisations"
@@ -84,7 +84,7 @@
                 Retour à l'accueil
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
-        </div>
+        </section>
 
         <Footer></Footer>
     </div>

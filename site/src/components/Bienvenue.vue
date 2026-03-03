@@ -49,9 +49,7 @@
 
 #name {
     font-family: "Merriweather Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 800;
-    font-style: normal;
 
     font-size: 4vw;
     position: relative;

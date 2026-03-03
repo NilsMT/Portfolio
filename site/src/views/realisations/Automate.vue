@@ -27,7 +27,7 @@
             </a>
         </Header>
 
-        <div class="section" id="à-propos">
+        <section id="à-propos">
             <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
@@ -68,9 +68,9 @@
                 diagrammes, et ensuite j'ai implémenté la "construction" d'un
                 automate avec du code Kotlin.
             </p>
-        </div>
+        </section>
 
-        <div class="section" id="visuels">
+        <section id="visuels">
             <TitreSection titre="Quelques visuels" />
 
             <div id="cont">
@@ -91,9 +91,9 @@
                     desc="Exemple d'automate plus complexe schématisé"
                 />
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="accueil">
+        <section id="accueil">
             <router-link
                 class="btn btn-primary"
                 to="/#realisations"
@@ -102,7 +102,7 @@
                 Retour à l'accueil
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
-        </div>
+        </section>
 
         <Footer></Footer>
     </div>
