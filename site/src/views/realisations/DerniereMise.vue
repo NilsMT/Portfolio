@@ -64,6 +64,7 @@
                 <Video desc="Le court-métrage">
                     <iframe
                         src="https://drive.google.com/file/d/1p2tPnPTLKW5vILvndHuG2DOk9xYYQptj/preview"
+                        width="640"
                         height="480"
                         allow="fullscreen"
                     ></iframe>
