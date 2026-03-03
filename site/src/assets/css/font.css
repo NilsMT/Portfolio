@@ -1,16 +1,14 @@
 @font-face {
-    font-family: "Comfortaa", sans-serif;
+    font-family: "Comfortaa";
     src: url("../fonts/Comfortaa-VariableFont_wght.ttf") format("truetype");
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Merriweather Sans", sans-serif;
+    font-family: "Merriweather Sans";
     src: url("../fonts/MerriweatherSans-VariableFont_wght.ttf")
         format("truetype");
-    font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
 }

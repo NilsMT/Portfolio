@@ -18,7 +18,7 @@ body {
 }
 
 * {
-    font-family: "Comfortaa", sans-serif;
+    font-family: "Comfortaa";
     font-weight: 300;
 
     font-size: var(--text-size);

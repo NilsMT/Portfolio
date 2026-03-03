@@ -50,7 +50,7 @@
 }
 
 #name {
-    font-family: "Merriweather Sans", sans-serif;
+    font-family: "Merriweather Sans";
     font-weight: 800;
 
     font-size: 4vw;
