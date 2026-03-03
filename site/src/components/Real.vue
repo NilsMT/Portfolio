@@ -10,7 +10,7 @@
         <img :src="'./assets/img/Realisations/' + imgName" id="img" alt="" />
 
         <div id="content">
-            <div id="titre">{{ titre }}</div>
+            <div id="titre" :class="{ wip: isWip }">{{ titre }}</div>
             <div id="hidden_content">
                 <div id="desc" v-html="desc"></div>
             </div>
@@ -82,6 +82,10 @@
     border-radius: var(--radius);
 }
 
+#titre.wip {
+    background-color: var(--secondary);
+}
+
 #desc {
     text-shadow: 0 0 5px var(--opptext);
     opacity: 1;
@@ -139,6 +143,11 @@ export default {
         destination: {
             type: String,
             required: false,
+        },
+        isWip: {
+            type: Boolean,
+            required: false,
+            default: false,
         },
     },
 
