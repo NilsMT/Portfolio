@@ -51,7 +51,7 @@
 
 <script>
 import Footer from "../components/Footer.vue";
-import { themeStore } from "../assets/js/themeStore.js";
+import { themeStore } from "../stores/themeStore.js";
 
 export default {
     components: {

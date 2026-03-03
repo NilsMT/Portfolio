@@ -45,7 +45,7 @@ footer {
 
 <script>
 import { ref } from "vue";
-import { debugStore } from "../assets/js/debugStore.js";
+import { debugStore } from "../stores/debugStore.js";
 
 const year = ref(0);
 year.value = new Date().getFullYear();
