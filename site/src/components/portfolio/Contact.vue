@@ -27,7 +27,7 @@
                 href="https://github.com/NilsMT"
             >
                 <i class="fa-brands fa-github"></i>
-                Mon Github
+                Github
             </a>
 
             <a
@@ -37,7 +37,7 @@
                 href="https://www.linkedin.com/in/nils-moreau-thomas-2b7a95259/"
             >
                 <i class="fa-brands fa-linkedin"></i>
-                Mon LinkedIn
+                LinkedIn
             </a>
 
             <a
@@ -47,7 +47,7 @@
                 href="./CV_Nils_Moreau--Thomas.pdf"
             >
                 <span class="material-symbols-outlined"> description </span>
-                Mon CV
+                CV
             </a>
         </div>
     </div>
