@@ -7,7 +7,11 @@
         "
         :target="isExternal == true ? '_blank' : '_self'"
     >
-        <img :src="'./assets/img/Realisations/' + imgName" id="img" alt="" />
+        <img
+            :src="'../src/assets/img/Realisations/' + imgName"
+            id="img"
+            alt=""
+        />
 
         <div id="content">
             <div id="titre" :class="{ wip: isWip }">{{ titre }}</div>

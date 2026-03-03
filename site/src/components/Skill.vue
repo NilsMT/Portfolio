@@ -3,7 +3,7 @@
         <div id="titre">
             {{ titre }}
         </div>
-        <img :src="'./assets/img/Competences/' + imgName" id="img" alt="" />
+        <img :src="'../src/assets/img/Skills/' + imgName" id="img" alt="" />
     </div>
 </template>
 

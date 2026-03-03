@@ -1,6 +1,6 @@
 <template>
     <div id="img_cont">
-        <img :src="'./assets/img/RealisationsDetails/' + imgName" alt="" />
+        <img :src="'../src/assets/img/RealisationsDetails/' + imgName" alt="" />
         <div>{{ desc }}</div>
     </div>
 </template>
