@@ -1,6 +1,6 @@
 <template>
     <div id="realisation">
-        <HeaderComp>
+        <Header>
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
@@ -15,10 +15,10 @@
             <a href="#visuels" target="_self" class="btn btn-normal"
                 >Quelques visuels</a
             >
-        </HeaderComp>
+        </Header>
 
         <div class="section" id="à-propos">
-            <TitreSectionComp titre="À propos du projet" />
+            <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
 
@@ -60,10 +60,10 @@
         </div>
 
         <div class="section" id="visuels">
-            <TitreSectionComp titre="Quelques visuels" />
+            <TitreSection titre="Quelques visuels" />
 
             <div id="cont">
-                <VideoComp
+                <Video
                     desc="Vidéo de présentation (humoristique) du projet et de l'équipe"
                 >
                     <iframe
@@ -72,18 +72,26 @@
                         src="https://www.youtube-nocookie.com/embed/6RlUISc_nQQ?si=oZDETMi64CnWxi2e"
                         title="YouTube video player"
                         frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allow="
+                            accelerometer;
+                            autoplay;
+                            clipboard-write;
+                            encrypted-media;
+                            gyroscope;
+                            picture-in-picture;
+                            web-share;
+                        "
                         referrerpolicy="strict-origin-when-cross-origin"
                         allowfullscreen
                     ></iframe>
-                </VideoComp>
+                </Video>
 
-                <ImgComp
+                <Img
                     imgName="NewsRadar/site.png"
                     desc="Page de recherche d'articles dans l'application"
                 />
 
-                <ImgComp
+                <Img
                     imgName="NewsRadar/userapi.png"
                     desc="Page de documentation d'une de nos API"
                 />
@@ -101,7 +109,7 @@
             </router-link>
         </div>
 
-        <FooterComp></FooterComp>
+        <Footer></Footer>
     </div>
 </template>
 
@@ -144,21 +152,21 @@ a:not(.btn):hover {
 <script>
 import { RouterLink } from "vue-router";
 
-import HeaderComp from "../../components/HeaderComp.vue";
-import FooterComp from "../../components/FooterComp.vue";
-import TitreSectionComp from "../../components/TitreSectionComp.vue";
+import Header from "../../components/Header.vue";
+import Footer from "../../components/Footer.vue";
+import TitreSection from "../../components/TitreSection.vue";
 
-import ImgComp from "../../components/ImgComp.vue";
-import VideoComp from "../../components/VideoComp.vue";
+import Img from "../../components/Img.vue";
+import Video from "../../components/Video.vue";
 
 export default {
     components: {
         RouterLink,
-        HeaderComp,
-        FooterComp,
-        TitreSectionComp,
-        ImgComp,
-        VideoComp,
+        Header,
+        Footer,
+        TitreSection,
+        Img,
+        Video,
     },
 };
 </script>

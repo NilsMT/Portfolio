@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import { RouterView } from 'vue-router'
-import FooterComp from './components/FooterComp.vue'
+import { RouterView } from "vue-router";
+import Footer from "./components/Footer.vue";
 
 export default {
-    name: 'App',
+    name: "App",
     components: {
         RouterView,
-        FooterComp
+        Footer,
     },
-}
+};
 </script>

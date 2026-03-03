@@ -1,6 +1,6 @@
 <template>
     <div id="realisation">
-        <HeaderComp>
+        <Header>
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
@@ -15,10 +15,10 @@
             <a href="#visuels" target="_self" class="btn btn-normal"
                 >Quelques visuels</a
             >
-        </HeaderComp>
+        </Header>
 
         <div class="section" id="à-propos">
-            <TitreSectionComp titre="À propos du projet" />
+            <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
 
@@ -54,31 +54,31 @@
                 de l'ANSM a été particulièrement difficile à transformer en base
                 de données.<br />L'application a été développée avec
                 <a href="https://developer.android.com/compose" target="_blank"
-                    >Compose</a
+                    >ose</a
                 >
             </p>
         </div>
 
         <div class="section" id="visuels">
-            <TitreSectionComp titre="Quelques visuels" />
+            <TitreSection titre="Quelques visuels" />
 
             <div id="cont">
-                <VideoComp desc="Vidéo de présentation de l'application">
+                <Video desc="Vidéo de présentation de l'application">
                     <iframe
                         src="https://drive.google.com/file/d/1MFxETY0E4buVT5esSSKyabrBNBBA0E1N/preview"
                         width="640"
                         height="480"
                     ></iframe>
-                </VideoComp>
+                </Video>
 
-                <ImgComp
+                <Img
                     imgName="Medok/issue_board.png"
                     desc="Tableau des tâches"
                 />
 
-                <ImgComp imgName="Medok/figma.png" desc="Maquette Figma" />
+                <Img imgName="Medok/figma.png" desc="Maquette Figma" />
 
-                <ImgComp
+                <Img
                     imgName="Medok/compte_rendu.png"
                     desc="Exemple de compte rendu de sprint"
                 />
@@ -96,7 +96,7 @@
             </router-link>
         </div>
 
-        <FooterComp></FooterComp>
+        <Footer></Footer>
     </div>
 </template>
 
@@ -145,21 +145,21 @@ a:not(.btn):hover {
 <script>
 import { RouterLink } from "vue-router";
 
-import HeaderComp from "../../components/HeaderComp.vue";
-import FooterComp from "../../components/FooterComp.vue";
-import TitreSectionComp from "../../components/TitreSectionComp.vue";
+import Header from "../../components/Header.vue";
+import Footer from "../../components/Footer.vue";
+import TitreSection from "../../components/TitreSection.vue";
 
-import ImgComp from "../../components/ImgComp.vue";
-import VideoComp from "../../components/VideoComp.vue";
+import Img from "../../components/Img.vue";
+import Video from "../../components/Video.vue";
 
 export default {
     components: {
         RouterLink,
-        HeaderComp,
-        FooterComp,
-        TitreSectionComp,
-        ImgComp,
-        VideoComp,
+        Header,
+        Footer,
+        TitreSection,
+        Img,
+        Video,
     },
 };
 </script>

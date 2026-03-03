@@ -1,6 +1,6 @@
 <template>
     <div id="realisation">
-        <HeaderComp>
+        <Header>
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
@@ -15,10 +15,10 @@
             <a href="#visuels" target="_self" class="btn btn-normal"
                 >Quelques visuels</a
             >
-        </HeaderComp>
+        </Header>
 
         <div class="section" id="à-propos">
-            <TitreSectionComp titre="À propos du projet" />
+            <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
 
@@ -61,37 +61,37 @@
         </div>
 
         <div class="section" id="visuels">
-            <TitreSectionComp titre="Quelques visuels" />
+            <TitreSection titre="Quelques visuels" />
 
             <div id="cont">
-                <VideoComp desc="Vidéo de démonstration de l'outil">
+                <Video desc="Vidéo de démonstration de l'outil">
                     <iframe
                         src="https://drive.google.com/file/d/14Uxh3-GSBx6Vkf0_9JIJmm725cYQb6Gz/preview"
                         allow="autoplay"
                     ></iframe>
-                </VideoComp>
+                </Video>
 
-                <ImgComp
+                <Img
                     imgName="EclExt/etape1.png"
                     desc="L'étape 1 de l'outil : La configuration"
                 />
 
-                <ImgComp
+                <Img
                     imgName="EclExt/etape2.png"
                     desc="L'étape 2 de l'outil : La standardisation des colonnes"
                 />
 
-                <ImgComp
+                <Img
                     imgName="EclExt/etape3.png"
                     desc="L'étape 3 de l'outil : La standardisation des attributs"
                 />
 
-                <ImgComp
+                <Img
                     imgName="EclExt/etape4.png"
                     desc="L'étape 4 de l'outil : La synthèse de la standardisation"
                 />
 
-                <ImgComp
+                <Img
                     imgName="EclExt/etape5.png"
                     desc="L'étape 5 de l'outil : La visualisation de la standardisation"
                 />
@@ -109,7 +109,7 @@
             </router-link>
         </div>
 
-        <FooterComp></FooterComp>
+        <Footer></Footer>
     </div>
 </template>
 
@@ -158,21 +158,21 @@ a:not(.btn):hover {
 <script>
 import { RouterLink } from "vue-router";
 
-import HeaderComp from "../../components/HeaderComp.vue";
-import FooterComp from "../../components/FooterComp.vue";
-import TitreSectionComp from "../../components/TitreSectionComp.vue";
+import Header from "../../components/Header.vue";
+import Footer from "../../components/Footer.vue";
+import TitreSection from "../../components/TitreSection.vue";
 
-import ImgComp from "../../components/ImgComp.vue";
-import VideoComp from "../../components/VideoComp.vue";
+import Img from "../../components/Img.vue";
+import Video from "../../components/Video.vue";
 
 export default {
     components: {
         RouterLink,
-        HeaderComp,
-        FooterComp,
-        TitreSectionComp,
-        ImgComp,
-        VideoComp,
+        Header,
+        Footer,
+        TitreSection,
+        Img,
+        Video,
     },
 };
 </script>

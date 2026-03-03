@@ -1,6 +1,6 @@
 <template>
     <div id="realisation">
-        <HeaderComp>
+        <Header>
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
@@ -15,10 +15,10 @@
             <a href="#visuels" target="_self" class="btn btn-normal"
                 >Quelques visuels</a
             >
-        </HeaderComp>
+        </Header>
 
         <div class="section" id="à-propos">
-            <TitreSectionComp titre="À propos du projet" />
+            <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
 
@@ -48,23 +48,23 @@
         </div>
 
         <div class="section" id="visuels">
-            <TitreSectionComp titre="Quelques visuels" />
+            <TitreSection titre="Quelques visuels" />
 
             <div id="cont">
-                <VideoComp desc="Le court-métrage">
+                <Video desc="Le court-métrage">
                     <iframe
                         src="https://drive.google.com/file/d/1p2tPnPTLKW5vILvndHuG2DOk9xYYQptj/preview"
                         height="480"
                         allow="fullscreen"
                     ></iframe>
-                </VideoComp>
+                </Video>
 
-                <ImgComp
+                <Img
                     imgName="DerniereMise/poster.jpg"
                     desc="Posters de promotion du court-métrage"
                 />
 
-                <ImgComp
+                <Img
                     imgName="DerniereMise/timeline.png"
                     desc="Aperçu du projet sur Premiere Pro"
                 />
@@ -82,7 +82,7 @@
             </router-link>
         </div>
 
-        <FooterComp></FooterComp>
+        <Footer></Footer>
     </div>
 </template>
 
@@ -131,21 +131,21 @@ a:not(.btn):hover {
 <script>
 import { RouterLink } from "vue-router";
 
-import HeaderComp from "../../components/HeaderComp.vue";
-import FooterComp from "../../components/FooterComp.vue";
-import TitreSectionComp from "../../components/TitreSectionComp.vue";
+import Header from "../../components/Header.vue";
+import Footer from "../../components/Footer.vue";
+import TitreSection from "../../components/TitreSection.vue";
 
-import ImgComp from "../../components/ImgComp.vue";
-import VideoComp from "../../components/VideoComp.vue";
+import Img from "../../components/Img.vue";
+import Video from "../../components/Video.vue";
 
 export default {
     components: {
         RouterLink,
-        HeaderComp,
-        FooterComp,
-        TitreSectionComp,
-        ImgComp,
-        VideoComp,
+        Header,
+        Footer,
+        TitreSection,
+        Img,
+        Video,
     },
 };
 </script>

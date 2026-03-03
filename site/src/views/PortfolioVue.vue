@@ -1,8 +1,8 @@
 <template>
     <div id="portfolio">
-        <BienvenueComp></BienvenueComp>
+        <Bienvenue></Bienvenue>
 
-        <HeaderComp>
+        <Header>
             <a href="#presentation" target="_self" class="btn btn-normal"
                 >Présentation</a
             >
@@ -10,7 +10,7 @@
                 >Formation</a
             >
             <a href="#competences" target="_self" class="btn btn-normal"
-                >Compétences</a
+                >étences</a
             >
             <a href="#implication-sociale" class="btn btn-normal"
                 >Implication sociale</a
@@ -25,25 +25,25 @@
             <a href="#contacts-et-liens" target="_self" class="btn btn-normal"
                 >Contacts & liens</a
             >
-        </HeaderComp>
+        </Header>
 
-        <PresentationComp class="section"></PresentationComp>
+        <Presentation class="section"></Presentation>
 
-        <FormationComp class="section"></FormationComp>
+        <Formation class="section"></Formation>
 
-        <CompetencesComp class="section"></CompetencesComp>
+        <etences class="section"></etences>
 
-        <ImplicationComp class="section"></ImplicationComp>
+        <Implication class="section"></Implication>
 
-        <PassionsComp class="section"></PassionsComp>
+        <Passions class="section"></Passions>
 
-        <RealisationsComp class="section"></RealisationsComp>
+        <Realisations class="section"></Realisations>
 
-        <AvenirComp class="section"></AvenirComp>
+        <Avenir class="section"></Avenir>
 
-        <ContactComp class="section"></ContactComp>
+        <Contact class="section"></Contact>
 
-        <FooterComp></FooterComp>
+        <Footer></Footer>
     </div>
 </template>
 
@@ -56,32 +56,32 @@
 </style>
 
 <script>
-import HeaderComp from "../components/HeaderComp.vue";
-import FooterComp from "../components/FooterComp.vue";
+import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
 //pages
-import BienvenueComp from "../components/BienvenueComp.vue";
-import PresentationComp from "../components/pages/PresentationComp.vue";
-import FormationComp from "../components/pages/FormationComp.vue";
-import CompetencesComp from "../components/pages/CompetencesComp.vue";
-import ImplicationComp from "../components/pages/ImplicationComp.vue";
-import PassionsComp from "../components/pages/PassionsComp.vue";
-import RealisationsComp from "../components/pages/RealisationsComp.vue";
-import AvenirComp from "../components/pages/AvenirComp.vue";
-import ContactComp from "../components/pages/ContactComp.vue";
+import Bienvenue from "../components/Bienvenue.vue";
+import Presentation from "../components/pages/Presentation.vue";
+import Formation from "../components/pages/Formation.vue";
+import etences from "../components/pages/etences.vue";
+import Implication from "../components/pages/Implication.vue";
+import Passions from "../components/pages/Passions.vue";
+import Realisations from "../components/pages/Realisations.vue";
+import Avenir from "../components/pages/Avenir.vue";
+import Contact from "../components/pages/Contact.vue";
 
 export default {
     components: {
-        HeaderComp,
-        FooterComp,
-        BienvenueComp,
-        PresentationComp,
-        FormationComp,
-        CompetencesComp,
-        ImplicationComp,
-        PassionsComp,
-        RealisationsComp,
-        AvenirComp,
-        ContactComp,
+        Header,
+        Footer,
+        Bienvenue,
+        Presentation,
+        Formation,
+        etences,
+        Implication,
+        Passions,
+        Realisations,
+        Avenir,
+        Contact,
     },
 };
 </script>

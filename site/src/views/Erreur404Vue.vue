@@ -2,24 +2,25 @@
     <div id="cont">
         <div id="code">
             <span>4</span>
-            <img src="../assets/img/Erreur404/think.png"/>
+            <img src="../assets/img/Erreur404/think.png" />
             <span>4</span>
         </div>
 
         <div id="text">La page que vous recherchez n'existe pas</div>
         <router-link class="btn btn-normal" to="/">
             Retour à l'accueil
-            <span class="material-symbols-outlined">
-                home
-            </span>
+            <span class="material-symbols-outlined"> home </span>
         </router-link>
 
-        <div class="material-symbols-outlined btn btn-normal" @click="themeStore.toggleTheme">
-            {{ themeStore.isDarkMode ? 'dark_mode' : 'light_mode' }}
+        <div
+            class="material-symbols-outlined btn btn-normal"
+            @click="themeStore.toggleTheme"
+        >
+            {{ themeStore.isDarkMode ? "dark_mode" : "light_mode" }}
         </div>
     </div>
 
-    <FooterComp/>
+    <Footer />
 </template>
 
 <style scoped>
@@ -55,17 +56,17 @@
 </style>
 
 <script>
-import FooterComp from '../components/FooterComp.vue'
-import { themeStore } from '../assets/js/themeStore.js'
+import Footer from "../components/Footer.vue";
+import { themeStore } from "../assets/js/themeStore.js";
 
 export default {
     components: {
-        FooterComp
+        Footer,
     },
     setup() {
         return {
             themeStore,
-        }
+        };
     },
-}
+};
 </script>

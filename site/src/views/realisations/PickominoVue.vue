@@ -1,6 +1,6 @@
 <template>
     <div id="realisation">
-        <HeaderComp>
+        <Header>
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
@@ -15,10 +15,10 @@
             <a href="#visuels" target="_self" class="btn btn-normal"
                 >Quelques visuels</a
             >
-        </HeaderComp>
+        </Header>
 
         <div class="section" id="à-propos">
-            <TitreSectionComp titre="À propos du projet" />
+            <TitreSection titre="À propos du projet" />
 
             <h2>Qu'est-ce que c'est ?</h2>
 
@@ -55,26 +55,23 @@
         </div>
 
         <div class="section" id="visuels">
-            <TitreSectionComp titre="Quelques visuels" />
+            <TitreSection titre="Quelques visuels" />
 
             <div id="cont">
-                <VideoComp desc="Vidéo de démonstration du projet">
+                <Video desc="Vidéo de démonstration du projet">
                     <video controls="" height="480" allow="autoplay">
                         <source
                             src="../../assets/video/RealisationsDetails/pickomino_demo.mp4"
                             type="video/mp4"
                         />
                     </video>
-                </VideoComp>
+                </Video>
 
-                <ImgComp
-                    imgName="Pickomino/board.png"
-                    desc="Le plateau de jeu"
-                />
+                <Img imgName="Pickomino/board.png" desc="Le plateau de jeu" />
 
-                <ImgComp imgName="Pickomino/menu.png" desc="Le menu du jeu" />
+                <Img imgName="Pickomino/menu.png" desc="Le menu du jeu" />
 
-                <ImgComp
+                <Img
                     imgName="Pickomino/maquette.png"
                     desc="Maquette du plateau"
                 />
@@ -92,7 +89,7 @@
             </router-link>
         </div>
 
-        <FooterComp></FooterComp>
+        <Footer></Footer>
     </div>
 </template>
 
@@ -141,21 +138,21 @@ a:not(.btn):hover {
 <script>
 import { RouterLink } from "vue-router";
 
-import HeaderComp from "../../components/HeaderComp.vue";
-import FooterComp from "../../components/FooterComp.vue";
-import TitreSectionComp from "../../components/TitreSectionComp.vue";
+import Header from "../../components/Header.vue";
+import Footer from "../../components/Footer.vue";
+import TitreSection from "../../components/TitreSection.vue";
 
-import ImgComp from "../../components/ImgComp.vue";
-import VideoComp from "../../components/VideoComp.vue";
+import Img from "../../components/Img.vue";
+import Video from "../../components/Video.vue";
 
 export default {
     components: {
         RouterLink,
-        HeaderComp,
-        FooterComp,
-        TitreSectionComp,
-        ImgComp,
-        VideoComp,
+        Header,
+        Footer,
+        TitreSection,
+        Img,
+        Video,
     },
 };
 </script>

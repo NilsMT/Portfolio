@@ -1,23 +1,24 @@
 <template>
     <div id="cont">
         <div id="code">
-            <img src="../assets/img/WIP/road-barrier.webp"/>
+            <img src="../assets/img/WIP/road-barrier.webp" />
         </div>
 
         <div id="text">La page est en cours de construction</div>
         <router-link class="btn btn-normal" to="/">
             Retour à l'accueil
-            <span class="material-symbols-outlined">
-                home
-            </span>
+            <span class="material-symbols-outlined"> home </span>
         </router-link>
 
-        <div class="material-symbols-outlined btn btn-normal" @click="themeStore.toggleTheme">
-            {{ themeStore.isDarkMode ? 'dark_mode' : 'light_mode' }}
+        <div
+            class="material-symbols-outlined btn btn-normal"
+            @click="themeStore.toggleTheme"
+        >
+            {{ themeStore.isDarkMode ? "dark_mode" : "light_mode" }}
         </div>
     </div>
 
-    <FooterComp/>
+    <Footer />
 </template>
 
 <style scoped>
@@ -49,17 +50,17 @@
 </style>
 
 <script>
-import FooterComp from '../components/FooterComp.vue'
-import { themeStore } from '../assets/js/themeStore.js'
+import Footer from "../components/Footer.vue";
+import { themeStore } from "../assets/js/themeStore.js";
 
 export default {
     components: {
-        FooterComp
+        Footer,
     },
     setup() {
         return {
             themeStore,
-        }
+        };
     },
-}
+};
 </script>
