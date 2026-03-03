@@ -9,7 +9,6 @@ import ZRCVue from "@/views/realisations/ZRCVue.vue";
 import ARCHVue from "@/views/realisations/ARCHVue.vue";
 import AIPRVue from "@/views/realisations/AIPRVue.vue";
 import JustFlickItVue from "@/views/realisations/JustFlickItVue.vue";
-import PastekVue from "@/views/realisations/PastekVue.vue";
 import ProjetParticuleVue from "@/views/realisations/ProjetParticuleVue.vue";
 import PuissanceQuatreVue from "@/views/realisations/PuissanceQuatreVue.vue";
 import PickominoVue from "@/views/realisations/PickominoVue.vue";
@@ -28,6 +27,8 @@ import CatificatorVue from "@/views/realisations/CatificatorVue.vue";
 import AutomateVue from "@/views/realisations/AutomateVue.vue";
 import MedokVue from "@/views/realisations/MedokVue.vue";
 import _24HMapping2025Vue from "@/views/realisations/_24HMapping2025Vue.vue";
+import DerniereMiseVue from "@/views/realisations/DerniereMiseVue.vue";
+
 const WIPPath = [
     /*"/24HMapping2025"*/
 ];
@@ -104,12 +105,6 @@ const router = createRouter({
         },
 
         {
-            path: "/Pastek",
-            name: "Pastek",
-            component: PastekVue,
-        },
-
-        {
             path: "/AnimeList",
             name: "Anime List",
             component: AnimeListVue,
@@ -166,6 +161,11 @@ const router = createRouter({
             path: "/24HMapping2025",
             name: "24H du Mapping 2025",
             component: _24HMapping2025Vue,
+        },
+        {
+            path: "/DerniereMise",
+            name: "Dernière Mise",
+            component: DerniereMiseVue,
         },
 
         // WIP

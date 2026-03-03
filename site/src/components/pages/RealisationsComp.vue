@@ -76,6 +76,7 @@ realisationsByCategory.value = {
         "Medok",
         "Automate",
         "24H du Mapping 2025",
+        "Dernière Mise",
         "Et plus encore !",
     ],
 };
@@ -186,6 +187,11 @@ realisations.value = {
         desc: "Projet de mapping réalisé en duo en 24 heures.",
         destination: "/24HMapping2025",
     }, //TODO: Img + Text
+    "Dernière Mise": {
+        imgName: "derniere_mise.png",
+        desc: "Court-métrage de 1<sup>ère</sup> année d'IMAC réalisé en duo.",
+        destination: "/DerniereMise",
+    },
     "Et plus encore !": {
         imgName: "github.png",
         desc: "Mon profil GitHub regorge d’autres projets, jetez-y un œil !",

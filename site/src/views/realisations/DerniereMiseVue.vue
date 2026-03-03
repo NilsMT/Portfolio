@@ -23,31 +23,27 @@
             <h2>Qu'est-ce que c'est ?</h2>
 
             <p>
-                Catificator est une extension web qui remplace les images de la
-                page sur laquelle l'utilisateur est par des chats.
-                <a
-                    target="_blank"
-                    class="btn btn-secondary"
-                    href="https://chromewebstore.google.com/detail/catificator/dacoijgelcpbpmoibpjkmniammagkafg"
-                >
-                    Lien vers l'extension
-                    <span class="material-symbols-outlined">open_in_new</span>
-                </a>
+                <!--TODO: desc dernière mise-->
+                Dernière Mise est un court-métrage de fiction racontant
+                l'histoire d'un homme à la recherche d'un toit dans un monde en
+                pleine crise du logement.
             </p>
 
-            <h2>Pourquoi l'ai-je fait ?</h2>
+            <h2>Pourquoi l'avons-nous fait ?</h2>
 
             <p>
-                J'ai développé cette extension pour tester la création
-                d'extension Google Chrome.
+                Ce court-métrage a été réalisé dans le cadre d'un projet de fin
+                de semestre, et c'était mon premier court-métrage avec du
+                matériel professionnel que nous avons réalisé.
             </p>
 
-            <h2>Comment l'ai-je réalisé ?</h2>
+            <h2>Comment l'avons-nous réalisé ?</h2>
 
             <p>
-                L'extension récupère les balises HTML img et en change la source
-                par une requête à l'API
-                <a target="_blank" href="https://cataas.com">Cataas</a>.
+                Pour le scénario, Nous nous sommes inspiré de la fameuse série
+                télévisée Squid Game pour créer un univers dystopique et sombre.
+                Pour le montage, nous avons utilisé Adobe Premiere Pro avec
+                Essential Sound pour le mixage audio.
             </p>
         </div>
 
@@ -55,14 +51,22 @@
             <TitreSectionComp titre="Quelques visuels" />
 
             <div id="cont">
+                <VideoComp desc="Le court-métrage">
+                    <iframe
+                        src="https://drive.google.com/file/d/1p2tPnPTLKW5vILvndHuG2DOk9xYYQptj/preview"
+                        height="480"
+                        allow="fullscreen"
+                    ></iframe>
+                </VideoComp>
+
                 <ImgComp
-                    imgName="Catificator/catificator.jpg"
-                    desc="Le résultat sur des images de camions"
+                    imgName="DerniereMise/poster.jpg"
+                    desc="Posters de promotion du court-métrage"
                 />
 
                 <ImgComp
-                    imgName="Catificator/cataas.png"
-                    desc="Routes de l'API Cataas"
+                    imgName="DerniereMise/timeline.png"
+                    desc="Aperçu du projet sur Premiere Pro"
                 />
             </div>
         </div>

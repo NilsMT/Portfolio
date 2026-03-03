@@ -23,9 +23,8 @@
             <h2>Qu'est-ce que c'est ?</h2>
 
             <p>
-                La simulation d'automate est, comme son nom l'indique, une
-                simulation d'automate qui analyse une chaîne de caractères et
-                l'accepte ou non.
+                Le projet est un automate qui analyse une chaîne de caractères
+                et l'accepte ou non.
                 <a
                     target="_blank"
                     class="btn btn-secondary"
@@ -39,21 +38,20 @@
             <h2>Pourquoi l'ai-je fait ?</h2>
 
             <p>
-                Ce projet était une implémentation de ce que l'ont avait vu sur
-                papier, cela m'a permis de comprendre comment le
+                Ce projet était une mise en pratique d'un cours d'automate et
+                cela m'a permis de comprendre le fonctionnement du
                 <a
                     href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions"
                     target="_blank"
-                    >RegEX</a
-                >
-                fonctionne.
+                    >RegEx</a
+                >.
             </p>
 
             <h2>Comment l'ai-je réalisé ?</h2>
 
             <p>
                 J'ai d'abord réalisé les automates sur un logiciel de
-                diagrammes, et ensuite j'ai implémentée la "construction" d'un
+                diagrammes, et ensuite j'ai implémenté la "construction" d'un
                 automate avec du code Kotlin.
             </p>
         </div>

@@ -41,20 +41,18 @@
 
             <p>
                 Ce projet était une demande du Ministère de la Santé, il devait
-                permettre le suivi de traitement et devait permettre au médecin
-                traitant de suivre le traitement du patient (mais pour des
-                soucis de RGPD cela ne sera pas le cas).
+                permettre le suivi de traitement médical par le médecin traitant
+                et par le patient.
             </p>
 
             <h2>Comment l'avons-nous réalisé ?</h2>
 
             <p>
                 Le projet a été réalisé avec la méthode SCRUM, donc avec un
-                principe de sprint (période on l'ont fait nos tâches assignées)
-                d'une semaine.<br />
+                principe de Sprint (= Un jalon).<br />
                 Un PDF avec des médicaments et de leurs interactions provenant
                 de l'ANSM a été particulièrement difficile à transformer en base
-                de données.<br />L'application a été faites avec
+                de données.<br />L'application a été développée avec
                 <a href="https://developer.android.com/compose" target="_blank"
                     >Compose</a
                 >

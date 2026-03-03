@@ -4,8 +4,8 @@
         <p>
             Bonjour, je m'appelle <strong>Nils Moreau--Thomas</strong> et j'ai
             {{ age }} ans.<br />
-            Développeur web passionné, je suis actuellement en diplôme
-            d'ingénieur IMAC à l'ESIEE Paris.<br />
+            Développeur web passionné, je suis actuellement étudiant en cursus
+            Ingénieur IMAC à l'ESIEE Paris.<br />
             Originaire de la région Nantaise, je m'intéresse particulièrement au
             développement web.<br />
             Je suis toujours prêt à relever de nouveaux défis et à travailler

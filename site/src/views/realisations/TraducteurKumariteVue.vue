@@ -24,7 +24,8 @@
 
             <p>
                 Traducteur Kumarite est un site web réalisé dans le cadre d'un
-                workshop d'écriture (une semaine entière consacré au projet).<br />
+                workshop d'écriture (une semaine entière consacrée au
+                projet).<br />
                 Le site accompagne le lecteur sur la découverte d'une langue
                 ancienne.
                 <a
@@ -40,30 +41,28 @@
             <h2>Pourquoi l'ai-je fait ?</h2>
 
             <p>
-                Ce workshop avait pour but de nous faire écrire quelque chose
-                sur le thème de la Capsule Temporelle.<br />En plus de notre
-                écrit, il fallait lui donner de la forme, ce que j'ai fait en
-                produisant les documents "authentique" de ce que le personnage
-                principal découvre et ce traducteur.
+                Ce workshop avait pour but de nous faire écrire sur le thème de
+                la Capsule Temporelle.<br />En plus de notre écrit, il fallait
+                lui donner de la forme : j'ai donc construit une langue ancienne
+                (avec sa police d'écriture) et un traducteur.
             </p>
 
             <h2>Comment l'ai-je réalisé ?</h2>
 
             <p>
-                Pour le site web, j'ai d'abord réfléchi à la police d'écriture
-                (réalisée avec
-                <a target="_blank" href="https://www.glyphrstudio.com/">
-                    Glyphr Studio</a
-                >) et il suffisais juste de copier le texte et mettre une police
-                lisible.<br />
                 Pour l'écriture, je me suis inspiré du jeu vidéo
                 <a
                     target="_blank"
                     href="https://store.steampowered.com/app/753640/Outer_Wilds/"
                     >Outer Wilds</a
                 >
-                où le joueur découvre une ancienne civilisation désormais morte
-                et des mystères autour de l'univers.
+                où le joueur découvre une ancienne civilisation disparue. J'ai
+                réalisée la police avec
+                <a target="_blank" href="https://www.glyphrstudio.com/">
+                    Glyphr Studio</a
+                >.<br />
+                Pour le site web, j'ai construit un traducteur qui change
+                uniquement la police du texte.
             </p>
         </div>
 

@@ -23,28 +23,32 @@
             <h2>Qu'est-ce que c'est ?</h2>
 
             <p>
-                J'ai participé au 24H du mapping avec un ami.<br />Le mapping
+                J'ai participé au 24H du mapping avec une amie.<br />Le mapping
                 consiste à projeter une vidéo sur une surface, et la vidéo joue
-                préférablement avec les formes, les reliefs de la surface.
+                avec les formes et les reliefs de la surface.
             </p>
 
             <h2>Pourquoi l'avons-nous fait ?</h2>
 
             <p>
-                Ce projet a été réalisé uniquement pour le fun en 24 heures. Il
-                m'a permis de découvrir un nouveau logiciel créer par un de mes
-                professeurs d'IMAC :
+                Ce challenge a été réalisé uniquement pour le fun en 24 heures.
+                C'était une activité proposée par une association étudiante
+                nommée
+                <a href="https://www.helloasso.com/associations/803z">803Z</a>.
+                Il m'a permis de découvrir un nouveau logiciel créé par un de
+                mes professeurs d'IMAC :
                 <a href="https://coollab-art.com/">Coollab</a>.
             </p>
 
             <h2>Comment l'avons-nous réalisé ?</h2>
 
             <p>
-                Le projet a donc été fait sur Coollab et puis monté sur Adobe
+                Le projet a été créé sur Coollab et puis monté sur Adobe
                 Première Pro par la suite.<br />
-                Nous avons détournée l'utilisation de base de Coollab, étant
-                pour la création d'effets graphiques, en l'utilisant pour faire
-                une animation (et moi je trouve ça drôle).
+                Nous avons détourné l'utilisation de base de Coollab : Il est
+                normalement utilisé pour réaliser des effets graphiques, mais
+                nous l'avons utilisé pour créer une animation (je trouve ça
+                drôle).
             </p>
         </div>
 

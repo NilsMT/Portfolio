@@ -1,6 +1,6 @@
 <template>
-    <div id="parcours-scolaire">
-        <TitreSectionComp titre="Parcours scolaire" />
+    <div id="formation">
+        <TitreSectionComp titre="Formation" />
 
         <div id="chrono_cont">
             <ChronologieComp
@@ -9,13 +9,10 @@
                 sous_titre="Image Multimédia Audiovisuel Communication"
             >
                 <p>
-                    Le diplôme d'ingénieur IMAC m'a permis de continuer le
+                    Le cursus Ingénieur IMAC me permettra de continuer le
                     développement web tout en acquérant des compétences
                     créatives en audiovisuel, 3D, photographie, image,
-                    multimédia. <br />
-                    Ce diplôme me permet d'exprimer ma créativité tout en
-                    préparant un diplôme d'ingénieur<br />
-                    (avec également le TOEIC et la certification Voltaire).
+                    multimédia.
                 </p>
             </ChronologieComp>
 
