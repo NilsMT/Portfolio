@@ -11,7 +11,9 @@
 
             <span id="dev">
                 Et je suis un étudiant passionné par le
-                <span class="text-primary">développement informatique</span>
+                <span id="dev-text" class="text-primary"
+                    >développement informatique</span
+                >
             </span>
         </div>
     </div>
@@ -54,6 +56,10 @@
     font-size: 4vw;
     position: relative;
     top: -0.5rem;
+}
+
+#dev-text {
+    text-shadow: 0px 0px 1rem var(--primary);
 }
 
 #dev {

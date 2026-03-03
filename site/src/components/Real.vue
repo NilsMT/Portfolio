@@ -106,6 +106,12 @@
 #real:hover #hidden_content {
     opacity: 1;
 }
+
+#real,
+#real #img,
+#real #hidden_content {
+    transition: all 0.3s ease;
+}
 </style>
 
 <script>
