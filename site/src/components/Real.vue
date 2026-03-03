@@ -7,11 +7,7 @@
         "
         :target="isExternal == true ? '_blank' : '_self'"
     >
-        <img
-            :src="'../src/assets/img/Realisations/' + imgName"
-            id="img"
-            alt=""
-        />
+        <img :src="getImageUrl(imgName)" id="img" alt="" />
 
         <div id="content">
             <div id="titre" :class="{ wip: isWip }">{{ titre }}</div>
@@ -152,6 +148,15 @@ export default {
             type: Boolean,
             required: false,
             default: false,
+        },
+    },
+
+    methods: {
+        getImageUrl(name) {
+            return new URL(
+                `../assets/img/Realisations/${name}`,
+                import.meta.url,
+            ).href;
         },
     },
 

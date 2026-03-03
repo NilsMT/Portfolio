@@ -3,7 +3,7 @@
         <div id="titre">
             {{ titre }}
         </div>
-        <img :src="'../src/assets/img/Skills/' + imgName" id="img" alt="" />
+        <img :src="getImageUrl(imgName)" id="img" alt="" />
     </div>
 </template>
 
@@ -45,6 +45,12 @@ export default {
         titre: {
             type: String,
             required: true,
+        },
+    },
+    methods: {
+        getImageUrl(name) {
+            return new URL(`../assets/img/Skills/${name}`, import.meta.url)
+                .href;
         },
     },
 };

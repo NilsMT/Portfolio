@@ -1,6 +1,6 @@
 <template>
     <div id="img_cont">
-        <img :src="'../src/assets/img/RealisationsDetails/' + imgName" alt="" />
+        <img :src="getImageUrl(imgName)" alt="" />
         <div>{{ desc }}</div>
     </div>
 </template>
@@ -28,6 +28,7 @@ img {
 <script>
 export default {
     name: "Img",
+
     props: {
         imgName: {
             type: String,
@@ -36,6 +37,15 @@ export default {
         desc: {
             type: String,
             required: true,
+        },
+    },
+
+    methods: {
+        getImageUrl(name) {
+            return new URL(
+                `../assets/img/RealisationsDetails/${name}`,
+                import.meta.url,
+            ).href;
         },
     },
 };
