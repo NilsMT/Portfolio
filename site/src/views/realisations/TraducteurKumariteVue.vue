@@ -77,7 +77,7 @@
 
                 <ImgComp
                     imgName="TraducteurKumarite/glyphr.png"
-                    desc="Le police d'écriture"
+                    desc="La police d'écriture"
                 />
 
                 <ImgComp

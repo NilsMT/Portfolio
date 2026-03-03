@@ -34,13 +34,13 @@
             <p>
                 Ce court-métrage a été réalisé dans le cadre d'un projet de fin
                 de semestre, et c'était mon premier court-métrage avec du
-                matériel professionnel que nous avons réalisé.
+                matériel professionnel.
             </p>
 
             <h2>Comment l'avons-nous réalisé ?</h2>
 
             <p>
-                Pour le scénario, Nous nous sommes inspiré de la fameuse série
+                Pour le scénario, Nous nous sommes inspirés de la fameuse série
                 télévisée Squid Game pour créer un univers dystopique et sombre.
                 Pour le montage, nous avons utilisé Adobe Premiere Pro avec
                 Essential Sound pour le mixage audio.

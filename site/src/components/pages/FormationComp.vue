@@ -23,12 +23,11 @@
             >
                 <p>
                     Le BUT m'a permis de confirmer mon orientation vers le
-                    développement web et continue de m'apprendre beaucoup sur le
+                    développement web et m'a appris beaucoup sur le
                     développement d'applications web et mobiles, l'architecture
                     réseaux, et la sécurité informatique. <br />
                     Cette formation m'a également offert l'opportunité de
-                    découvrir le monde de l'entreprise grâce à un stage en 2
-                    <sup>ème</sup> année.
+                    découvrir le monde de l'entreprise grâce à 2 stages.
                 </p>
             </ChronologieComp>
 
@@ -76,7 +75,7 @@ import TitreSectionComp from "../TitreSectionComp.vue";
 import ChronologieComp from "../ChronologieComp.vue";
 
 export default {
-    name: "ParcoursComp",
+    name: "FormationComp",
     components: {
         TitreSectionComp,
         ChronologieComp,

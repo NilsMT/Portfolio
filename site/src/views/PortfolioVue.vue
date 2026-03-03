@@ -29,7 +29,7 @@
 
         <PresentationComp class="section"></PresentationComp>
 
-        <ParcoursComp class="section"></ParcoursComp>
+        <FormationComp class="section"></FormationComp>
 
         <CompetencesComp class="section"></CompetencesComp>
 
@@ -61,7 +61,7 @@ import FooterComp from "../components/FooterComp.vue";
 //pages
 import BienvenueComp from "../components/BienvenueComp.vue";
 import PresentationComp from "../components/pages/PresentationComp.vue";
-import ParcoursComp from "../components/pages/ParcoursComp.vue";
+import FormationComp from "../components/pages/FormationComp.vue";
 import CompetencesComp from "../components/pages/CompetencesComp.vue";
 import ImplicationComp from "../components/pages/ImplicationComp.vue";
 import PassionsComp from "../components/pages/PassionsComp.vue";
@@ -75,7 +75,7 @@ export default {
         FooterComp,
         BienvenueComp,
         PresentationComp,
-        ParcoursComp,
+        FormationComp,
         CompetencesComp,
         ImplicationComp,
         PassionsComp,
