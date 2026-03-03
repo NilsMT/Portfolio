@@ -60,14 +60,14 @@ import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 //pages
 import Bienvenue from "../components/Bienvenue.vue";
-import Presentation from "../components/pages/Presentation.vue";
-import Formation from "../components/pages/Formation.vue";
-import Competences from "../components/pages/Competences.vue";
-import Implication from "../components/pages/Implication.vue";
-import Passions from "../components/pages/Passions.vue";
-import Realisations from "../components/pages/Realisations.vue";
-import Avenir from "../components/pages/Avenir.vue";
-import Contact from "../components/pages/Contact.vue";
+import Presentation from "../components/portfolio/Presentation.vue";
+import Formation from "../components/portfolio/Formation.vue";
+import Competences from "../components/portfolio/Competences.vue";
+import Implication from "../components/portfolio/Implication.vue";
+import Passions from "../components/portfolio/Passions.vue";
+import Realisations from "../components/portfolio/Realisations.vue";
+import Avenir from "../components/portfolio/Avenir.vue";
+import Contact from "../components/portfolio/Contact.vue";
 
 export default {
     components: {
