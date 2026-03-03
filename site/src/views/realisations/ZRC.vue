@@ -4,17 +4,27 @@
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
-                title="Accueil"
+                title="Retour à l'accueil"
             >
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
 
-            <a href="#à-propos" target="_self" class="btn btn-normal"
-                >À propos du projet</a
+            <a
+                href="#à-propos"
+                title="Aller à la section À propos du projet"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#images" target="_self" class="btn btn-normal"
-                >Quelques images</a
+                À propos du projet
+            </a>
+            <a
+                href="#visuels"
+                title="Aller à la section Quelques visuels"
+                target="_self"
+                class="btn btn-normal"
             >
+                Quelques visuels
+            </a>
         </Header>
 
         <div class="section" id="à-propos">
@@ -25,14 +35,16 @@
             <p>
                 Zenium Research Center est mon 1<sup>er</sup> jeu sur la
                 plateforme Roblox, créé en 2019 et terminé en 2024.<br />
-                C'est un jeu de type "Core Game" (Jeux de réacteur) où les
-                joueurs doivent explorer un complexe scientifique, jouer des
-                rôles comme s'ils étaient employés là-bas et maintenir le
-                réacteur à une température stable.<br />
+                C'est un jeu de type "Core Game" (jeu centré sur un réacteur au
+                sein d’une installation scientifique, à l’image d’une centrale
+                nucléaire) où les joueurs doivent explorer un complexe
+                scientifique, jouer des rôles comme s'ils étaient employés
+                là-bas et maintenir le réacteur à une température stable.<br />
                 Sinon, celui-ci explose et c'est la panique à bord !<br />
 
                 <a
                     target="_blank"
+                    title="Nouvel onglet - Roblox | Zenium Research Center"
                     class="btn btn-secondary"
                     href="https://www.roblox.com/games/7096759234/V2-Zenium-Research-Center"
                 >
@@ -44,17 +56,22 @@
             <h2>Pourquoi l'ai-je fait ?</h2>
 
             <p>
-                J'ai commencé ce projet après avoir joué au jeu
+                J’ai commencé ce projet après avoir joué au jeu
                 <a
                     target="_blank"
+                    title="Nouvel onglet - Roblox | Q.S.E.R.F"
                     href="https://www.roblox.com/games/3039795291/QS-Energy-Research-Facility"
-                    >Q.S.E.R.F</a
-                >, qui est un "Core Game". Cela m'a donné envie de créer mon
-                propre jeu de réacteur.<br />
-                Je sentais que j'étais capable de le faire et que j'avais les
-                compétences nécessaires.<br />
-                Deux personnes rencontrées en ligne m'ont aidé à le réaliser, et
-                je les en remercie.<br />
+                >
+                    Q.S.E.R.F
+                </a>
+                , un "Core Game" (jeu centré sur un réacteur au sein d’une
+                installation scientifique, à l’image d’une centrale
+                nucléaire).<br />
+                Cette expérience m’a donné envie de créer mon propre jeu dans le
+                même style. Je me sentais capable de relever ce défi et
+                disposais des compétences nécessaires pour le mener à bien.<br />
+                Deux personnes rencontrées en ligne m’ont accompagné dans sa
+                réalisation, et je leur en suis reconnaissant.
             </p>
 
             <h2>Comment l'ai-je réalisé ?</h2>

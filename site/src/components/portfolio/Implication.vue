@@ -12,7 +12,11 @@
             Je suis en charge de diverses animations dans un serveur
             communautaire sur Discord de +1300 membres.<br />
             Par exemple
-            <a target="_blank" href="https://chasse-au-tresor-2024.vercel.app/">
+            <a
+                target="_blank"
+                title="Nouvel onglet - Chasse au trésor 2024"
+                href="https://chasse-au-tresor-2024.vercel.app/"
+            >
                 cette chasse au trésor
             </a>
             que j'ai créée.

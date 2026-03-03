@@ -4,17 +4,27 @@
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
-                title="Accueil"
+                title="Retour à l'accueil"
             >
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
 
-            <a href="#à-propos" target="_self" class="btn btn-normal"
-                >À propos du projet</a
+            <a
+                href="#à-propos"
+                title="Aller à la section À propos du projet"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#images" target="_self" class="btn btn-normal"
-                >Quelques images</a
+                À propos du projet
+            </a>
+            <a
+                href="#visuels"
+                title="Aller à la section Quelques visuels"
+                target="_self"
+                class="btn btn-normal"
             >
+                Quelques visuels
+            </a>
         </Header>
 
         <div class="section" id="à-propos">
@@ -28,6 +38,7 @@
                 Discord.<br />
                 <a
                     target="_blank"
+                    title="Nouvel onglet - Chasse au trésor 2024"
                     class="btn btn-secondary"
                     href="https://chasse-au-tresor-2024.vercel.app/"
                 >
@@ -53,9 +64,12 @@
                 de déchiffrement en JavaScript qui intègre la
                 <a
                     target="_blank"
+                    title="Nouvel onglet - Wikipédia | Chiffre de Vigenère"
                     href="https://fr.wikipedia.org/wiki/Chiffre_de_Vigen%C3%A8re#La_table_de_Vigen%C3%A8re"
-                    >table de Vinegère</a
-                >.<br />
+                >
+                    table de Vinegère
+                </a>
+                .
             </p>
         </div>
 

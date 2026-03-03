@@ -11,7 +11,11 @@
             Je suis toujours prêt à relever de nouveaux défis et à travailler
             sur des projets innovants.
         </p>
-        <a class="btn btn-secondary" href="./CV_Nils_Moreau--Thomas.pdf">
+        <a
+            class="btn btn-secondary"
+            target="_self"
+            href="./CV_Nils_Moreau--Thomas.pdf"
+        >
             Voir Mon CV
             <span class="material-symbols-outlined"> description </span>
         </a>

@@ -4,17 +4,27 @@
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
-                title="Accueil"
+                title="Retour à l'accueil"
             >
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
 
-            <a href="#à-propos" target="_self" class="btn btn-normal"
-                >À propos du projet</a
+            <a
+                href="#à-propos"
+                title="Aller à la section À propos du projet"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#images" target="_self" class="btn btn-normal"
-                >Quelques images</a
+                À propos du projet
+            </a>
+            <a
+                href="#visuels"
+                title="Aller à la section Quelques visuels"
+                target="_self"
+                class="btn btn-normal"
             >
+                Quelques visuels
+            </a>
         </Header>
 
         <div class="section" id="à-propos">
@@ -30,6 +40,7 @@
 
                 <a
                     target="_blank"
+                    title="Nouvel onglet - GitHub | Just Flick It"
                     class="btn btn-secondary"
                     href="https://github.com/NilsMT/Just-Flick-It"
                 >
@@ -45,9 +56,14 @@
                 moteur de jeu Unity.<br />
                 J'ai donc décidé de créer un jeu de logique simple pour
                 commencer, en m'inspirant de
-                <a target="_blank" href="https://keeptalkinggame.com/"
-                    >Keep Talking And Nobody Explodes</a
-                >.
+                <a
+                    target="_blank"
+                    title="Nouvel onglet - Keep Talking And Nobody Explodes"
+                    href="https://keeptalkinggame.com/"
+                >
+                    Keep Talking And Nobody Explodes
+                </a>
+                .
             </p>
 
             <h2>Comment l'ai-je réalisé ?</h2>

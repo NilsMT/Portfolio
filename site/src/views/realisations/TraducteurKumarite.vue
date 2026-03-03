@@ -4,17 +4,27 @@
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
-                title="Accueil"
+                title="Retour à l'accueil"
             >
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
 
-            <a href="#à-propos" target="_self" class="btn btn-normal"
-                >À propos du projet</a
+            <a
+                href="#à-propos"
+                title="Aller à la section À propos du projet"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#visuels" target="_self" class="btn btn-normal"
-                >Quelques visuels</a
+                À propos du projet
+            </a>
+            <a
+                href="#visuels"
+                title="Aller à la section Quelques visuels"
+                target="_self"
+                class="btn btn-normal"
             >
+                Quelques visuels
+            </a>
         </Header>
 
         <div class="section" id="à-propos">
@@ -30,6 +40,7 @@
                 ancienne.
                 <a
                     target="_blank"
+                    title="Nouvel onglet - Traducteur Kumarite"
                     class="btn btn-secondary"
                     href="https://imac-wk-exp-et-ecriture.vercel.app"
                 >
@@ -53,14 +64,21 @@
                 Pour l'écriture, je me suis inspiré du jeu vidéo
                 <a
                     target="_blank"
+                    title="Nouvel onglet - Steam | Outer Wilds"
                     href="https://store.steampowered.com/app/753640/Outer_Wilds/"
-                    >Outer Wilds</a
                 >
+                    Outer Wilds
+                </a>
                 où le joueur découvre une ancienne civilisation disparue. J'ai
                 réalisée la police avec
-                <a target="_blank" href="https://www.glyphrstudio.com/">
-                    Glyphr Studio</a
-                >.<br />
+                <a
+                    target="_blank"
+                    title="Nouvel onglet - Glyphr Studio"
+                    href="https://www.glyphrstudio.com/"
+                >
+                    Glyphr Studio
+                </a>
+                .<br />
                 Pour le site web, j'ai construit un traducteur qui change
                 uniquement la police du texte.
             </p>

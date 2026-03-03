@@ -20,20 +20,32 @@
         <p id="void"></p>
 
         <div id="contact_cont">
-            <a class="btn btn-primary" href="https://github.com/NilsMT">
+            <a
+                class="btn btn-primary"
+                target="_blank"
+                title="Nouvel onglet - Github | NilsMT"
+                href="https://github.com/NilsMT"
+            >
                 <i class="fa-brands fa-github"></i>
                 Mon Github
             </a>
 
             <a
                 class="btn btn-primary"
+                target="_blank"
+                title="Nouvel onglet - LinkedIn | Nils Moreau-Thomas"
                 href="https://www.linkedin.com/in/nils-moreau-thomas-2b7a95259/"
             >
                 <i class="fa-brands fa-linkedin"></i>
                 Mon LinkedIn
             </a>
 
-            <a class="btn btn-primary" href="./CV_Nils_Moreau--Thomas.pdf">
+            <a
+                class="btn btn-primary"
+                target="_self"
+                title="Voir mon CV"
+                href="./CV_Nils_Moreau--Thomas.pdf"
+            >
                 <span class="material-symbols-outlined"> description </span>
                 Mon CV
             </a>

@@ -4,17 +4,27 @@
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
-                title="Accueil"
+                title="Retour à l'accueil"
             >
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
 
-            <a href="#à-propos" target="_self" class="btn btn-normal"
-                >À propos du projet</a
+            <a
+                href="#à-propos"
+                title="Aller à la section À propos du projet"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#visuels" target="_self" class="btn btn-normal"
-                >Quelques visuels</a
+                À propos du projet
+            </a>
+            <a
+                href="#visuels"
+                title="Aller à la section Quelques visuels"
+                target="_self"
+                class="btn btn-normal"
             >
+                Quelques visuels
+            </a>
         </Header>
 
         <div class="section" id="à-propos">
@@ -29,6 +39,7 @@
                 de validation d'un semestre), en groupe de 5.<br />
                 <a
                     target="_blank"
+                    title="Nouvel onglet - Github | Medok"
                     class="btn btn-secondary"
                     href="https://github.com/NilsMT/Medok"
                 >
@@ -53,9 +64,13 @@
                 Un PDF avec des médicaments et de leurs interactions provenant
                 de l'ANSM a été particulièrement difficile à transformer en base
                 de données.<br />L'application a été développée avec
-                <a href="https://developer.android.com/compose" target="_blank"
-                    >ose</a
+                <a
+                    target="_blank"
+                    title="Nouvel onglet - Android Compose"
+                    href="https://developer.android.com/compose"
                 >
+                    Android Compose
+                </a>
             </p>
         </div>
 

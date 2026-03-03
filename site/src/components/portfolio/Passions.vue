@@ -18,7 +18,11 @@
             L'histoire autour du monde de Genshin Impact est très prenante et
             bien développée.<br />
             Les environnements sont magnifiques et pleins d'histoires.<br />
-            <img id="genshin" src="../../assets/img/Passions/genshin.png" />
+            <img
+                alt=""
+                id="genshin"
+                src="../../assets/img/Passions/genshin.png"
+            />
         </p>
 
         <p>
@@ -37,7 +41,11 @@
             C'est gratifiant de voir tous mes efforts d'apprentissages
             récompensés, et c'est pour cela que j'écris, je dessine, je
             programme, je construis et je modélise.
-            <img id="creation" src="../../assets/img/Passions/dessin.png" />
+            <img
+                alt=""
+                id="creation"
+                src="../../assets/img/Passions/dessin.png"
+            />
         </p>
 
         <h2>L'urbex</h2>
@@ -48,7 +56,7 @@
             J'aime beaucoup cette activité car elle me permet de découvrir des
             endroits uniques et de capturer leur beauté à travers la
             photographie.<br />
-            <img src="../../assets/img/Passions/urbex.jpg" />
+            <img alt="" src="../../assets/img/Passions/urbex.jpg" />
         </p>
 
         <h2>La culture japonaise</h2>
@@ -74,15 +82,23 @@
             fiction.<br />
             J'ai moi-même réalisé quelques cosplays, comme par exemple Danny de
             l'anime
-            <a href="https://www.nautiljon.com/animes/satsuriku+no+tenshi.html"
-                >Angels of death</a
+            <a
+                target="_blank"
+                title="Nouvel onglet - Nautiljon | Satsuriku no tenshi"
+                href="https://www.nautiljon.com/animes/satsuriku+no+tenshi.html"
             >
+                Angels of death
+            </a>
             (à gauche) et un soldat "MTF" de
-            <a href="https://fr.wikipedia.org/wiki/Fondation_SCP"
-                >la Fondation SCP</a
+            <a
+                target="_blank"
+                title="Nouvel onglet - Wikipedia | Fondation SCP"
+                href="https://fr.wikipedia.org/wiki/Fondation_SCP"
             >
+                la Fondation SCP
+            </a>
             (à droite).<br />
-            <img src="../../assets/img/Passions/cosplay.png" />
+            <img alt="" src="../../assets/img/Passions/cosplay.png" />
         </p>
 
         <h2>Les LEGO®</h2>
@@ -90,7 +106,7 @@
         <p>
             Comme j'aime créer, les Legos sont un moyen parfait pour exprimer
             les idées que j'ai en tête et leur donner vie.<br />
-            <img src="../../assets/img/Passions/lego.jpg" />
+            <img alt="" src="../../assets/img/Passions/lego.jpg" />
         </p>
     </div>
 </template>

@@ -4,17 +4,27 @@
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
-                title="Accueil"
+                title="Retour à l'accueil"
             >
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
 
-            <a href="#à-propos" target="_self" class="btn btn-normal"
-                >À propos du projet</a
+            <a
+                href="#à-propos"
+                title="Aller à la section À propos du projet"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#visuels" target="_self" class="btn btn-normal"
-                >Quelques visuels</a
+                À propos du projet
+            </a>
+            <a
+                href="#visuels"
+                title="Aller à la section Quelques visuels"
+                target="_self"
+                class="btn btn-normal"
             >
+                Quelques visuels
+            </a>
         </Header>
 
         <div class="section" id="à-propos">
@@ -34,10 +44,23 @@
                 Ce challenge a été réalisé uniquement pour le fun en 24 heures.
                 C'était une activité proposée par une association étudiante
                 nommée
-                <a href="https://www.helloasso.com/associations/803z">803Z</a>.
-                Il m'a permis de découvrir un nouveau logiciel créé par un de
+                <a
+                    target="_blank"
+                    title="Nouvel onglet - HelloAsso | 803Z"
+                    href="https://www.helloasso.com/associations/803z"
+                >
+                    803Z
+                </a>
+                . Il m'a permis de découvrir un nouveau logiciel créé par un de
                 mes professeurs d'IMAC :
-                <a href="https://coollab-art.com/">Coollab</a>.
+                <a
+                    target="_blank"
+                    title="Nouvel onglet - Coollab"
+                    href="https://coollab-art.com/"
+                >
+                    Coollab
+                </a>
+                .
             </p>
 
             <h2>Comment l'avons-nous réalisé ?</h2>

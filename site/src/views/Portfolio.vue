@@ -3,28 +3,70 @@
         <Bienvenue></Bienvenue>
 
         <Header>
-            <a href="#presentation" target="_self" class="btn btn-normal"
-                >Présentation</a
+            <a
+                href="#presentation"
+                title="Aller à la section Présentation"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#formation" target="_self" class="btn btn-normal"
-                >Formation</a
+                Présentation
+            </a>
+            <a
+                href="#formation"
+                title="Aller à la section Formation"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#competences" target="_self" class="btn btn-normal"
-                >Compétences</a
+                Formation
+            </a>
+            <a
+                href="#competences"
+                title="Aller à la section Compétences"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#implication-sociale" class="btn btn-normal"
-                >Implication sociale</a
+                Compétences
+            </a>
+            <a
+                href="#implication-sociale"
+                title="Aller à la section Implication sociale"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#passions" target="_self" class="btn btn-normal"
-                >Passions</a
+                Implication sociale
+            </a>
+            <a
+                href="#passions"
+                title="Aller à la section Passions"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#realisations" target="_self" class="btn btn-normal"
-                >Réalisations</a
+                Passions
+            </a>
+            <a
+                href="#realisations"
+                title="Aller à la section Réalisations"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#avenir" target="_self" class="btn btn-normal">Avenir</a>
-            <a href="#contacts-et-liens" target="_self" class="btn btn-normal"
-                >Contacts & liens</a
+                Réalisations
+            </a>
+            <a
+                href="#avenir"
+                title="Aller à la section Avenir"
+                target="_self"
+                class="btn btn-normal"
             >
+                Avenir
+            </a>
+            <a
+                href="#contacts-et-liens"
+                title="Aller à la section Contacts & liens"
+                target="_self"
+                class="btn btn-normal"
+            >
+                Contacts & liens
+            </a>
         </Header>
 
         <Presentation class="section"></Presentation>

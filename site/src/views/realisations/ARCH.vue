@@ -4,17 +4,27 @@
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
-                title="Accueil"
+                title="Retour à l'accueil"
             >
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
 
-            <a href="#à-propos" target="_self" class="btn btn-normal"
-                >À propos du projet</a
+            <a
+                href="#à-propos"
+                title="Aller à la section À propos du projet"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#images" target="_self" class="btn btn-normal"
-                >Quelques images</a
+                À propos du projet
+            </a>
+            <a
+                href="#visuels"
+                title="Aller à la section Quelques visuels"
+                target="_self"
+                class="btn btn-normal"
             >
+                Quelques visuels
+            </a>
         </Header>
 
         <div class="section" id="à-propos">
@@ -25,14 +35,16 @@
             <p>
                 Arch Research Central Hub est mon 2<sup>ème</sup> jeu sur la
                 plateforme Roblox, créé en 2022 et développé seul.<br />
-                C'est un jeu de type "Core Game" (Jeux de réacteur) où les
-                joueurs doivent explorer un complexe scientifique, jouer des
-                rôles comme s'ils étaient employés là-bas et maintenir le
-                réacteur à une température stable.<br />
+                C'est un jeu de type "Core Game" (jeu centré sur un réacteur au
+                sein d’une installation scientifique, à l’image d’une centrale
+                nucléaire) où les joueurs doivent explorer un complexe
+                scientifique, jouer des rôles comme s'ils étaient employés
+                là-bas et maintenir le réacteur à une température stable.<br />
                 Sinon, celui-ci explose et c'est la panique à bord !<br />
 
                 <a
                     target="_blank"
+                    title="Nouvel onglet - Roblox | Arch Research Central Hub"
                     class="btn btn-secondary"
                     href="https://www.roblox.com/games/8871746612/Arch-Research-Central-Hub"
                 >

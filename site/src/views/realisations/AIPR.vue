@@ -4,17 +4,27 @@
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
-                title="Accueil"
+                title="Retour à l'accueil"
             >
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
 
-            <a href="#à-propos" target="_self" class="btn btn-normal"
-                >À propos du projet</a
+            <a
+                href="#à-propos"
+                title="Aller à la section À propos du projet"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#images" target="_self" class="btn btn-normal"
-                >Quelques images</a
+                À propos du projet
+            </a>
+            <a
+                href="#visuels"
+                title="Aller à la section Quelques visuels"
+                target="_self"
+                class="btn btn-normal"
             >
+                Quelques visuels
+            </a>
         </Header>
 
         <div class="section" id="à-propos">
@@ -26,12 +36,14 @@
                 Arch Industries Potato Reactor est mon 3<sup>ème</sup> jeu sur
                 la plateforme Roblox, créé en 2024 et développé seul en trois
                 jours.<br />
-                C'est un jeu de type "Core Game" (Jeux de réacteur) où les
-                joueurs doivent produire de l'électricité avec des patates en
-                suivant des instructions.<br />
+                C'est un jeu de type "Core Game" (jeu centré sur un réacteur au
+                sein d’une installation scientifique, à l’image d’une centrale
+                nucléaire) où les joueurs doivent produire de l'électricité avec
+                des patates en suivant des instructions.<br />
 
                 <a
                     target="_blank"
+                    title="Nouvel onglet - Roblox | Arch Industries Potato Reactor"
                     class="btn btn-secondary"
                     href="https://www.roblox.com/games/18744063505/Arch-Industries-Potato-Reactor"
                 >

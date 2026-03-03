@@ -4,17 +4,27 @@
             <router-link
                 class="btn btn-normal"
                 to="/#realisations"
-                title="Accueil"
+                title="Retour à l'accueil"
             >
                 <span class="material-symbols-outlined"> home </span>
             </router-link>
 
-            <a href="#à-propos" target="_self" class="btn btn-normal"
-                >À propos du projet</a
+            <a
+                href="#à-propos"
+                title="Aller à la section À propos du projet"
+                target="_self"
+                class="btn btn-normal"
             >
-            <a href="#visuels" target="_self" class="btn btn-normal"
-                >Quelques visuels</a
+                À propos du projet
+            </a>
+            <a
+                href="#visuels"
+                title="Aller à la section Quelques visuels"
+                target="_self"
+                class="btn btn-normal"
             >
+                Quelques visuels
+            </a>
         </Header>
 
         <div class="section" id="à-propos">
@@ -27,6 +37,7 @@
                 et l'accepte ou non.
                 <a
                     target="_blank"
+                    title="Nouvel onglet - Github | Automate"
                     class="btn btn-secondary"
                     href="https://github.com/NilsMT/Automate"
                 >
@@ -41,10 +52,13 @@
                 Ce projet était une mise en pratique d'un cours d'automate et
                 cela m'a permis de comprendre le fonctionnement du
                 <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions"
                     target="_blank"
-                    >RegEx</a
-                >.
+                    title="Nouvel onglet - MDN | RegEx"
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions"
+                >
+                    RegEx
+                </a>
+                .
             </p>
 
             <h2>Comment l'ai-je réalisé ?</h2>
