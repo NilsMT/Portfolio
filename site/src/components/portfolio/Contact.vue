@@ -44,7 +44,7 @@
                 class="btn btn-primary"
                 target="_self"
                 title="Voir mon CV"
-                href="../src/assets/docs/CV_Nils_Moreau--Thomas.pdf"
+                href="../../assets/docs/CV_Nils_Moreau--Thomas.pdf"
             >
                 <span class="material-symbols-outlined"> description </span>
                 CV
