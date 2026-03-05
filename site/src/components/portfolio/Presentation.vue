@@ -11,11 +11,7 @@
             Je suis toujours prêt à relever de nouveaux défis et à travailler
             sur des projets innovants.
         </p>
-        <a
-            class="btn btn-secondary"
-            target="_self"
-            href="../../assets/docs/CV_Nils_Moreau--Thomas.pdf"
-        >
+        <a class="btn btn-secondary" target="_self" :href="getCV()">
             Voir Mon CV
             <span class="material-symbols-outlined"> description </span>
         </a>
@@ -94,6 +90,14 @@ export default {
         return {
             age,
         };
+    },
+    methods: {
+        getCV() {
+            return new URL(
+                `../../assets/docs/CV_Nils_Moreau--Thomas.pdf`,
+                import.meta.url,
+            ).href;
+        },
     },
 };
 </script>

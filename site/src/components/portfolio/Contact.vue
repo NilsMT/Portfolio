@@ -44,7 +44,7 @@
                 class="btn btn-primary"
                 target="_self"
                 title="Voir mon CV"
-                href="../../assets/docs/CV_Nils_Moreau--Thomas.pdf"
+                :href="getCV()"
             >
                 <span class="material-symbols-outlined"> description </span>
                 CV
@@ -84,6 +84,14 @@ export default {
     name: "Contact",
     components: {
         TitreSection,
+    },
+    methods: {
+        getCV() {
+            return new URL(
+                `../../assets/docs/CV_Nils_Moreau--Thomas.pdf`,
+                import.meta.url,
+            ).href;
+        },
     },
 };
 </script>
