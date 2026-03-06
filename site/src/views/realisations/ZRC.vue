@@ -64,9 +64,7 @@
                 >
                     Q.S.E.R.F
                 </a>
-                , un "Core Game" (jeu centré sur un réacteur au sein d’une
-                installation scientifique, à l’image d’une centrale
-                nucléaire).<br />
+                , un "Core Game".<br />
                 Cette expérience m’a donné envie de créer mon propre jeu dans le
                 même style. Je me sentais capable de relever ce défi et
                 disposais des compétences nécessaires pour le mener à bien.<br />
