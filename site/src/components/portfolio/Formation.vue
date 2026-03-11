@@ -35,6 +35,7 @@
                 annee="2022"
                 titre="Bac Technologique STI2D"
                 sous_titre="Option SIN (Système d'Information et Numérique)"
+                :last="true"
             >
                 <p>
                     Le Bac STI2D m'a initié aux bases de l'informatique, de
@@ -46,7 +47,7 @@
                 </p>
             </Chronologie>
 
-            <Chronologie
+            <!--<Chronologie
                 annee="2019"
                 titre="Collège"
                 sous_titre="Option LCE (Langues et Cultures Étrangères)"
@@ -57,7 +58,7 @@
                     développé un intérêt particulier pour l'anglais, renforcé
                     par l'option LCE en 4<sup>ème</sup> et 3<sup>ème</sup>.
                 </p>
-            </Chronologie>
+            </Chronologie>-->
         </div>
     </div>
 </template>
