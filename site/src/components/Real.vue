@@ -1,9 +1,14 @@
 <template>
     <a
+        v-if="destination !== ''"
         id="real"
         :href="destination"
         :title="
-            isExternal == true ? 'Voir dans un nouvel onglet' : 'Voir le projet'
+            isExternal == true
+                ? 'Voir dans un nouvel onglet'
+                : isWip == true
+                  ? 'Page du projet en construction'
+                  : 'Voir le projet'
         "
         :target="isExternal == true ? '_blank' : '_self'"
     >
@@ -16,6 +21,17 @@
             </div>
         </div>
     </a>
+
+    <div id="real" v-else>
+        <img :src="getImageUrl(imgName)" id="img" alt="" />
+
+        <div id="content">
+            <div id="titre" :class="{ wip: isWip }">{{ titre }}</div>
+            <div id="hidden_content">
+                <div id="desc" v-html="desc"></div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <style scoped>
@@ -28,6 +44,10 @@
     border-radius: var(--radius);
 
     overflow: hidden;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #real > * {

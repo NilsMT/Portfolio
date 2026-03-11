@@ -5,7 +5,7 @@
         </div>
 
         <div id="text">La page est en cours de construction</div>
-        <router-link class="btn btn-normal" to="/">
+        <router-link class="btn btn-normal" :to="fallbackRoute">
             Retour à l'accueil
             <span class="material-symbols-outlined"> home </span>
         </router-link>
@@ -52,6 +52,24 @@ export default {
     components: {
         Footer,
         ThemeButton,
+    },
+    data() {
+        return {
+            fallbackRoute: "/",
+        };
+    },
+    mounted() {
+        const params = new URLSearchParams(window.location.search);
+        const fallback = params.get("fallback");
+
+        if (fallback) {
+            this.fallbackRoute = fallback;
+            window.history.replaceState(
+                {},
+                document.title,
+                window.location.pathname,
+            );
+        }
     },
 };
 </script>
