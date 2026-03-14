@@ -1,7 +1,7 @@
 <template>
     <div id="cont">
         <div id="code">
-            <img src="../assets/img/WIP/road-barrier.webp" />
+            <img src="../assets/img/WIP/road-barrier.webp" alt="" />
         </div>
 
         <div id="text">La page est en cours de construction</div>

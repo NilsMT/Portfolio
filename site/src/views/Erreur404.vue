@@ -1,9 +1,9 @@
 <template>
     <div id="cont">
         <div id="code">
-            <span>4</span>
-            <img src="../assets/img/Erreur404/dish.png" />
-            <span>4</span>
+            <span aria-hidden="true">4</span>
+            <img src="../assets/img/Erreur404/dish.png" alt="Erreur404" />
+            <span aria-hidden="true">4</span>
         </div>
 
         <div id="text">La page que vous recherchez n'existe pas</div>
