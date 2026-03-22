@@ -42,6 +42,16 @@
 
             <a
                 class="btn btn-primary"
+                target="_blank"
+                title="Nouvel onglet - Itch.io | NilsMT"
+                href="https://nilsmt.itch.io/"
+            >
+                <i class="fa-brands fa-itch-io"></i>
+                Itch.io
+            </a>
+
+            <a
+                class="btn btn-primary"
                 target="_self"
                 title="Voir mon CV"
                 :href="getCV()"
