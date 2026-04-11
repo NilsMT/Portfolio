@@ -211,7 +211,7 @@ realisations.value = {
     Tangled: {
         name: "Tangled : Crocky",
         destination: "/WIP?fallback=%2F%23realisations",
-        imgName: "tangled.png",
+        imgName: "tangled.jpg",
         desc: "Jeu réalisé en duo en 48h pour la GameJam WII 2026 du 803Z.",
         isWip: true,
     },
