@@ -208,6 +208,13 @@ realisations.value = {
         desc: "Programmation d'effets graphiques.<br> Workshop de 1<sup>ère</sup> année d'IMAC.",
         isWip: true,
     },
+    Tangled: {
+        name: "Tangled : Crocky",
+        destination: "/WIP?fallback=%2F%23realisations",
+        imgName: "tangled.png",
+        desc: "Jeu réalisé en duo en 48h pour la GameJam WII 2026 du 803Z.",
+        isWip: true,
+    },
 };
 
 const realisationsByCategory = ref({});
