@@ -229,6 +229,7 @@ realisationsByCategory.value = {
         "PuissanceQuatre",
         "Pickomino",
         "TicTacToe",
+        "Tangled",
     ],
     web: [
         "ChasseAuTresor",
