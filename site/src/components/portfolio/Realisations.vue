@@ -53,19 +53,19 @@ realisations.value = {
         name: "Just Flick It !",
         destination: "/JustFlickIt",
         imgName: "flickit.png",
-        desc: "4<sup>ème</sup> jeu vidéo réalisé seul sur Unity.<br> en développement.",
+        desc: "4<sup>ème</sup> jeu vidéo réalisé seul sur Unity.<br> Projet expérimental.",
     },
     AIPR: {
         name: "A.I.P.R",
         destination: "/AIPR",
         imgName: "aipr.png",
-        desc: "3<sup>ème</sup> jeu vidéo réalisé seul sur Roblox.<br> en seulement trois jours.",
+        desc: "3<sup>ème</sup> jeu vidéo réalisé seul sur Roblox.<br> En seulement trois jours.",
     },
     ARCH: {
         name: "A.R.C.H",
         destination: "/ARCH",
         imgName: "arch.png",
-        desc: "2<sup>ème</sup> jeu vidéo réalisé seul sur Roblox.<br> en développement.",
+        desc: "2<sup>ème</sup> jeu vidéo réalisé seul sur Roblox.<br> Interrompu pour explorer d’autres horizons.",
     },
     ZRC: {
         name: "Z.R.C",

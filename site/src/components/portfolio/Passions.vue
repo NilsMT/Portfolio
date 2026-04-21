@@ -89,15 +89,6 @@
             >
                 Angels of death
             </a>
-            (à gauche) et un soldat "MTF" de
-            <a
-                target="_blank"
-                title="Nouvel onglet - Wikipedia | Fondation SCP"
-                href="https://fr.wikipedia.org/wiki/Fondation_SCP"
-            >
-                la Fondation SCP
-            </a>
-            (à droite).<br />
             <img alt="" src="../../assets/img/Passions/cosplay.png" />
         </p>
 
@@ -106,7 +97,7 @@
         <p>
             Comme j'aime créer, les Legos sont un moyen parfait pour exprimer
             les idées que j'ai en tête et leur donner vie.<br />
-            <img alt="" src="../../assets/img/Passions/lego.jpg" />
+            <img alt="" src="../../assets/img/Passions/lego.png" />
         </p>
     </div>
 </template>

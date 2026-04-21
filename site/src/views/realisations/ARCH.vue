@@ -75,6 +75,9 @@
                 J'ai utilisé Trello pour gérer les tâches et les idées.<br />
                 Cependant, avec mes études le temps venait parfois à manquer et
                 le développement s'est retrouvé ralenti plusieurs fois.<br />
+                De plus depuis 2 ans, j'ai ré-écrit le code pour pouvoir avancer
+                sur une base saine, puis j’ai fini par perdre l’envie de
+                continuer, préférant explorer d’autres horizons de la création.
             </p>
         </section>
 
