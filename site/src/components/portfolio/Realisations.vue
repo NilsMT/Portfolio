@@ -65,7 +65,7 @@ realisations.value = {
         name: "A.R.C.H",
         destination: "/ARCH",
         imgName: "arch.png",
-        desc: "2<sup>ème</sup> jeu vidéo réalisé seul sur Roblox.<br> Interrompu pour explorer d’autres horizons.",
+        desc: "2<sup>ème</sup> jeu vidéo réalisé seul sur Roblox.<br>Développement interrompu pour explorer d’autres horizons.",
     },
     ZRC: {
         name: "Z.R.C",

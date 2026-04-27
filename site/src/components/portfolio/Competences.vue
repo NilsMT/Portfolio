@@ -28,6 +28,7 @@
             <Skill imgName="prog_lang/py.png" titre="Python" />
             <Skill imgName="prog_lang/kt.png" titre="Kotlin" />
             <Skill imgName="prog_lang/lua.png" titre="Lua" />
+            <Skill imgName="prog_lang/luau.png" titre="Luau" />
             <Skill imgName="prog_lang/csharp.png" titre="C#" />
             <Skill imgName="prog_lang/c++.png" titre="C++" />
             <Skill imgName="prog_lang/ocaml.png" titre="Ocaml" />
