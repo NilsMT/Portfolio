@@ -14,7 +14,7 @@
 
         <a
             class="btn btn-secondary"
-            target="_self"
+            target="_blank"
             :href="getCVFr()"
             title="Nouvel onglet - NMT | Fr_CV_Nils_Moreau--Thomas.pdf"
         >
