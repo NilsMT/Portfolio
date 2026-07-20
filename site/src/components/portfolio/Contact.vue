@@ -49,7 +49,11 @@
                 <i class="fa-brands fa-itch-io" aria-hidden="true"></i>
                 Itch.io
             </a>
+        </div>
 
+        <p id="void"></p>
+
+        <div id="contact_cont">
             <a
                 class="btn btn-primary"
                 target="_blank"
