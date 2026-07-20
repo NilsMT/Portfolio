@@ -6,7 +6,9 @@
                 to="/#realisations"
                 title="Retour à l'accueil"
             >
-                <span class="material-symbols-outlined"> home </span>
+                <span class="material-symbols-outlined" aria-hidden="true">
+                    home
+                </span>
             </router-link>
 
             <a
@@ -49,7 +51,9 @@
                     href="https://www.roblox.com/games/8871746612/Arch-Research-Central-Hub"
                 >
                     Lien vers le jeu
-                    <span class="material-symbols-outlined">open_in_new</span>
+                    <span class="material-symbols-outlined" aria-hidden="true">
+                        open_in_new
+                    </span>
                 </a>
             </p>
 
@@ -57,9 +61,9 @@
 
             <p>
                 J'ai commencé ce projet suite à une frustration liée au manque
-                d'optimisation de mon premier jeu (<router-link to="/ZRC"
-                    >Z.R.C</router-link
-                >).<br />
+                d'optimisation de mon premier jeu (
+                <router-link to="/ZRC"> Z.R.C </router-link>
+                ).<br />
                 J'ai donc décidé de créer un jeu plus structuré, plus organisé
                 et plus optimisé, avec un système de contrôle du réacteur plus
                 simple et complet.<br />
@@ -119,7 +123,9 @@
         <section id="accueil">
             <router-link class="btn btn-primary" to="/#realisations">
                 Retour à l'accueil
-                <span class="material-symbols-outlined"> home </span>
+                <span class="material-symbols-outlined" aria-hidden="true">
+                    home
+                </span>
             </router-link>
         </section>
 

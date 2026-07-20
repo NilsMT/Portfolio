@@ -2,7 +2,9 @@
     <footer>
         <div>
             Réalisé avec
-            <span class="material-symbols-outlined"> favorite </span>
+            <span class="material-symbols-outlined" aria-hidden="true">
+                favorite
+            </span>
             par Nils Moreau--Thomas
         </div>
         <div
@@ -13,6 +15,7 @@
             <span
                 v-if="debugStore.isDebugMode"
                 class="material-symbols-outlined"
+                aria-hidden="true"
             >
                 bug_report
             </span>

@@ -7,7 +7,7 @@
                 class="btn btn-primary txt-selectable"
                 href="mailto:nilsmoreauthomas@gmail.com"
             >
-                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
                 nilsmoreauthomas@gmail.com
             </a>
 
@@ -26,7 +26,7 @@
                 title="Nouvel onglet - Github | NilsMT"
                 href="https://github.com/NilsMT"
             >
-                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
                 Github
             </a>
 
@@ -36,7 +36,7 @@
                 title="Nouvel onglet - LinkedIn | Nils Moreau-Thomas"
                 href="https://www.linkedin.com/in/nils-moreau-thomas-2b7a95259/"
             >
-                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
                 LinkedIn
             </a>
 
@@ -46,18 +46,48 @@
                 title="Nouvel onglet - Itch.io | NilsMT"
                 href="https://nilsmt.itch.io/"
             >
-                <i class="fa-brands fa-itch-io"></i>
+                <i class="fa-brands fa-itch-io" aria-hidden="true"></i>
                 Itch.io
             </a>
 
             <a
                 class="btn btn-primary"
-                target="_self"
+                target="_blank"
                 title="Voir mon CV"
-                :href="getCV()"
+                :href="getCVFr()"
             >
-                <span class="material-symbols-outlined"> description </span>
-                CV
+                <span class="material-symbols-outlined" aria-hidden="true">
+                    description
+                </span>
+                CV (Fr)
+            </a>
+
+            <a
+                class="btn btn-primary"
+                target="_blank"
+                title="See My CV (English Version)"
+                :href="getCVEn()"
+                hreflang="en"
+                lang="en"
+            >
+                <span class="material-symbols-outlined" aria-hidden="true">
+                    description
+                </span>
+                CV (En)
+            </a>
+
+            <a
+                class="btn btn-primary"
+                target="_blank"
+                title="Voir mon CV (Version Belge)"
+                :href="getCVBe()"
+                hreflang="be"
+                lang="be"
+            >
+                <span class="material-symbols-outlined" aria-hidden="true">
+                    description
+                </span>
+                CV (Be)
             </a>
         </div>
     </div>
@@ -96,9 +126,21 @@ export default {
         TitreSection,
     },
     methods: {
-        getCV() {
+        getCVFr() {
             return new URL(
-                `../../assets/docs/CV_Nils_Moreau--Thomas.pdf`,
+                `../../assets/docs/Fr_CV_Nils_Moreau--Thomas.pdf`,
+                import.meta.url,
+            ).href;
+        },
+        getCVBe() {
+            return new URL(
+                `../../assets/docs/Be_CV_Nils_Moreau--Thomas.pdf`,
+                import.meta.url,
+            ).href;
+        },
+        getCVEn() {
+            return new URL(
+                `../../assets/docs/En_CV_Nils_Moreau--Thomas.pdf`,
                 import.meta.url,
             ).href;
         },

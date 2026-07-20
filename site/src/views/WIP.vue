@@ -7,7 +7,9 @@
         <div id="text">La page est en cours de construction</div>
         <router-link class="btn btn-normal" :to="fallbackRoute">
             Retour à l'accueil
-            <span class="material-symbols-outlined"> home </span>
+            <span class="material-symbols-outlined" aria-hidden="true">
+                home
+            </span>
         </router-link>
 
         <ThemeButton id="theme" />

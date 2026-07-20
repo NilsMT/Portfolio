@@ -9,7 +9,9 @@
         <div id="text">La page que vous recherchez n'existe pas</div>
         <router-link class="btn btn-normal" to="/">
             Retour à l'accueil
-            <span class="material-symbols-outlined"> home </span>
+            <span class="material-symbols-outlined" aria-hidden="true">
+                home
+            </span>
         </router-link>
 
         <ThemeButton id="theme" />

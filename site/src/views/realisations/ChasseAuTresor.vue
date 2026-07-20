@@ -6,7 +6,9 @@
                 to="/#realisations"
                 title="Retour à l'accueil"
             >
-                <span class="material-symbols-outlined"> home </span>
+                <span class="material-symbols-outlined" aria-hidden="true">
+                    home
+                </span>
             </router-link>
 
             <a
@@ -43,7 +45,9 @@
                     href="https://chasse-au-tresor-2024.vercel.app/"
                 >
                     Lien vers le site web
-                    <span class="material-symbols-outlined">open_in_new</span>
+                    <span class="material-symbols-outlined" aria-hidden="true">
+                        open_in_new
+                    </span>
                 </a>
             </p>
 
@@ -92,7 +96,9 @@
         <section id="accueil">
             <router-link class="btn btn-primary" to="/#realisations">
                 Retour à l'accueil
-                <span class="material-symbols-outlined"> home </span>
+                <span class="material-symbols-outlined" aria-hidden="true">
+                    home
+                </span>
             </router-link>
         </section>
 

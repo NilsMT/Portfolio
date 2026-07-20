@@ -6,7 +6,9 @@
                 to="/#realisations"
                 title="Retour à l'accueil"
             >
-                <span class="material-symbols-outlined"> home </span>
+                <span class="material-symbols-outlined" aria-hidden="true">
+                    home
+                </span>
             </router-link>
 
             <a
@@ -98,7 +100,9 @@
         <section id="accueil">
             <router-link class="btn btn-primary" to="/#realisations">
                 Retour à l'accueil
-                <span class="material-symbols-outlined"> home </span>
+                <span class="material-symbols-outlined" aria-hidden="true">
+                    home
+                </span>
             </router-link>
         </section>
 

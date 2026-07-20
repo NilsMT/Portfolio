@@ -6,7 +6,9 @@
                 to="/#realisations"
                 title="Retour à l'accueil"
             >
-                <span class="material-symbols-outlined"> home </span>
+                <span class="material-symbols-outlined" aria-hidden="true">
+                    home
+                </span>
             </router-link>
 
             <a
@@ -44,7 +46,9 @@
                     href="https://github.com/NilsMT/Projet-particule"
                 >
                     Lien vers le dépôt GitHub
-                    <span class="material-symbols-outlined">open_in_new</span>
+                    <span class="material-symbols-outlined" aria-hidden="true">
+                        open_in_new
+                    </span>
                 </a>
             </p>
 
@@ -88,7 +92,9 @@
         <section id="accueil">
             <router-link class="btn btn-primary" to="/#realisations">
                 Retour à l'accueil
-                <span class="material-symbols-outlined"> home </span>
+                <span class="material-symbols-outlined" aria-hidden="true">
+                    home
+                </span>
             </router-link>
         </section>
 

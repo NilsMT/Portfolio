@@ -11,10 +11,40 @@
             Je suis toujours prêt à relever de nouveaux défis et à travailler
             sur des projets innovants.
         </p>
-        <a class="btn btn-secondary" target="_self" :href="getCV()">
+
+        <a
+            class="btn btn-secondary"
+            target="_self"
+            :href="getCVFr()"
+            title="Nouvel onglet - NMT | Fr_CV_Nils_Moreau--Thomas.pdf"
+        >
             Voir Mon CV
-            <span class="material-symbols-outlined"> description </span>
+            <span class="material-symbols-outlined" aria-hidden="true">
+                description
+            </span>
         </a>
+
+        <div id="alt_cv_links">
+            <a
+                target="_blank"
+                :href="getCVEn()"
+                hreflang="en"
+                lang="en"
+                title="New tab - NMT | En_CV_Nils_Moreau--Thomas.pdf"
+            >
+                English Version
+            </a>
+
+            <a
+                target="_blank"
+                :href="getCVBe()"
+                hreflang="be"
+                lang="be"
+                title="Nouvel onglet - NMT | Be_CV_Nils_Moreau--Thomas.pdf"
+            >
+                Version Belge
+            </a>
+        </div>
 
         <div id="grid">
             <div>
@@ -43,6 +73,14 @@
 </template>
 
 <style scoped>
+#alt_cv_links {
+    margin-top: var(--padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap);
+}
+
 #grid {
     display: grid;
     grid-template-columns: repeat(3, fit-content(100%));
@@ -92,9 +130,21 @@ export default {
         };
     },
     methods: {
-        getCV() {
+        getCVFr() {
             return new URL(
-                `../../assets/docs/CV_Nils_Moreau--Thomas.pdf`,
+                `../../assets/docs/Fr_CV_Nils_Moreau--Thomas.pdf`,
+                import.meta.url,
+            ).href;
+        },
+        getCVBe() {
+            return new URL(
+                `../../assets/docs/Be_CV_Nils_Moreau--Thomas.pdf`,
+                import.meta.url,
+            ).href;
+        },
+        getCVEn() {
+            return new URL(
+                `../../assets/docs/En_CV_Nils_Moreau--Thomas.pdf`,
                 import.meta.url,
             ).href;
         },
