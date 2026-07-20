@@ -49,12 +49,6 @@ const realisationTypes = {
 const realisations = ref({});
 
 realisations.value = {
-    JustFlickIt: {
-        name: "Just Flick It !",
-        destination: "/JustFlickIt",
-        imgName: "flickit.png",
-        desc: "4<sup>ème</sup> jeu vidéo réalisé seul sur Unity.<br> Projet expérimental.",
-    },
     AIPR: {
         name: "A.I.P.R",
         destination: "/AIPR",
@@ -210,10 +204,9 @@ realisations.value = {
     },
     Tangled: {
         name: "Tangled : Crocky",
-        destination: "/WIP?fallback=%2F%23realisations",
+        destination: "/Tangled",
         imgName: "tangled.jpg",
         desc: "Jeu réalisé en duo en 48h pour la GameJam WII 2026 du 803Z.",
-        isWip: true,
     },
 };
 
@@ -221,7 +214,7 @@ const realisationsByCategory = ref({});
 
 realisationsByCategory.value = {
     game: [
-        "JustFlickIt",
+        "Tangled",
         "AIPR",
         "ARCH",
         "ZRC",
@@ -229,7 +222,6 @@ realisationsByCategory.value = {
         "PuissanceQuatre",
         "Pickomino",
         "TicTacToe",
-        "Tangled",
     ],
     web: [
         "ChasseAuTresor",

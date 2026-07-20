@@ -2,6 +2,7 @@
     <a
         v-if="destination !== ''"
         id="real"
+        :class="{ wip: isWip }"
         :href="destination"
         :title="
             isExternal == true
@@ -15,7 +16,7 @@
         <img :src="getImageUrl(imgName)" id="img" alt="" />
 
         <div id="content">
-            <div id="titre" :class="{ wip: isWip }">{{ titre }}</div>
+            <div id="titre">{{ titre }}</div>
             <div id="hidden_content">
                 <div id="desc" v-html="desc"></div>
             </div>
@@ -48,6 +49,8 @@
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
+    color: transparent;
 }
 
 #real > * {
@@ -102,7 +105,7 @@
     border-radius: var(--radius);
 }
 
-#titre.wip {
+#real.wip #titre {
     background-color: var(--secondary);
 }
 
@@ -119,7 +122,17 @@
 
 #real:hover {
     z-index: 1;
-    box-shadow: 0px 0px 20px var(--text);
+    outline-width: 5px;
+    outline-color: var(--accent);
+}
+
+#real:not(.wip):hover {
+    outline-style: solid;
+}
+
+#real.wip:hover {
+    outline-style: dashed;
+    outline-color: var(--secondary);
 }
 
 #real:hover #img {

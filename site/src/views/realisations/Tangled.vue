@@ -33,46 +33,58 @@
             <h2>Qu'est-ce que c'est ?</h2>
 
             <p>
-                Just Flick It ! est mon 4<sup>ème</sup> jeu, créé en 2024 et
-                développé seul.<br />
-                C'est un jeu de logique où le joueur doit appuyer sur des
-                interrupteurs selon les règles spécifiques<br />
-
+                Tangled est le 4<sup>ème</sup> jeu vidéo auquel j'ai participé,
+                en 48h, en 2026.<br />
+                C'est un "Vampire Survivor" où le but est de survivre le plus
+                longtemps possible face à une armée de monstres infinie.
                 <a
                     target="_blank"
-                    title="Nouvel onglet - GitHub | Just Flick It"
+                    title="Nouvel onglet - Itch.io | Tangled : Crocky"
                     class="btn btn-secondary"
-                    href="https://github.com/NilsMT/Just-Flick-It"
+                    href="https://n0th3.itch.io/tangled-final"
                 >
-                    Lien vers le dépôt GitHub
+                    Lien vers le jeu
                     <span class="material-symbols-outlined">open_in_new</span>
                 </a>
             </p>
 
-            <h2>Pourquoi l'ai-je fait ?</h2>
+            <h2>Pourquoi l'avons-nous fait ?</h2>
 
-            <p>
-                J'ai commencé ce projet en voulant apprendre à utiliser le
-                moteur de jeu Unity.<br />
-                J'ai donc décidé de créer un jeu de logique simple pour
-                commencer, en m'inspirant de
+            <div class="fake_p">
+                Avec un ami, nous avons décidé de participer à une
                 <a
                     target="_blank"
-                    title="Nouvel onglet - Keep Talking And Nobody Explodes"
-                    href="https://keeptalkinggame.com/"
+                    title="Nouvel onglet - Itch.io | GameJam Wii 803Z - 2026"
+                    href="https://itch.io/jam/gamejam-wii"
                 >
-                    Keep Talking And Nobody Explodes
+                    Game Jam
                 </a>
-                .
-            </p>
+                où le but est de produire un jeu vidéo dans un laps de temps
+                très court (24h, 48h, 7 jours...) avec un thème défini et
+                parfois des contraintes. Cette Game Jam avait pour thème
+                <b>Emmêlé</b> avec les deux contraintes suivantes :
+                <ul>
+                    <li>Avoir les contrôles inversés à un moment</li>
+                    <li>Avoir des bruitages faits à la bouche</li>
+                </ul>
+                Nous avons fait un Vampire Survivor car cela nous semblait le
+                plus faisable en 48h.
+            </div>
 
-            <h2>Comment l'ai-je réalisé ?</h2>
+            <h2>Comment l'avons-nous réalisé ?</h2>
 
             <p>
-                Pour le créer, j'ai utilisé le moteur de jeu Unity, qui
-                fonctionne sous le langage de programmation C#.<br />
-                J'ai passé beaucoup de temps à réfléchir à la conception du jeu,
-                à son gameplay et à son environnement.<br />
+                Pour le créer, nous avons utilisé le moteur de jeu Godot, avec
+                son propre langage de programmation.<br />
+                Nous avons commencé par reprendre un tutoriel de Vampire
+                Survivor pour avoir une base, tandis que je codais, mon ami
+                faisait toutes les ressources graphiques (sur Adobe
+                Illustrator).<br />
+                Tout au long du développement, il y avait aussi des défis à
+                faire, qui nécessitaient parfois des modifications dans le jeu
+                (comme inclure une référence à la Wii U).<br />
+                Tout les bruitages et musiques on été réalisés par moi et mon
+                ami avec nos bouches
             </p>
         </section>
 
@@ -80,21 +92,15 @@
             <TitreSection titre="Quelques images" />
 
             <div id="cont">
-                <Img
-                    imgName="JustFlickIt/v1.png"
-                    desc="Test de la génération aléatoire"
-                />
+                <Img imgName="Tangled/menu.png" desc="Menu du jeu" />
+
+                <Img imgName="Tangled/ingame.png" desc="Vue en jeu" />
+
+                <Img imgName="Tangled/code_editor.png" desc="Éditeur de code" />
 
                 <Img
-                    imgName="JustFlickIt/editor.png"
-                    desc="Vue du jeu dans l'éditeur"
-                />
-
-                <Img imgName="JustFlickIt/ingame.png" desc="Vue en jeu" />
-
-                <Img
-                    imgName="JustFlickIt/title.png"
-                    desc="Visuel promotionnel du jeu"
+                    imgName="Tangled/scene_editor.png"
+                    desc="Éditeur de scène"
                 />
             </div>
         </section>
@@ -141,14 +147,6 @@ a:not(.btn) {
 
 a:not(.btn):hover {
     text-decoration: underline;
-}
-
-#res {
-    line-height: 1.5;
-
-    background-color: var(--bg-light);
-    padding: var(--padding);
-    border-radius: var(--radius);
 }
 </style>
 

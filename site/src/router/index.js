@@ -5,10 +5,10 @@ import WIP from "@/views/WIP.vue";
 
 /* realisation */
 
+import Tangled from "@/views/realisations/Tangled.vue";
 import ZRC from "@/views/realisations/ZRC.vue";
 import ARCH from "@/views/realisations/ARCH.vue";
 import AIPR from "@/views/realisations/AIPR.vue";
-import JustFlickIt from "@/views/realisations/JustFlickIt.vue";
 import ProjetParticule from "@/views/realisations/ProjetParticule.vue";
 import PuissanceQuatre from "@/views/realisations/PuissanceQuatre.vue";
 import Pickomino from "@/views/realisations/Pickomino.vue";
@@ -63,9 +63,9 @@ const router = createRouter({
         },
 
         {
-            path: "/JustFlickIt",
-            name: "Just Flick It !",
-            component: JustFlickIt,
+            path: "/Tangled",
+            name: "Tangled",
+            component: Tangled,
         },
 
         {
