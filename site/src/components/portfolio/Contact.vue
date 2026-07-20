@@ -69,20 +69,6 @@
             <a
                 class="btn btn-primary"
                 target="_blank"
-                title="See My CV (English Version)"
-                :href="getCVEn()"
-                hreflang="en"
-                lang="en"
-            >
-                <span class="material-symbols-outlined" aria-hidden="true">
-                    description
-                </span>
-                CV (En)
-            </a>
-
-            <a
-                class="btn btn-primary"
-                target="_blank"
                 title="Voir mon CV (Version Belge)"
                 :href="getCVBe()"
                 hreflang="be"
@@ -139,12 +125,6 @@ export default {
         getCVBe() {
             return new URL(
                 `../../assets/docs/Be_CV_Nils_Moreau--Thomas.pdf`,
-                import.meta.url,
-            ).href;
-        },
-        getCVEn() {
-            return new URL(
-                `../../assets/docs/En_CV_Nils_Moreau--Thomas.pdf`,
                 import.meta.url,
             ).href;
         },

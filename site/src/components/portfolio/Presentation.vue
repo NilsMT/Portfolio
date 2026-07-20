@@ -27,16 +27,6 @@
         <div id="alt_cv_links">
             <a
                 target="_blank"
-                :href="getCVEn()"
-                hreflang="en"
-                lang="en"
-                title="New tab - NMT | En_CV_Nils_Moreau--Thomas.pdf"
-            >
-                English Version
-            </a>
-
-            <a
-                target="_blank"
                 :href="getCVBe()"
                 hreflang="be"
                 lang="be"
@@ -139,12 +129,6 @@ export default {
         getCVBe() {
             return new URL(
                 `../../assets/docs/Be_CV_Nils_Moreau--Thomas.pdf`,
-                import.meta.url,
-            ).href;
-        },
-        getCVEn() {
-            return new URL(
-                `../../assets/docs/En_CV_Nils_Moreau--Thomas.pdf`,
                 import.meta.url,
             ).href;
         },
