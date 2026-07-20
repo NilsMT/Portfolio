@@ -37,7 +37,7 @@
             <p>
                 Tangled est le 4<sup>ème</sup> jeu vidéo auquel j'ai participé,
                 en 48h, en 2026.<br />
-                C'est un "Vampire Survivor" où le but est de survivre le plus
+                C'est un "Vampire Survivors" où le but est de survivre le plus
                 longtemps possible face à une armée de monstres infinie.
                 <a
                     target="_blank"
@@ -71,7 +71,7 @@
                     <li>Avoir les contrôles inversés à un moment</li>
                     <li>Avoir des bruitages faits à la bouche</li>
                 </ul>
-                Nous avons fait un Vampire Survivor car cela nous semblait le
+                Nous avons fait un Vampire Survivors car cela nous semblait le
                 plus faisable en 48h.
             </div>
 
@@ -81,14 +81,14 @@
                 Pour le créer, nous avons utilisé le moteur de jeu Godot, avec
                 son propre langage de programmation.<br />
                 Nous avons commencé par reprendre un tutoriel de Vampire
-                Survivor pour avoir une base, tandis que je codais, mon ami
-                faisait toutes les ressources graphiques (sur Adobe
+                Survivorss pour avoir une base, tandis que je codais, mon ami
+                créait toutes les ressources graphiques (sur Adobe
                 Illustrator).<br />
                 Tout au long du développement, il y avait aussi des défis à
-                faire, qui nécessitaient parfois des modifications dans le jeu
-                (comme inclure une référence à la Wii U).<br />
-                Tout les bruitages et musiques on été réalisés par moi et mon
-                ami avec nos bouches
+                compléter, qui nécessitaient parfois des modifications dans le
+                jeu (comme inclure une référence à la Wii U).<br />
+                Tous les bruitages et musiques ont été réalisés par mon ami et
+                moi avec nos bouches.
             </p>
         </section>
 
