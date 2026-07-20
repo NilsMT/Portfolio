@@ -22,9 +22,9 @@
             <Skill imgName="prog_lang/php.svg" titre="PHP" />
             <Skill imgName="prog_lang/react.svg" titre="React" />
             <Skill imgName="prog_lang/angular.png" titre="Angular" />
-            <Skill imgName="prog_lang/brainfuck.png" titre="Brainfuck" />
             <Skill imgName="prog_lang/sqldev.png" titre="SQL" />
             <Skill imgName="prog_lang/mongodb.svg" titre="MongoDB" />
+            <Skill imgName="prog_lang/golang.webp" titre="Go" />
             <Skill imgName="prog_lang/py.png" titre="Python" />
             <Skill imgName="prog_lang/kt.png" titre="Kotlin" />
             <Skill imgName="prog_lang/lua.png" titre="Lua" />
