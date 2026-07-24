@@ -12,6 +12,7 @@ import AIPR from "@/views/realisations/AIPR.vue";
 import ProjetParticule from "@/views/realisations/ProjetParticule.vue";
 import PuissanceQuatre from "@/views/realisations/PuissanceQuatre.vue";
 import Pickomino from "@/views/realisations/Pickomino.vue";
+import TicTacToe from "@/views/realisations/TicTacToe.vue";
 
 import NewsRadar from "@/views/realisations/NewsRadar.vue";
 import RGBStuffs from "@/views/realisations/RGBStuffs.vue";
@@ -102,21 +103,6 @@ const router = createRouter({
             component: ATLAS,
         },
         {
-            path: "/AntoineFactory",
-            name: "Antoine Factory",
-            component: AntoineFactory,
-        },
-        {
-            path: "/AnimeList",
-            name: "Anime List",
-            component: AnimeList,
-        },
-        {
-            path: "/PeriodicEncryption",
-            name: "Periodic Encryption",
-            component: Periodic,
-        },
-        {
             path: "/ProjetParticule",
             name: "Projet Particule",
             component: ProjetParticule,
@@ -130,6 +116,26 @@ const router = createRouter({
             path: "/PuissanceQuatre",
             name: "Puissance Quatre",
             component: PuissanceQuatre,
+        },
+        {
+            path: "/TicTacToe",
+            name: "Tic Tac Toe",
+            component: TicTacToe,
+        },
+        {
+            path: "/AntoineFactory",
+            name: "Antoine Factory",
+            component: AntoineFactory,
+        },
+        {
+            path: "/AnimeList",
+            name: "Anime List",
+            component: AnimeList,
+        },
+        {
+            path: "/PeriodicEncryption",
+            name: "Periodic Encryption",
+            component: Periodic,
         },
         {
             path: "/TraducteurKumarite",

@@ -35,7 +35,6 @@
             <h2>Qu'est-ce que c'est ?</h2>
 
             <p>
-                <!--TODO: desc dernière mise-->
                 Dernière Mise est un court-métrage de fiction racontant
                 l'histoire d'un homme à la recherche d'un toit dans un monde en
                 pleine crise du logement.
@@ -45,8 +44,8 @@
 
             <p>
                 Ce court-métrage a été réalisé dans le cadre d'un projet de fin
-                de semestre, et c'était mon premier court-métrage avec du
-                matériel professionnel.
+                de semestre à l'IMAC, et c'était mon premier court-métrage avec
+                du matériel professionnel.
             </p>
 
             <h2>Comment l'avons-nous réalisé ?</h2>

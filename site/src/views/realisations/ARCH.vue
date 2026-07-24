@@ -77,8 +77,6 @@
                 J'ai passé beaucoup de temps à réfléchir à la conception du jeu,
                 à son gameplay, à son univers et à communiquer les avancées.<br />
                 J'ai utilisé Trello pour gérer les tâches et les idées.<br />
-                Cependant, avec mes études le temps venait parfois à manquer et
-                le développement s'est retrouvé ralenti plusieurs fois.<br />
                 Cependant, depuis deux ans, j’ai entièrement réécrit le code
                 pour repartir sur une base plus solide. Malgré ces efforts, j’ai
                 progressivement perdu la motivation pour ce projet, préférant me

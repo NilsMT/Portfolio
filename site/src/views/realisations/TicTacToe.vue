@@ -35,13 +35,13 @@
             <h2>Qu'est-ce que c'est ?</h2>
 
             <p>
-                Prog & Algo 1 est un workshop (une semaine entière consacrée au
-                projet) de création d'effets graphiques en C++.<br />
+                TicTacToe est un jeu de morpion en C++ jouable dans le terminal,
+                réalisé dans le cadre d'un projet individuel à l'IMAC.<br />
                 <a
                     target="_blank"
-                    title="Nouvel onglet - GitHub | imac-wk-prog-algo-1"
+                    title="Nouvel onglet - GitHub | imac-algo-s1-individuel"
                     class="btn btn-secondary"
-                    href="https://github.com/NilsMT/imac-wk-prog-algo-1/tree/main"
+                    href="https://github.com/NilsMT/imac-algo-s1-individuel"
                 >
                     Lien vers le dépôt GitHub
                     <span class="material-symbols-outlined" aria-hidden="true">
@@ -53,53 +53,53 @@
             <h2>Pourquoi l'ai-je fait ?</h2>
 
             <p>
-                Ce workshop avait pour but de nous faire découvrir la création
-                d'effets graphiques.<br />
-                Nous avions des effets qui étaient plus ou moins difficiles à
-                réaliser.<br />
-                Pris d'intérêt pour ce projet, j'ai réalisé tous les exercices
-                possibles et j'ai même fait des effets personnalisés !
+                Ce projet avait pour but d'évaluer notre niveau en programmation
+                C++ à travers
+                <a
+                    target="_blank"
+                    title="Nouvel onglet - Sujet | Cours de programmation C++"
+                    href="https://dsmte.github.io/Learn--cpp_programming/Subjects/IMAC2028/S1/Sujet/"
+                >
+                    un projet individuel
+                </a>
+                à réaliser de A à Z, tout en nous familiarisant avec
+                l'utilisation de Git et GitHub.
             </p>
 
             <h2>Comment l'ai-je réalisé ?</h2>
 
-            <p>
-                Pour le code, nous avions
-                <a
-                    target="_blank"
-                    title="Nouvel onglet - Sujet | Cours de programmation C++"
-                    href="https://dsmte.github.io/Learn--cpp_programming/Workshop/Sujet"
-                >
-                    des instructions sur l'utilisation de la librairie sil
-                </a>
-                qui nous permettait de manipuler les images et
-                <a
-                    target="_blank"
-                    title="Nouvel onglet - Exercices | Cours de programmation C++"
-                    href="https://dsmte.github.io/Learn--cpp_programming/Workshop/Exercices"
-                >
-                    des indices sur les exercices
-                </a>
-                .<br />
-                Pendant la semaine, j'essayais de faire un maximum d'effets en
-                commençant par ceux dont je comprenais le fonctionnement (et non
-                par difficulté).
-            </p>
+            <div class="fake_p">
+                J'ai commencé par réaliser le jeu de base (Joueur contre Joueur
+                et Joueur contre IA) puis j'ai ajouté plusieurs améliorations :
+                <ul>
+                    <li>Une IA avancé (qui réfléchis ses coups)</li>
+                    <li>un mode IA contre IA</li>
+                    <li>
+                        une extension vers le jeu de Gomoku (un plateau de
+                        19x19, ou il faut aligner 5 symboles)
+                    </li>
+                    <li>Des couleurs sur les symboles</li>
+                </ul>
+                Le jeu a d'abord été pensé pour un plateau fixe, avant d'être
+                restructuré autour d'une taille de plateau variable (à l'aide
+                d'un <b>vector</b> plutôt que d'un tableau statique) afin de
+                pouvoir réutiliser la même classe pour le TicTacToe et le
+                Gomoku.
+            </div>
         </section>
 
         <section id="visuels">
             <TitreSection titre="Quelques visuels" />
 
             <div id="cont">
-                <Img
-                    imgName="WkProgAlgo1/ex_code.png"
-                    desc="Exemple d'exercice"
-                />
-
-                <Img
-                    imgName="WkProgAlgo1/cool_effect.png"
-                    desc="Tramage sur un Diamond Square Algorithm"
-                />
+                <Video desc="Vidéo de démonstration du projet">
+                    <video controls="" height="480" allow="autoplay">
+                        <source
+                            src="../../assets/video/RealisationsDetails/tictactoe_demo.mp4"
+                            type="video/mp4"
+                        />
+                    </video>
+                </Video>
             </div>
         </section>
 
@@ -165,7 +165,7 @@ import Header from "../../components/Header.vue";
 import Footer from "../../components/Footer.vue";
 import TitreSection from "../../components/TitreSection.vue";
 
-import Img from "../../components/Img.vue";
+import Video from "../../components/Video.vue";
 
 export default {
     components: {
@@ -173,7 +173,7 @@ export default {
         Header,
         Footer,
         TitreSection,
-        Img,
+        Video,
     },
 };
 </script>

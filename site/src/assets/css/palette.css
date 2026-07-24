@@ -75,6 +75,10 @@ sub {
     font-size: calc(var(--text-size) / 1.5);
 }
 
+b {
+    font-weight: bold;
+}
+
 /* Responsivity */
 
 @media (max-width: 768px) {

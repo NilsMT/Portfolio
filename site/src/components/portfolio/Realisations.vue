@@ -183,10 +183,10 @@ realisations.value = {
     },
     TicTacToe: {
         name: "Tic Tac Toe",
-        destination: "/WIP?fallback=%2F%23realisations",
+        destination: "/TicTacToe",
         imgName: "tictactoe.png",
         desc: "Jeu de Tic Tac Toe réalisé en C++.<br> Projet de 1<sup>ère</sup> année d'IMAC.",
-        isWip: true,
+        isWip: false,
     },
     EsthetiqueEtAlgo: {
         name: "Esthétique et Algorithmique",
