@@ -197,10 +197,10 @@ realisations.value = {
     },
     WkProgAlgo1: {
         name: "WK - Prog & Algo 1",
-        destination: "/WIP?fallback=%2F%23realisations",
+        destination: "/WkProgAlgo1",
         imgName: "wkprogalgo1.png",
         desc: "Programmation d'effets graphiques.<br> Workshop de 1<sup>ère</sup> année d'IMAC.",
-        isWip: true,
+        isWip: false,
     },
     Tangled: {
         name: "Tangled : Crocky",
