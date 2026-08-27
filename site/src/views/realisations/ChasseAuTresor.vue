@@ -149,6 +149,7 @@ a:not(.btn):hover {
 </style>
 
 <script>
+import { useRealisationHead } from "../../composables/useRealisationhead";
 import { RouterLink } from "vue-router";
 
 import Header from "../../components/Header.vue";
@@ -164,6 +165,10 @@ export default {
         Footer,
         TitreSection,
         Img,
+    },
+
+    setup() {
+        useRealisationHead();
     },
 };
 </script>

@@ -111,6 +111,8 @@ import Realisations from "../components/portfolio/Realisations.vue";
 import Avenir from "../components/portfolio/Avenir.vue";
 import Contact from "../components/portfolio/Contact.vue";
 
+import { useHead } from "@unhead/vue";
+
 export default {
     components: {
         Header,
@@ -124,6 +126,40 @@ export default {
         Realisations,
         Avenir,
         Contact,
+    },
+
+    setup() {
+        useHead({
+            title: "NMT | Portfolio",
+            meta: [
+                {
+                    name: "description",
+                    content:
+                        "Portfolio de Nils Moreau--Thomas, étudiant passionné par le développement informatique. Découvrez mes projets web, jeux vidéo, logiciels et expérimentations.",
+                },
+                {
+                    property: "og:title",
+                    content: "NMT | Portfolio",
+                },
+                {
+                    property: "og:description",
+                    content:
+                        "Portfolio de Nils Moreau--Thomas, étudiant passionné par le développement informatique. Découvrez mes projets web, jeux vidéo, logiciels et expérimentations.",
+                },
+                {
+                    property: "og:type",
+                    content: "website",
+                },
+                {
+                    property: "og:url",
+                    content: "https://nilsmt.vercel.app/",
+                },
+                {
+                    property: "og:image",
+                    content: "https://nilsmt.vercel.app/img/logo.png",
+                },
+            ],
+        });
     },
 };
 </script>

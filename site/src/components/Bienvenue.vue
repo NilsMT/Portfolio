@@ -1,7 +1,7 @@
 <template>
     <div id="grille">
         <div id="img">
-            <img alt="" src="/logo.png" />
+            <img alt="" src="/img/logo.png" />
         </div>
 
         <div id="txt">

@@ -155,6 +155,12 @@
 import { RouterLink } from "vue-router";
 import { computed } from "vue";
 
+const images = import.meta.glob("../assets/img/Realisations/**/*", {
+    eager: true,
+    query: "?url",
+    import: "default",
+});
+
 export default {
     name: "Real",
     components: {
@@ -186,10 +192,16 @@ export default {
 
     methods: {
         getImageUrl(name) {
-            return new URL(
-                `../assets/img/Realisations/${name}`,
-                import.meta.url,
-            ).href;
+            const path = `../assets/img/Realisations/${name}`;
+
+            const image = images[path];
+
+            if (!image) {
+                console.error("IMAGE NOT FOUND:", name);
+                return `/img/missingimage.jpg`;
+            }
+
+            return image;
         },
     },
 

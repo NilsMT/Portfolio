@@ -57,7 +57,14 @@ export default {
         getImageUrl(name) {
             const path = `../assets/img/Skills/${name}`;
 
-            return images[path];
+            const image = images[path];
+
+            if (!image) {
+                console.error("IMAGE NOT FOUND:", name);
+                return `/img/missingimage.jpg`;
+            }
+
+            return image;
         },
     },
 };
