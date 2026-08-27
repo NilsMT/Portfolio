@@ -1,34 +1,42 @@
-import { reactive, ref } from 'vue'
+import { reactive } from "vue";
 
-const defaultDebug = false
-const root = document.documentElement
+const DEFAULT_DEBUG = false;
+const DEBUG_KEY = "pageDebug";
 
-// Initialize debug mode from localStorage or default value
-const storedDebug = localStorage.getItem('pageDebug')
-const debugMode = storedDebug !== null ? JSON.parse(storedDebug) : defaultDebug
+let initialDebug = DEFAULT_DEBUG;
 
-// Apply the initial debug mode
-if (debugMode) {
-    root.classList.add('debug')
-} else {
-    root.classList.remove('debug')
+if (!import.meta.env.SSR) {
+    const storedDebug = localStorage.getItem(DEBUG_KEY);
+
+    if (storedDebug !== null) {
+        try {
+            initialDebug = JSON.parse(storedDebug);
+        } catch {
+            initialDebug = DEFAULT_DEBUG;
+        }
+    }
 }
 
-// Reactive store
 export const debugStore = reactive({
-    isDebugMode: ref(debugMode),
+    isDebugMode: initialDebug,
+
+    updateDebugClass() {
+        if (import.meta.env.SSR) {
+            return;
+        }
+
+        const root = document.documentElement;
+
+        root.classList.toggle("debug", this.isDebugMode);
+    },
 
     toggleDebug() {
-        this.isDebugMode = !this.isDebugMode
-        
-        // Update the DOM class based on the current state
-        if (this.isDebugMode) {
-            root.classList.add('debug')
-        } else {
-            root.classList.remove('debug')
+        this.isDebugMode = !this.isDebugMode;
+
+        if (!import.meta.env.SSR) {
+            localStorage.setItem(DEBUG_KEY, JSON.stringify(this.isDebugMode));
+
+            this.updateDebugClass();
         }
-        
-        // Store the current state in localStorage
-        localStorage.setItem('pageDebug', JSON.stringify(this.isDebugMode))
-    }
-})
+    },
+});

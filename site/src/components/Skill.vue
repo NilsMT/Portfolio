@@ -35,6 +35,12 @@
 </style>
 
 <script>
+const images = import.meta.glob("../assets/img/Skills/**/*", {
+    eager: true,
+    query: "?url",
+    import: "default",
+});
+
 export default {
     name: "Skill",
     props: {
@@ -49,8 +55,9 @@ export default {
     },
     methods: {
         getImageUrl(name) {
-            return new URL(`../assets/img/Skills/${name}`, import.meta.url)
-                .href;
+            const path = `../assets/img/Skills/${name}`;
+
+            return images[path];
         },
     },
 };

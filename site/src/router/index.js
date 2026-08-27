@@ -31,172 +31,143 @@ import _24HMapping2025 from "@/views/realisations/_24HMapping2025.vue";
 import DerniereMise from "@/views/realisations/DerniereMise.vue";
 import WkProgAlgo1 from "@/views/realisations/WkProgAlgo1.vue";
 
-const WIPPath = [
-    /*"/24HMapping2025"*/
+export const routes = [
+    // Portfolio
+    {
+        path: "/",
+        name: "Accueil",
+        component: Portfolio,
+    },
+    // WIP
+    {
+        path: "/WIP",
+        name: "Page en construction",
+        component: WIP,
+    },
+    // Erreur 404 (en dernier)
+    {
+        path: "/:pathMatch(.*)*",
+        name: "Erreur 404",
+        component: Erreur404,
+    },
+    // Réalisations
+    {
+        path: "/Tangled",
+        name: "Tangled",
+        component: Tangled,
+    },
+    {
+        path: "/ZRC",
+        name: "Z.R.C",
+        component: ZRC,
+    },
+    {
+        path: "/ARCH",
+        name: "A.R.C.H",
+        component: ARCH,
+    },
+    {
+        path: "/AIPR",
+        name: "A.I.P.R",
+        component: AIPR,
+    },
+    {
+        path: "/NewsRadar",
+        name: "NewsRadar",
+        component: NewsRadar,
+    },
+    {
+        path: "/RGBStuffs",
+        name: "RGB Stuffs",
+        component: RGBStuffs,
+    },
+    {
+        path: "/EclExt",
+        name: "EclExt",
+        component: EclExt,
+    },
+    {
+        path: "/ChasseAuTresor",
+        name: "Chasse Au Trésor",
+        component: ChasseAuTresor,
+    },
+    {
+        path: "/ATLAS",
+        name: "ATLAS",
+        component: ATLAS,
+    },
+    {
+        path: "/ProjetParticule",
+        name: "Projet Particule",
+        component: ProjetParticule,
+    },
+    {
+        path: "/Pickomino",
+        name: "Pickomino",
+        component: Pickomino,
+    },
+    {
+        path: "/PuissanceQuatre",
+        name: "Puissance Quatre",
+        component: PuissanceQuatre,
+    },
+    {
+        path: "/TicTacToe",
+        name: "Tic Tac Toe",
+        component: TicTacToe,
+    },
+    {
+        path: "/AntoineFactory",
+        name: "Antoine Factory",
+        component: AntoineFactory,
+    },
+    {
+        path: "/AnimeList",
+        name: "Anime List",
+        component: AnimeList,
+    },
+    {
+        path: "/PeriodicEncryption",
+        name: "Periodic Encryption",
+        component: Periodic,
+    },
+    {
+        path: "/TraducteurKumarite",
+        name: "Traducteur Kumarite",
+        component: TraducteurKumarite,
+    },
+    {
+        path: "/Catificator",
+        name: "Catificator",
+        component: Catificator,
+    },
+    {
+        path: "/Automate",
+        name: "Automate",
+        component: Automate,
+    },
+    {
+        path: "/Medok",
+        name: "Medok",
+        component: Medok,
+    },
+    {
+        path: "/24HMapping2025",
+        name: "24H du Mapping 2025",
+        component: _24HMapping2025,
+    },
+    {
+        path: "/DerniereMise",
+        name: "Dernière Mise",
+        component: DerniereMise,
+    },
+    {
+        path: "/WkProgAlgo1",
+        name: "WK - Prog & Algo 1",
+        component: WkProgAlgo1,
+    },
 ];
 
-const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
-    routes: [
-        // Portfolio
-        {
-            path: "/",
-            name: "Accueil",
-            component: Portfolio,
-        },
-        // WIP
-        {
-            path: "/WIP",
-            name: "Page en construction",
-            component: WIP,
-        },
-        // Erreur 404 (en dernier)
-        {
-            path: "/:pathMatch(.*)*",
-            name: "Erreur 404",
-            component: Erreur404,
-        },
-        // Réalisations
-        {
-            path: "/Tangled",
-            name: "Tangled",
-            component: Tangled,
-        },
-        {
-            path: "/ZRC",
-            name: "Z.R.C",
-            component: ZRC,
-        },
-        {
-            path: "/ARCH",
-            name: "A.R.C.H",
-            component: ARCH,
-        },
-        {
-            path: "/AIPR",
-            name: "A.I.P.R",
-            component: AIPR,
-        },
-        {
-            path: "/NewsRadar",
-            name: "NewsRadar",
-            component: NewsRadar,
-        },
-        {
-            path: "/RGBStuffs",
-            name: "RGB Stuffs",
-            component: RGBStuffs,
-        },
-        {
-            path: "/EclExt",
-            name: "EclExt",
-            component: EclExt,
-        },
-        {
-            path: "/ChasseAuTresor",
-            name: "Chasse Au Trésor",
-            component: ChasseAuTresor,
-        },
-        {
-            path: "/ATLAS",
-            name: "ATLAS",
-            component: ATLAS,
-        },
-        {
-            path: "/ProjetParticule",
-            name: "Projet Particule",
-            component: ProjetParticule,
-        },
-        {
-            path: "/Pickomino",
-            name: "Pickomino",
-            component: Pickomino,
-        },
-        {
-            path: "/PuissanceQuatre",
-            name: "Puissance Quatre",
-            component: PuissanceQuatre,
-        },
-        {
-            path: "/TicTacToe",
-            name: "Tic Tac Toe",
-            component: TicTacToe,
-        },
-        {
-            path: "/AntoineFactory",
-            name: "Antoine Factory",
-            component: AntoineFactory,
-        },
-        {
-            path: "/AnimeList",
-            name: "Anime List",
-            component: AnimeList,
-        },
-        {
-            path: "/PeriodicEncryption",
-            name: "Periodic Encryption",
-            component: Periodic,
-        },
-        {
-            path: "/TraducteurKumarite",
-            name: "Traducteur Kumarite",
-            component: TraducteurKumarite,
-        },
-        {
-            path: "/Catificator",
-            name: "Catificator",
-            component: Catificator,
-        },
-        {
-            path: "/Automate",
-            name: "Automate",
-            component: Automate,
-        },
-        {
-            path: "/Medok",
-            name: "Medok",
-            component: Medok,
-        },
-        {
-            path: "/24HMapping2025",
-            name: "24H du Mapping 2025",
-            component: _24HMapping2025,
-        },
-        {
-            path: "/DerniereMise",
-            name: "Dernière Mise",
-            component: DerniereMise,
-        },
-        {
-            path: "/WkProgAlgo1",
-            name: "WK - Prog & Algo 1",
-            component: WkProgAlgo1,
-        },
-    ],
-    /* scroll to anchor */
-    scrollBehavior(to, from, savedPosition) {
-        if (to.hash) {
-            return {
-                el: to.hash,
-            };
-        }
-        return {
-            x: 0,
-            y: 0,
-        };
-    },
-});
-
-router.beforeEach((to, from, next) => {
-    window.scrollTo({ top: 0 });
-
-    document.title = `NMT | ${to.name}`;
-
-    if (WIPPath.includes(to.path)) {
-        next({ path: "/WIP" });
-    } else {
-        next();
-    }
-});
-
-export default router;
+export const WIPPath = [
+    /*"/24HMapping2025"*/
+];

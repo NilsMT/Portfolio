@@ -26,6 +26,12 @@ img {
 </style>
 
 <script>
+const images = import.meta.glob("../assets/img/RealisationsDetails/**/*", {
+    eager: true,
+    query: "?url",
+    import: "default",
+});
+
 export default {
     name: "Img",
 
@@ -42,10 +48,9 @@ export default {
 
     methods: {
         getImageUrl(name) {
-            return new URL(
-                `../assets/img/RealisationsDetails/${name}`,
-                import.meta.url,
-            ).href;
+            const path = `../assets/img/RealisationsDetails/${name}`;
+
+            return images[path];
         },
     },
 };

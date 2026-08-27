@@ -11,5 +11,10 @@
 </template>
 
 <script setup>
-import { themeStore } from "../stores/themeStore.js";
+import { onMounted } from "vue";
+import { themeStore } from "../stores/themeStore";
+
+onMounted(() => {
+    themeStore.updateTheme();
+});
 </script>

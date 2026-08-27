@@ -66,6 +66,7 @@ export default {
 
         if (fallback) {
             this.fallbackRoute = fallback;
+
             window.history.replaceState(
                 {},
                 document.title,

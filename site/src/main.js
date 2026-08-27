@@ -1,13 +1,28 @@
-import './assets/css/main.css'
+import "./assets/css/main.css";
+import { ViteSSG } from "vite-ssg";
+import App from "./App.vue";
+import { routes, WIPPath } from "./router";
+import { themeStore } from "./stores/themeStore";
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+export const createApp = ViteSSG(App, { routes }, ({ app, router }) => {
+    app.use(router);
 
-const app = createApp(App)
+    app.config.globalProperties.$darktheme = false;
 
-app.config.globalProperties.$darktheme = false
+    if (!import.meta.env.SSR) {
+        themeStore.updateTheme();
+    }
 
-app.use(router)
+    router.beforeEach((to, from, next) => {
+        if (!import.meta.env.SSR) {
+            window.scrollTo({ top: 0 });
+            document.title = `NMT | ${to.name}`;
+        }
 
-app.mount('#app')
+        if (WIPPath.includes(to.path)) {
+            next({ path: "/WIP" });
+        } else {
+            next();
+        }
+    });
+});
