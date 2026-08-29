@@ -128,6 +128,7 @@ export default {
         Contact,
     },
 
+    //SEO
     setup() {
         useHead({
             title: "NMT | Portfolio",
