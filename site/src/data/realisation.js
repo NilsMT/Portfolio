@@ -196,8 +196,8 @@ export const realData = {
             ],
         },
         names: {
-            game: "Jeux-vidéos",
             web: "Applications web",
+            game: "Jeux-vidéos",
             other: "Autres Réalisations",
         },
     },
